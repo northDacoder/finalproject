@@ -1,5 +1,6 @@
 from django.db import models
 from registration.models import User
+from company_app.models import Company
 
 
 class Developer(models.Model):
@@ -19,11 +20,12 @@ class Language(models.Model):
         return self.language
 
 class Project(models.Model):
-    developer = models.ForeignKey(Developer)
+    developer = models.ForeignKey(Developer, related_name="developer")
+    company = models.ForeignKey(Company, related_name="company")
     name = models.CharField(max_length=100)
     language = models.ForeignKey(Language)
-    company = models.CharField(max_length=1000)
     completed = models.BooleanField()
+    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.name
