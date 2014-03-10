@@ -1,8 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
+from developer_app.forms import DeveloperForm
 from developer_app.models import Developer
 
+def home(request):
+    return render(request, "home.html")
 
 def developers(request):
     developers = Developer.objects.all()

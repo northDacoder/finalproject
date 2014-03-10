@@ -19,7 +19,8 @@ class Language(models.Model):
         return self.language
 
 class Project(models.Model):
-    name = models.ForeignKey(Developer)
+    developer = models.ForeignKey(Developer)
+    name = models.CharField(max_length=100)
     language = models.ForeignKey(Language)
     company = models.CharField(max_length=1000)
     completed = models.BooleanField()
