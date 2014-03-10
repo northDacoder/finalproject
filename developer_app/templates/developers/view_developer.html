@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
+{% extends "base.html" %}
+
+{% block content %}
 <body>
-    Bro Bro, you are viewing a developer!! OMG WHAT A SICK SITE!!!
+    <h1>View Developers</h1>
+    <a href="{% url "edit_developer" %}">Edit Developer</a>
 </body>
-</html>
+{% endblock %}
