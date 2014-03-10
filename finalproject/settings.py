@@ -40,6 +40,8 @@ INSTALLED_APPS = (
     'developer_app',
     'company_app',
     'south',
+    'jquery',
+    'bootstrap3',
 )
 
 MIDDLEWARE_CLASSES = (
