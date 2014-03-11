@@ -4,6 +4,10 @@ from django.shortcuts import render, redirect
 from developer_app.forms import DeveloperForm
 from developer_app.models import Developer
 
+
+def angular(request):
+    return render(request, "angular.html")
+
 def home(request):
     return render(request, "home.html")
 

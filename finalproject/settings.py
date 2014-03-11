@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'south',
     'bootstrap3',
     'tastypie',
+    'tastypie_swagger',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -94,3 +95,4 @@ STATIC_URL = '/static/'
 STATIC_MEDIA = '/media/'
 
 
+TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"

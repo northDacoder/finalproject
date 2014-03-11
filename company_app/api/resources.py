@@ -1,9 +1,8 @@
 from django.conf import settings
 from tastypie.authentication import BasicAuthentication
-from tastypie.authorization import Authorization, DjangoAuthorization
+from tastypie.authorization import Authorization
 from tastypie.bundle import Bundle
-from tastypie.constants import ALL_WITH_RELATIONS
-from tastypie.fields import ToManyField, CharField, ToOneField
+from tastypie.fields import CharField
 from tastypie.resources import ModelResource, Resource
 from company_app.api.authorization import UserObjectsOnlyAuthorization
 from company_app.models import CompanyProject, Company
