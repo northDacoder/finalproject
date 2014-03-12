@@ -9,17 +9,17 @@ function companyController($scope, $http) {
 
     $scope.user = {'klass': "api/v1/company/1/", 'projects':[]};
 
-    $scope.addStudent = function() {
+    $scope.addCompany = function() {
         console.log($scope.user);
         $http:post('api/v1/company/', $scope.user).success(function(){
             alert('Add a Company?');
         });
     }
 
-    $scope.deleteStudent = function() {
+    $scope.deleteCompany = function() {
         console.log($scope.user);
-        $http:delete('api/v1/student/', $scope.user).success(function(){
-            alert('You are trying to delete a student!');
+        $http:delete('api/v1/company/', $scope.user).success(function(){
+            alert('You are trying to delete a Company!');
         });
     }
 };
