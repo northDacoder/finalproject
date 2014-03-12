@@ -1,7 +1,6 @@
 function indexController($scope, $http, RocketSpace) {
 
     console.log(RocketSpace.angular_instructor);
-    console.log("indexController");
 
     $scope.classes = {
         "1st Cohort": "Group 1",
