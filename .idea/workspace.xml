@@ -46,7 +46,7 @@
       <file leaf-file-name="developerController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="0.52238804" vertical-offset="0" max-vertical-offset="465">
+            <state line="21" column="55" selection-start="709" selection-end="709" vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -1016,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="0.52238804" vertical-offset="0" max-vertical-offset="465">
+        <state line="21" column="55" selection-start="709" selection-end="709" vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
