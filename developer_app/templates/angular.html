@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.css">
         <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
         <link rel="stylesheet" href="{% get_static_prefix %}css/main.css">
+        <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
+        <link rel="stylesheet" href="{% get_static_prefix %}css/sticky-footer.css">
 
         <!-- Bootstrap JavaScript Files -->
         <script src="{% get_static_prefix %}js/bootstrap.js"></script>
@@ -38,14 +40,19 @@
 
 	</head>
 	<body>
-	    <div class="topNav">Template Navigation</div>
-
+	    <!-- <div class="topNav">Template Navigation</div> -->
+        <div
         <div data-ng-app="mvpApp">
             <div ng-view>
 
             </div>
         </div>
 
-        <div class="bottomNav">Template Footer</div>
+        <!--<div class="bottomNav">Template Footer</div>-->
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted">Place sticky footer content here.</p>
+            </div>
+        </div>
 	</body>
 </html>
