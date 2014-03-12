@@ -1,30 +1,19 @@
 <!-- Main Index View -->
 
 
-<div class="container col-xs-12 col-md-4 col-lg-3">
     <form class="form-signin" role="form">
         <h2 class="form-signin-heading">Please sign in</h2>
-            <input type="email" class="form-control" placeholder="Email address" required autofocus>
-            <input type="password" class="form-control" placeholder="Password" required>
-            <label class="checkbox">
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <input type="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+        <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
-</div>
 
-<div class="row">
-    <ul>
-        <li><a href="#/developer">Developer View</a></li>
-        <li><a href="#/company">Company View</a></li>
-        <li><a href="#/add_developer">Add Developer View</a></li>
-        <li><a href="#/delete_developer">Delete Developer View</a></li>
+    <ul class="list-group">
+        <a href="#/developer"><li class="list-group-item list-group-item-info">Developer View</li></a>
+        <a href="#/company"><li class="list-group-item list-group-item-info">Company View</li></a>
+        <a href="#/add_developer"><li class="list-group-item list-group-item-info">Add Developer View</li></a>
+        <a href="#/delete_developer"><li class="list-group-item list-group-item-info">Delete Developer View</li></a>
     </ul>
-</div>
-
-
-    <!--<div data-ng-repeat="class in classes">
-        <a href="#/class/ {{ class.id }}">
-            View {{ class.title }}'s Page
-        </a>
-    </div>-->
