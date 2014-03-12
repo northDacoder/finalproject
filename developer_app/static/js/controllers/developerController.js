@@ -7,7 +7,7 @@ function developerController($scope, $http) {
     });
 
 
-    $scope.user = {'klass': "api/v1/class/1/", 'projects':[]};
+    $scope.user = {'klass': "api/v1/company/1/", 'projects':[]};
 
     $scope.addStudent = function() {
         console.log($scope.user);
@@ -18,7 +18,7 @@ function developerController($scope, $http) {
 
     $scope.deleteStudent = function() {
         console.log($scope.user);
-        $http:delete('api/v1/student/', $scope.user).success(function(){
+        $http:delete('api/v1/developer/', $scope.user).success(function(){
             alert('You are trying to delete a student!');
         });
     }
