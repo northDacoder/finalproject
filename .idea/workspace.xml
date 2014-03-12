@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/devController.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,28 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyController.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="companyController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+            <state line="14" column="32" selection-start="475" selection-end="475" vertical-scroll-proportion="0.52238804" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="developerController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="developerController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="devController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/devController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+            <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -177,8 +168,8 @@
         <option value="$PROJECT_DIR$/developer_app/templates/angular.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/devController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/compController.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
+        <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
       </list>
     </option>
   </component>
@@ -994,13 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/devController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="95" selection-end="95" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="855">
@@ -1008,16 +992,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="465">
+        <state line="14" column="32" selection-start="475" selection-end="475" vertical-scroll-proportion="0.52238804" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
