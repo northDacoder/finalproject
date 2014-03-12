@@ -1,4 +1,4 @@
-function studentController($scope, $http) {
+function companyController($scope, $http) {
     $http.get('api/v1/student/?format=json').success(function(data){
         console.log(data);
 
