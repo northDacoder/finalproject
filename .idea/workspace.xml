@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/add_developer.html" afterPath="$PROJECT_DIR$/developer_app/static/views/add_developer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/add_student.html" afterPath="$PROJECT_DIR$/developer_app/static/views/add_student.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/app.js" afterPath="$PROJECT_DIR$/developer_app/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/class.html" afterPath="$PROJECT_DIR$/developer_app/static/views/class.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/company.html" afterPath="$PROJECT_DIR$/developer_app/static/views/company.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/delete_developer.html" afterPath="$PROJECT_DIR$/developer_app/static/views/delete_developer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/delete_student.html" afterPath="$PROJECT_DIR$/developer_app/static/views/delete_student.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developer.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/index.html" afterPath="$PROJECT_DIR$/developer_app/static/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/student.html" afterPath="$PROJECT_DIR$/developer_app/static/views/student.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/angular.html" afterPath="$PROJECT_DIR$/developer_app/templates/angular.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -35,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="company.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/company.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="285">
-              <folding>
-                <marker date="1394597550000" expanded="true" signature="131:366" placeholder="..." />
-                <marker date="1394597550000" expanded="true" signature="254:359" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add_developer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/add_developer.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="angular.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="615">
+            <state line="18" column="8" selection-start="742" selection-end="742" vertical-scroll-proportion="0.6733167" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -90,35 +69,34 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="591" selection-end="591" vertical-scroll-proportion="-0.625" vertical-offset="195" max-vertical-offset="1185">
-              <folding>
-                <marker date="1394558099000" expanded="true" signature="44:590" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="597:3237" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="607:3229" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="683:1616" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="713:1605" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="749:1081" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="858:1066" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1128:1567" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1190:1552" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1227:1321" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1358:1459" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1723:1828" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1755:1817" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1857:3216" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1919:3201" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="1950:2334" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="2365:2748" placeholder="..." />
-                <marker date="1394558099000" expanded="true" signature="2779:3182" placeholder="..." />
-              </folding>
+            <state line="4" column="2" selection-start="49" selection-end="583" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="118" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="465">
+            <state line="12" column="118" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factory.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/js/factory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -137,15 +115,6 @@
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/add_student.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="61" selection-start="344" selection-end="344" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/class.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -199,7 +168,6 @@
         <option value="$PROJECT_DIR$/company_app/static/views/index.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/classController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/indexController.js" />
-        <option value="$PROJECT_DIR$/developer_app/templates/angular.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/student.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developer.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/delete_student.html" />
@@ -210,13 +178,14 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/add_developer.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/index.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/app.js" />
+        <option value="$PROJECT_DIR$/developer_app/templates/angular.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="22" />
-    <option name="width" value="1246" />
+    <option name="x" value="16" />
+    <option name="y" value="23" />
+    <option name="width" value="950" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -607,20 +576,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1246" height="774" extended-state="0" />
+    <frame x="16" y="23" width="950" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26832846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26832846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17841409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22434017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22434017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12038523" vertical-offset="0" max-vertical-offset="623">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/vendor/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="287190">
@@ -917,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -956,8 +911,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="285">
           <folding>
-            <marker date="1394597550000" expanded="true" signature="131:366" placeholder="..." />
-            <marker date="1394597550000" expanded="true" signature="254:359" placeholder="..." />
+            <marker date="1394597550000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1394597550000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -997,39 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="591" selection-end="591" vertical-scroll-proportion="-0.625" vertical-offset="195" max-vertical-offset="1185">
-          <folding>
-            <marker date="1394558099000" expanded="true" signature="44:590" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="597:3237" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="607:3229" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="683:1616" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="713:1605" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="749:1081" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="858:1066" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1128:1567" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1190:1552" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1227:1321" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1358:1459" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1723:1828" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1755:1817" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1857:3216" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1919:3201" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="1950:2334" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="2365:2748" placeholder="..." />
-            <marker date="1394558099000" expanded="true" signature="2779:3182" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="375">
@@ -1043,7 +965,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="118" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.38709676" vertical-offset="0" max-vertical-offset="465">
+        <state line="12" column="118" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="161" selection-end="161" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="49" selection-end="583" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="742" selection-end="742" vertical-scroll-proportion="0.6733167" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
