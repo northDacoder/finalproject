@@ -12,4 +12,4 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
                 templateUrl: '/static/views/class.html',
                 controller: 'classController'
             });
-)]);
+}]);

@@ -3,7 +3,10 @@ function indexController($scope, $http, RocketSpace) {
     console.log(RocketSpace.angular_instructor);
     console.log("indexController");
 
-    $scope.classes = [];
+    $scope.classes = {
+        "1st Cohort": "Group 1",
+        "2nd Cohort": "Group 2"
+    };
 
     $http.get('api/v1/student/?format=json').success(function(data){
         console.log(data.objects);
