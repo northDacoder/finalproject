@@ -11,14 +11,14 @@ function developerController($scope, $http) {
 
     $scope.addDeveloper = function() {
         console.log($scope.user);
-        $http:post('api/v1/developer/', $scope.user).success(function(){
+        $http.post('api/v1/developer/', $scope.user).success(function(){
             alert('Add a Developer?');
         });
     }
 
     $scope.deleteDeveloper = function() {
         console.log($scope.user);
-        $http:delete('api/v1/developer/', $scope.user).success(function(){
+        $http.delete('api/v1/developer/', $scope.user).success(function(){
             alert('You are trying to delete a Developer!');
         });
     }

@@ -11,14 +11,14 @@ function companyController($scope, $http) {
 
     $scope.addCompany = function() {
         console.log($scope.user);
-        $http:post('api/v1/company/', $scope.user).success(function(){
+        $http.post('api/v1/company/', $scope.user).success(function(){
             alert('Add a Company?');
         });
     }
 
     $scope.deleteCompany = function() {
         console.log($scope.user);
-        $http:delete('api/v1/company/', $scope.user).success(function(){
+        $http.delete('api/v1/company/', $scope.user).success(function(){
             alert('You are trying to delete a Company!');
         });
     }
