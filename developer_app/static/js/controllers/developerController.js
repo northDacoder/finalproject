@@ -9,14 +9,14 @@ function developerController($scope, $http) {
 
     $scope.user = {'klass': "api/v1/company/1/", 'projects':[]};
 
-    $scope.addStudent = function() {
+    $scope.addDeveloper = function() {
         console.log($scope.user);
         $http:post('api/v1/developer/', $scope.user).success(function(){
             alert('Add a Developer?');
         });
     }
 
-    $scope.deleteStudent = function() {
+    $scope.deleteDeveloper = function() {
         console.log($scope.user);
         $http:delete('api/v1/developer/', $scope.user).success(function(){
             alert('You are trying to delete a Developer!');
