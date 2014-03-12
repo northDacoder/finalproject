@@ -11,8 +11,8 @@ function developerController($scope, $http) {
 
     $scope.addStudent = function() {
         console.log($scope.user);
-        $http:post('api/v1/student/', $scope.user).success(function(){
-            alert('Add a student?');
+        $http:post('api/v1/developer/', $scope.user).success(function(){
+            alert('Add a Developer?');
         });
     }
 
