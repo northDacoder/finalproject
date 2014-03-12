@@ -1,12 +1,16 @@
 <!-- Main Index View -->
 <div>
-    <a href="#/student">
-        Go to Student Page
-    </a>
+    <ul>
+        <li><a href="#/student">Developer View</a></li>
+        <li><a href="#/class">Company View</a></li>
+        <li><a href="#/add_student">Add Developer View</a></li>
+        <li><a href="#/delete_student">Delete Developer View</a></li>
+    </ul>
+</div>
 
-    <div data-ng-repeat="class in classes">
-        <a href="#/class/{{ class.id }}">
+
+    <!--<div data-ng-repeat="class in classes">
+        <a href="#/class/ {{ class.id }}">
             View {{ class.title }}'s Page
         </a>
-    </div>
-</div>
+    </div>-->

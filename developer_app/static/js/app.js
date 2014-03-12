@@ -11,5 +11,20 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             {
                 templateUrl: '/static/views/class.html',
                 controller: 'classController'
+            })
+        .when('/class',
+            {
+                templateUrl: '/static/views/class.html',
+                controller: 'classController'
+            })
+        .when('/class',
+            {
+                templateUrl: '/static/views/class.html',
+                controller: 'classController'
+            })
+        .when('/class',
+            {
+                templateUrl: '/static/views/class.html',
+                controller: 'classController'
             });
 }]);
