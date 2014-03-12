@@ -4,7 +4,7 @@ from company_app.models import Company
 
 
 def home(request):
-    return render(request, "home.html")
+    return render(request, "angular.html")
 
 def companies(request):
     companies = Company.objects.all()
