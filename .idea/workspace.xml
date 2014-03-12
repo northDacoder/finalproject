@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +47,7 @@
       <file leaf-file-name="developerController.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="55" selection-start="709" selection-end="709" vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="465">
+            <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -1016,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="709" selection-end="709" vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="465">
+        <state line="1" column="31" selection-start="77" selection-end="77" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>

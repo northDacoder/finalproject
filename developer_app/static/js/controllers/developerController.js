@@ -1,5 +1,5 @@
 function developerController($scope, $http) {
-    $http.get('api/v1/student/?format=json').success(function(data){
+    $http.get('api/v1/developer/?format=json').success(function(data){
         console.log(data);
 
     }).error(function(data){
