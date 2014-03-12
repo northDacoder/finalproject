@@ -1,4 +1,4 @@
-var app = angular.module('exampleApp', ['ngRoute', 'ngResource']);
+var app = angular.module('mvpApp', ['ngRoute', 'ngResource']);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
