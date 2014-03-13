@@ -3,4 +3,4 @@ app.factory('RocketSpace', function($resource) {
         angular_instructor: 'Alex',
         studentList: []
     }
-})
+});
