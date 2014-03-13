@@ -20,12 +20,6 @@ def signup(request):
     data = {"signup_form": form}
     return render(request, "signup.html", data)
 
-
-@login_required
-def special_page(request):
-    data = {}
-    return render(request, "developer/developers.html", data)
-
 def login_page(request):
     if request.method == "POST":
         form = LoginForm(request.POST)
@@ -34,7 +28,7 @@ def login_page(request):
                                 password=form.cleaned_data['password'])
             if user is not None:
                 login(request, user)
-                return redirect("secret")
+                return redirect("angular")
     else:
         form = LoginForm()
     data = {"login_form": form}
@@ -44,8 +38,6 @@ def login_page(request):
 def angular(request):
     return render(request, "angular.html")
 
-def home(request):
-    return render(request, "home.html")
 
 # def developers(request):
 #     developers = Developer.objects.all()
