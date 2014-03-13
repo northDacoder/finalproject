@@ -1,7 +1,10 @@
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from developer_app.forms import DeveloperForm
+from developer_app.forms import DeveloperForm, SignupForm, LoginForm
 from developer_app.models import Developer
 
 
@@ -25,7 +28,7 @@ def signup(request):
 @login_required
 def special_page(request):
     data = {}
-    return render(request, "charities/charities.html", data)
+    return render(request, "developer/developers.html", data)
 
 def login1(request):
     if request.method == "POST":
@@ -35,7 +38,7 @@ def login1(request):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return redirect("charity_home.html")
+                    return redirect("developer_home.html")
 
     else:
         form1 = LoginForm()

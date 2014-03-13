@@ -1,5 +1,7 @@
 from django.conf.urls import patterns, include, url
+from django.contrib.auth import views as auth_views
 from django.contrib import admin
+from registration.backends.simple.views import RegistrationView
 from tastypie.api import Api
 from company_app.api.resources import CompanyProjectResource, CompanyResource
 from developer_app.api.resources import DeveloperResource, DeveloperProjectResource
@@ -36,34 +38,34 @@ urlpatterns = patterns('',
     url(r'^$', 'developer_app.views.index', name='index'),
 
     url(r'^register/developer/$',
-           RegistrationView.as_view(success_url='/charity/new/'),
-           name='registration_register_charity',),
+        RegistrationView.as_view(success_url='/developer/new/'),
+        name='registration_register_developer',),
 
-    url(r'^register/giver/$',
-           RegistrationView.as_view(success_url='/giver/new/'),
-           name='registration_register_giver',),
+    url(r'^register/company/$',
+        RegistrationView.as_view(success_url='/company/new/'),
+        name='registration_register_company',),
 
     url(r'^register/user/$',
-           RegistrationView.as_view(success_url='/user/home/'),
-           name='registration_register_giver',),
+        RegistrationView.as_view(success_url='/user/home/'),
+        name='registration_register_developer',),
 
     url(r'^accounts/password/change/$',
-            auth_views.password_change,
-            name='password_change'),
+        auth_views.password_change,
+        name='password_change'),
     url(r'^accounts/password/change/done/$',
-            auth_views.password_change_done,
-            name='password_change_done'),
+        auth_views.password_change_done,
+        name='password_change_done'),
     url(r'^accounts/password/reset/$',
-            auth_views.password_reset,
-            name='password_reset'),
+        auth_views.password_reset,
+        name='password_reset'),
     url(r'^accounts/password/reset/done/$',
-            auth_views.password_reset_done,
-            name='password_reset_done'),
+        auth_views.password_reset_done,
+        name='password_reset_done'),
     url(r'^accounts/password/reset/complete/$',
-            auth_views.password_reset_complete,
-            name='password_reset_complete'),
+        auth_views.password_reset_complete,
+        name='password_reset_complete'),
     url(r'^accounts/password/reset/confirm/(?P<uidb64>[0-9A-Za-z]+)-(?P<token>.+)/$',
-            auth_views.password_reset_confirm,
-            name='password_reset_confirm'),
+        auth_views.password_reset_confirm,
+        name='password_reset_confirm'),
     url(r'', include('registration.backends.default.urls')),
-)
+    )
