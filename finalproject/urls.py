@@ -25,6 +25,7 @@ urlpatterns = patterns('',
     url(r'^register/company/$', RegistrationView.as_view(success_url='/company/new/'), name='registration_register_company',),
     url(r'^register/user/$', RegistrationView.as_view(success_url='/user/home/'), name='registration_register_developer',),
 
+    #url(r'^accounts/login/', 'users.views.login_page', name='login'),
     url(r'^accounts/password/change/$', auth_views.password_change, name='password_change'),
     url(r'^accounts/password/change/done/$', auth_views.password_change_done, name='password_change_done'),
 
@@ -34,7 +35,7 @@ urlpatterns = patterns('',
     url(r'^accounts/password/reset/confirm/(?P<uidb64>[0-9A-Za-z]+)-(?P<token>.+)/$', auth_views.password_reset_confirm, name='password_reset_confirm'),
 
     #and now add the registration urls
-    url(r'^accounts/', include('registration.backends.default.urls')),
+    url(r'accounts/', include('registration.backends.default.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
 )

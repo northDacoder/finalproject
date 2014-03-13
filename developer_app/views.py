@@ -15,11 +15,9 @@ def signup(request):
                 form.cleaned_data["email"],
                 form.cleaned_data["password"],
             )
-        return redirect("login")
-
     else:
         form = SignupForm()
-    data = {'form': form}
+    data = {"signup_form": form}
     return render(request, "signup.html", data)
 
 
@@ -28,20 +26,20 @@ def special_page(request):
     data = {}
     return render(request, "developer/developers.html", data)
 
-def login1(request):
+def login_page(request):
     if request.method == "POST":
-        form1 = LoginForm(request.POST)
-        if form1.is_valid():
-            user = authenticate(username=form1.cleaned_data['username'], password=form1.cleaned_data['password'])
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            user = authenticate(username=form.cleaned_data['username'],
+                                password=form.cleaned_data['password'])
             if user is not None:
-                if user.is_active:
-                    login(request, user)
-                    return redirect("angular.html")
-
+                login(request, user)
+                return redirect("secret")
     else:
-        form1 = LoginForm()
-    data = {'form1': form1}
+        form = LoginForm()
+    data = {"login_form": form}
     return render(request, "login.html", data)
+
 
 def angular(request):
     return render(request, "angular.html")

@@ -23,7 +23,6 @@ class UserForm(forms.ModelForm):
         }
 
 
-
 class SignupForm(UserForm):
     confirm_password = forms.CharField(
         widget = forms.PasswordInput
@@ -42,6 +41,4 @@ class SignupForm(UserForm):
 
 class LoginForm(forms.Form):
     username = forms.CharField()
-    password = forms.CharField(
-        widget=forms.PasswordInput
-    )
+    password = forms.CharField(widget=forms.PasswordInput)
