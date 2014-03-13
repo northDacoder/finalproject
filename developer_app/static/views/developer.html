@@ -33,3 +33,12 @@
     </div>
   </div>
 </div>
+
+
+<ul>
+    <ul data-ng-repeat="project in student.projects" class="list-group">
+        <li class="list-group-item list-group-item-info">Student name: {{ student.first_name }} {{ student.last_name }}</li>
+        <li class="list-group-item list-group-item-danger">Project Number: {{ project.id }}</li>
+        <li class="list-group-item list-group-item-default">Project Name: {{ project.name }}</li>
+    </ul>
+</ul>
