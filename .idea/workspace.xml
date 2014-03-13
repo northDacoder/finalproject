@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_email.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_email_subject.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/logout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" afterPath="" />
-    </list>
+    <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="" />
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.12024048" vertical-offset="360" max-vertical-offset="1290">
+            <state line="28" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1290">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
                 <element signature="e#2335#2782#0" expanded="false" />
@@ -92,10 +75,19 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="31" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1155">
+            <state line="35" column="0" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1155">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -306,6 +298,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -377,8 +391,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/developer_app/static/views" />
       <recent name="$PROJECT_DIR$/developer_app/templates" />
+      <recent name="$PROJECT_DIR$/developer_app/static/views" />
       <recent name="$PROJECT_DIR$/developer_app/static/js" />
       <recent name="$PROJECT_DIR$/developer_app/static/css" />
       <recent name="$PROJECT_DIR$/company_app/static/css" />
@@ -632,7 +646,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35777125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1001,23 +1015,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1290">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#2335#2782#0" expanded="false" />
+            <element signature="e#2834#2942#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="31" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1155">
+        <state line="35" column="0" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1155">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.12024048" vertical-offset="360" max-vertical-offset="1290">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <element signature="e#2335#2782#0" expanded="false" />
-            <element signature="e#2834#2942#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
     </entry>
