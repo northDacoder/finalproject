@@ -57,19 +57,19 @@
                             <a class="navbar-brand" href="{% url 'auth_logout' %}"><span class="label label-important"">Log out</span></a>
                             <a class="navbar-brand" href="#/developer"><span class="label label-important">Developer</span></a>
                             <a class="navbar-brand" href="#/company"><span class="label label-important">Company</span></a>
-                            <a class="navbar-brand" href="#/"><span class="label label-important"">Home</span></a>
+                            <!--<a class="navbar-brand" href="/accounts/login/">Login</a>-->
+                            <a class="navbar-brand" href="#/"><span class="label label-important">Home</span></a>
                         </div>
                     </div>
                 </nav>
 
-                <div class="col-xs-8">
+            <!-- Change Password Button -->
+            <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>
 
-                    <button><a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a></button>
-
-                    {% else %}
-                        <a href="{% url 'auth_login' %}">Login</a>
-                    {% endif %}
-                </div>
+            {% else %}
+                <!-- Log In Button -->
+                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+            {% endif %}
 
 
         {% endblock %}
