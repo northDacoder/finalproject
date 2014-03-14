@@ -64,11 +64,11 @@
                 </nav>
 
             <!-- Change Password Button -->
-            <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>
+            <a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a>
 
             {% else %}
                 <!-- Log In Button -->
-                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
+                <a href="{% url 'auth_login' %}"><p class="loginText">{% trans "Log in" %}</p></a>
             {% endif %}
 
 

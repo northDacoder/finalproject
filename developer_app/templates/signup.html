@@ -1,9 +1,12 @@
 {% extends 'base.html' %}
 
 
-<form method="post">
-    {% csrf_token %}
-    {{ signup_form.as_p }}
+    <form method="post">
 
-    <input type="submit" name="submit" value="Sign up!">
-</form>
+        {% csrf_token %}
+
+        {{ signup_form.as_p }}
+
+        <input type="submit" name="submit" value="Sign up!">
+
+    </form>

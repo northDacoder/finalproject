@@ -1,15 +1,20 @@
 {% extends "base.html" %}
 {% load i18n %}
 
-{% block content %}
-<form method="post" action=".">
-  {% csrf_token %} 
-  {{ form.as_p }}
+    {% block content %}
 
-  <input type="submit" value="{% trans 'Log in' %}" />
-  <input type="hidden" name="next" value="{{ next }}" />
-</form>
+        <form method="post" action=".">
 
-<p>{% trans "Forgot password" %}? <a href="{% url 'auth_password_reset' %}">{% trans "Reset it" %}</a>!</p>
-<p>{% trans "Not member" %}? <a href="{% url 'registration_register' %}">{% trans "Register" %}</a>!</p>
-{% endblock %}
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <input type="submit" value="{% trans 'Log in' %}" />
+            <input type="hidden" name="next" value="{{ next }}" />
+
+        </form>
+
+        <p class="loginText">{% trans "Forgot password" %}? <a href="{% url 'auth_password_reset' %}">{% trans "Reset it" %}</a>!</p>
+        <p class="loginText">{% trans "Not member" %}? <a href="{% url 'registration_register' %}">{% trans "Register" %}</a>!</p>
+
+    {% endblock %}
