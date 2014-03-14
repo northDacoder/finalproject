@@ -1,2 +1,62 @@
-body {margin: 0; padding: 0;}
-.loginText {color: #333;}
+body {
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+
+}
+
+form.loginForm {
+    background: rgba(255,255,255,.9);
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+form input {
+    width: 200px;
+
+}
+
+input#id_username {
+    font-size: 16px;
+    color: #333;
+}
+
+input#id_password {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type=text] {
+    height: 38px;
+}
+input[type=password]{
+    height: 38px;
+}
+
+form {
+    /*border-radius: 8px;*/
+    /*-moz-box-shadow:    inset 0 0 10px #000000;*/
+    /*-webkit-box-shadow: inset 0 0 10px #000000;*/
+    /*box-shadow:         inset 0 0 10px #000000;*/
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3);
+    color: rgba(0,0,0,.4);
+    font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p.loginText {
+    color: rgba(0,0,0,.4);
+    font-size: 16px;
+    width: 205px;
+    margin: 10px auto;
+}
+
+#loginButton {
+    width: 100%;
+}
+
+#loginTextMain {
+    position: relative;
+    top: 180px;
+}

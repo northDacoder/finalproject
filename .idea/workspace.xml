@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/login.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activate.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/activate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/base.html" afterPath="$PROJECT_DIR$/developer_app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/baseold.html" afterPath="$PROJECT_DIR$/developer_app/templates/baseold.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/index.html" afterPath="$PROJECT_DIR$/developer_app/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/login.html" afterPath="$PROJECT_DIR$/developer_app/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/login.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/logout.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/logout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" afterPath="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/signup.html" afterPath="$PROJECT_DIR$/developer_app/templates/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/views.py" afterPath="$PROJECT_DIR$/developer_app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,37 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="password_reset_form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html">
+      <file leaf-file-name="angular.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_closed.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="154" selection-end="154" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="8" column="8" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -83,16 +49,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="94" selection-start="3265" selection-end="3265" vertical-scroll-proportion="-17.958334" vertical-offset="619" max-vertical-offset="1515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseold.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/baseold.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
+            <state line="71" column="88" selection-start="3261" selection-end="3261" vertical-scroll-proportion="-16.625" vertical-offset="666" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -107,28 +64,66 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="baseold.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/baseold.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="379" selection-end="379" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="56" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/login.html">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="300">
+            <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/signup.html">
+      <file leaf-file-name="activate.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="178" selection-end="178" vertical-scroll-proportion="0.24122807" vertical-offset="0" max-vertical-offset="684">
+            <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration_complete.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html">
+      <file leaf-file-name="password_reset_confirm.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+            <state line="17" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/api/resources.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="960">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="25" selection-start="660" selection-end="660" vertical-scroll-proportion="0.33962265" vertical-offset="522" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -147,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/company_app/static/views/index.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/student.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/delete_student.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/class.html" />
@@ -175,37 +169,38 @@
         <option value="$PROJECT_DIR$/developer_app/forms.py" />
         <option value="$PROJECT_DIR$/developer_app/models.py" />
         <option value="$PROJECT_DIR$/finalproject/urls.py" />
-        <option value="$PROJECT_DIR$/developer_app/views.py" />
         <option value="$PROJECT_DIR$/finalproject/settings.py" />
         <option value="$PROJECT_DIR$/developer_app/templates/angular.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/activate.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/logout.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" />
-        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
-        <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/baseold.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/index.html" />
-        <option value="$PROJECT_DIR$/developer_app/templates/login.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/activate.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/css/main.css" />
         <option value="$PROJECT_DIR$/developer_app/templates/signup.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/login.html" />
+        <option value="$PROJECT_DIR$/developer_app/views.py" />
+        <option value="$PROJECT_DIR$/developer_app/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1731" />
-    <option name="y" value="32" />
-    <option name="width" value="1450" />
-    <option name="height" value="1017" />
+    <option name="x" value="578" />
+    <option name="y" value="22" />
+    <option name="width" value="872" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -294,46 +289,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="developer_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finalproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="developer_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -357,6 +312,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -653,20 +626,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1731" y="32" width="1450" height="1017" extended-state="0" />
+    <frame x="578" y="22" width="872" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17945945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17945945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756758" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30042613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19759037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39243242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39149562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,13 +725,6 @@
         <state line="12" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="87555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="17" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29295" />
@@ -829,23 +795,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/registration/backends/default/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
@@ -864,57 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1305">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="395" selection-end="395" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="151" selection-end="151" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_email.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_email_subject.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
@@ -922,30 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="588" selection-end="588" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
+        <state line="5" column="56" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -953,13 +833,6 @@
     <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="4" selection-start="240" selection-end="240" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="351" selection-end="351" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
@@ -980,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
+        <state line="5" column="56" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -992,6 +865,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="35" selection-start="1341" selection-end="1361" vertical-scroll-proportion="-10.692307" vertical-offset="1312" max-vertical-offset="87555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="69" selection-end="69" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_email.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="708">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="151" selection-end="151" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
@@ -999,30 +921,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_form.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
+        <state line="27" column="32" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+    <entry file="file://$PROJECT_DIR$/developer_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="41" column="28" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="94" selection-start="3265" selection-end="3265" vertical-scroll-proportion="-17.958334" vertical-offset="619" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/baseold.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="13" column="30" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
@@ -1034,16 +949,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/baseold.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="300">
+        <state line="15" column="14" selection-start="379" selection-end="379" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/signup.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="178" selection-end="178" vertical-scroll-proportion="0.24122807" vertical-offset="0" max-vertical-offset="684">
+        <state line="8" column="8" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="88" selection-start="3261" selection-end="3261" vertical-scroll-proportion="-16.625" vertical-offset="666" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="124" selection-end="124" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/api/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="960">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="25" selection-start="660" selection-end="660" vertical-scroll-proportion="0.33962265" vertical-offset="522" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>

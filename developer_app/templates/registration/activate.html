@@ -6,7 +6,7 @@
         {% if account %}
 
             <p class="loginText">{% trans "Account successfully activated" %}</p>
-            <p class="loginText"><a href="{% url 'auth_login' %}">{% trans "Log in" %}</a></p>
+            <a href="{% url 'auth_login' %}"><p class="loginText">{% trans "Log in" %}</p></a>
 
         {% else %}
 

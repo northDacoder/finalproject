@@ -37,7 +37,8 @@
     <script src="{% get_static_prefix %}js/controllers/companyController.js"></script>
 
     <!-- CSS FILES -->
-    <link href="{% get_static_prefix %}css/main.css" rel="stylesheet" type="text/css">
+    <link href="{% get_static_prefix %}css/index.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -68,7 +69,7 @@
 
             {% else %}
                 <!-- Log In Button -->
-                <a href="{% url 'auth_login' %}"><p class="loginText">{% trans "Log in" %}</p></a>
+                <a href="{% url 'auth_login' %}"><p class="loginText" id="loginTextMain">{% trans "Log in" %}</p></a>
             {% endif %}
 
 
