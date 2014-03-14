@@ -45,57 +45,48 @@
 
 
     <div id="header">
-
         {% block header %}
+
 
             {% if user.is_authenticated %}
 
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <div class="list-group">
-                                <a class="navbar-brand" href="#/"><span class="glyphicon glyphicon-user"></span><span class="label label-success">{{ user.username }}</span></a>
-                                <a class="navbar-brand" href="{% url 'auth_logout' %}"><span class="label label-inverse">Log out</span></a>
-                            </div>
-
-                            <a class="navbar-brand" href="#/developer">Developer</a>
-                            <a class="navbar-brand" href="#/company">Company</a>
-                            <a class="navbar-brand" href="/accounts/login/">Login</a>
-                            <a class="navbar-brand" href="#/">Home</a>
+                            <a class="navbar-brand" href="#/"><span class="label label-info"><span class="glyphicon glyphicon-user"></span> {{ user.username }}</span></a>
+                            <a class="navbar-brand" href="{% url 'auth_logout' %}"><span class="label label-important"">Log out</span></a>
+                            <a class="navbar-brand" href="#/developer"><span class="label label-important">Developer</span></a>
+                            <a class="navbar-brand" href="#/company"><span class="label label-important">Company</span></a>
+                            <a class="navbar-brand" href="#/"><span class="label label-important"">Home</span></a>
                         </div>
                     </div>
                 </nav>
 
-                (<a href="{% url 'auth_logout' %}">{% trans "Log out" %}</a> | <a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a>)
-            {% else %}
-                <a href="{% url 'auth_login' %}">{% trans "Log in" %}</a>
-            {% endif %}
+                <div class="col-xs-8">
+
+                    <button><a href="{% url 'auth_password_change' %}">{% trans "Change password" %}</a></button>
+
+                    {% else %}
+                        <a href="{% url 'auth_login' %}">Login</a>
+                    {% endif %}
+                </div>
+
 
         {% endblock %}
-
-
     </div>
-
 
 
     <div id="content" class="container">
+        {% block content %}
 
-
-        {% block content %}{% endblock %}
-
-
+        {% endblock %}
     </div>
 
 
-
     <div id="footer" class="container">
-
-
         {% block footer %}
 
         {% endblock %}
-
-
     </div>
 
 
