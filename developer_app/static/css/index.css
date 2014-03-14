@@ -6,7 +6,7 @@ body {
 }
 
 form.loginForm {
-    background: rgba(255,255,255,.9);
+    background: #fff;
     margin: 0 auto;
     width: 250px;
     margin-top: 100px;
@@ -59,4 +59,13 @@ p.loginText {
 #loginTextMain {
     position: relative;
     top: 180px;
+}
+
+div.green-panel {
+    background: #5cb85c;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ccc
 }
