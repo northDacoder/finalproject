@@ -6,6 +6,7 @@ input#id_password { font-size: 16px; color: #333; }
 input[type=text] { height: 38px; }
 input[type=password]{ height: 38px; }
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+div#inner-editor { height: 70px; }
 p.loginText { color: rgba(0,0,0,.4); font-size: 16px; width: 205px;  margin: 10px auto; }
 #loginButton { width: 100%; }
 #loginTextMain { position: relative; top: 180px; }
@@ -23,7 +24,6 @@ div.black-panel { background: #333; margin-bottom: 30px; -moz-box-shadow:    ins
 .insetwhite { -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.8); -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.8); box-shadow: inset 0 0 10px rgba(0,0,0,.8); background: #fff; }
 .insetblack { -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.8); -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.8); box-shadow: inset 0 0 10px rgba(0,0,0,.8); background: #333; }
 .view-header { text-align: center; margin: 10px; font-size: 30px; color: #fefefe; font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-div#inner-editor { height: 70px; }
-.loginForm { color: #525252; font-size: 23px; margin: 10px 40px 15px; font-family: 'Helvetica Neue', Arial; }
+.loginForm { color: #525252; font-size: 23px; margin: 10px 40px 15px; font-family: 'Helvetica Neue'; }
 .loginForm input[type="text"].hasError { background: #fefefe; border-color: #cb2027; box-shadow: rgba(255,0,0,0.35); position: relative; }
 .firstName, .lastName { float: left; width: 190px; }
