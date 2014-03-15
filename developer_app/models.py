@@ -13,17 +13,10 @@ class Developer(models.Model):
     def __unicode__(self):
         return self.name
 
-class Language(models.Model):
-    language = models.CharField(max_length=50)
-
-    def __unicode__(self):
-        return self.language
-
 class Project(models.Model):
-    developer = models.ForeignKey(Developer, related_name="developer")
+    developersproject = models.ForeignKey(Developer, related_name="developerRelated")
     company = models.ForeignKey(Company, related_name="company")
     name = models.CharField(max_length=100)
-    language = models.ForeignKey(Language)
     completed = models.BooleanField()
     user = models.ForeignKey(User)
 

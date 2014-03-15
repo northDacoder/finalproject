@@ -1,21 +1,19 @@
 from django.contrib import admin
-
-# Register your models here.
-from company_app.models import Company, CompanyProject
+from company_app.models import Company, CompanyProject, Language
 
 
 class CompanyAdmin(admin.ModelAdmin):
     list_display = ("name", "city", "github", "email", "user")
     search_fields = ("name",)
-    readonly_fields = ("user",)
 
+class LanguageAdmin(admin.ModelAdmin):
+    list_display = ("language",)
 
 class CompanyProjectAdmin(admin.ModelAdmin):
-    list_display = ("name", "language", "company", "completed")
+    list_display = ("name", "company", "completed")
     search_fields = ("name",)
-    readonly_fields = ("user",)
 
 admin.site.register(Company, CompanyAdmin)
 admin.site.register(CompanyProject, CompanyProjectAdmin)
-
+admin.site.register(Language, LanguageAdmin)
 

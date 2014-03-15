@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/sticky-footer.css">
 
     <!-- Bootstrap JavaScript Files -->
@@ -37,7 +36,10 @@
     <script src="{% get_static_prefix %}js/controllers/companyController.js"></script>
 
     <!-- CSS FILES -->
+    <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
+
     <link href="{% get_static_prefix %}css/index.css" rel="stylesheet" type="text/css">
+
 
 </head>
 
@@ -48,10 +50,9 @@
     <div id="header">
         {% block header %}
 
-
             {% if user.is_authenticated %}
 
-                <nav class="navbar navbar-default">
+                <nav class="navbar navbar-default col-xs-12">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="#/"><span class="label label-info"><span class="glyphicon glyphicon-user"></span> {{ user.username }}</span></a>
@@ -82,14 +83,6 @@
 
         {% endblock %}
     </div>
-
-
-    <div id="footer" class="container">
-        {% block footer %}
-
-        {% endblock %}
-    </div>
-
 
 
 </div>
