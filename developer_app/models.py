@@ -6,8 +6,12 @@ from company_app.models import CompanyProject, Language
 class Developer(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
-    github = models.URLField(max_length=1000)
+    state = models.CharField(max_length=100, null=True, blank=True)
+    email = models.URLField(max_length=1000)
+    posted = models.DateTimeField(auto_now=True)
+    github = models.URLField(max_length=1000, null=True, blank=True)
     languages = models.ManyToManyField(Language)
+    description = models.CharField(max_length=6000, null=True, blank=True)
     user = models.ForeignKey(User)
 
     def __unicode__(self):

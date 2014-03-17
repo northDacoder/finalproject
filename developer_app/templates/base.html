@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="{% get_static_prefix %}css/navbar_fixed.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
 
-    <!--Jquery -->
-    <script type="{% get_static_prefix %}jquery/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap JavaScript Files -->
     <script src="{% get_static_prefix %}js/bootstrap.js"></script>
@@ -45,7 +43,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
 
@@ -90,6 +88,7 @@
 
         {% endblock %}
     </div>
-</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </body>
 </html>
