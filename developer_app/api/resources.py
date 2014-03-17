@@ -12,15 +12,15 @@ class DeveloperResource(ModelResource):
     class Meta:
         queryset = Developer.objects.all()
         resource_name = "developer"
-        authentication = BasicAuthentication()
-        authorization = UserObjectsOnlyAuthorization()
+        # authentication = BasicAuthentication()
+        # authorization = UserObjectsOnlyAuthorization()
 
 
 class DeveloperProjectResource(ModelResource):
     class Meta:
         queryset = Project.objects.all()
         resource_name = "developerproject"
-        authorization = Authorization()
+        # authorization = Authorization()
 
 
 

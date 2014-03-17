@@ -26,16 +26,15 @@ class Migration(SchemaMigration):
         ))
         db.send_create_signal(u'company_app', ['Language'])
 
-        # Adding model 'Project'
-        db.create_table(u'company_app_project', (
+        # Adding model 'CompanyProject'
+        db.create_table(u'company_app_companyproject', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('developer', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['company_app.Company'])),
+            ('company', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['company_app.Company'])),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=100)),
             ('language', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['company_app.Language'])),
-            ('company', self.gf('django.db.models.fields.CharField')(max_length=1000)),
             ('completed', self.gf('django.db.models.fields.BooleanField')()),
         ))
-        db.send_create_signal(u'company_app', ['Project'])
+        db.send_create_signal(u'company_app', ['CompanyProject'])
 
 
     def backwards(self, orm):
@@ -45,8 +44,8 @@ class Migration(SchemaMigration):
         # Deleting model 'Language'
         db.delete_table(u'company_app_language')
 
-        # Deleting model 'Project'
-        db.delete_table(u'company_app_project')
+        # Deleting model 'CompanyProject'
+        db.delete_table(u'company_app_companyproject')
 
 
     models = {
@@ -88,19 +87,18 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'user': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['auth.User']"})
         },
+        u'company_app.companyproject': {
+            'Meta': {'object_name': 'CompanyProject'},
+            'company': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Company']"}),
+            'completed': ('django.db.models.fields.BooleanField', [], {}),
+            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'language': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Language']"}),
+            'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
+        },
         u'company_app.language': {
             'Meta': {'object_name': 'Language'},
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'language': ('django.db.models.fields.CharField', [], {'max_length': '50'})
-        },
-        u'company_app.project': {
-            'Meta': {'object_name': 'Project'},
-            'company': ('django.db.models.fields.CharField', [], {'max_length': '1000'}),
-            'completed': ('django.db.models.fields.BooleanField', [], {}),
-            'developer': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Company']"}),
-            u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'language': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Language']"}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
         },
         u'contenttypes.contenttype': {
             'Meta': {'ordering': "('name',)", 'unique_together': "(('app_label', 'model'),)", 'object_name': 'ContentType', 'db_table': "'django_content_type'"},

@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/sticky-footer.css">
+    <!--<link rel="stylesheet" href="{% get_static_prefix %}css/sticky-footer.css">-->
+    <link rel="stylesheet" href="{% get_static_prefix %}css/navbar_fixed.css">
 
     <!-- Bootstrap JavaScript Files -->
     <script src="{% get_static_prefix %}js/bootstrap.js"></script>
@@ -44,26 +45,50 @@
 </head>
 
 <body>
-<div class="container">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            {% block header %}
+                {% if user.is_authenticated %}
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">mvPrototype</a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+
+                        <!-- USERNAME DROPDOWN -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
+                            <ul class="dropdown-header">
+                                <li><a href="{% url 'auth_logout' %}">Log out</a></li>
+                            </ul>
+                        </li>
+                        <!-- USERNAME DROPDOWN -->
+
+                        <li><a href="#/developer">Developer</a></li>
+                        <li><a href="#/company">Company</a></li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Join our team!</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </ul>
+                 </div>
 
 
-    <div id="header">
-        {% block header %}
 
-            {% if user.is_authenticated %}
 
-                <nav class="navbar navbar-default col-xs-12">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="#/"><span class="label label-info"><span class="glyphicon glyphicon-user"></span> {{ user.username }}</span></a>
-                            <a class="navbar-brand" href="{% url 'auth_logout' %}"><span class="label label-important"">Log out</span></a>
-                            <a class="navbar-brand" href="#/developer"><span class="label label-important">Developer</span></a>
-                            <a class="navbar-brand" href="#/company"><span class="label label-important">Company</span></a>
-                            <!--<a class="navbar-brand" href="/accounts/login/">Login</a>-->
-                            <a class="navbar-brand" href="#/"><span class="label label-important">Home</span></a>
-                        </div>
-                    </div>
-                </nav>
 
             <!-- Change Password Button -->
             <a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a>
@@ -75,6 +100,7 @@
 
 
         {% endblock %}
+    </div>
     </div>
 
 

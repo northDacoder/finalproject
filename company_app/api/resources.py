@@ -12,15 +12,16 @@ class CompanyResource(ModelResource):
     class Meta:
         queryset = Company.objects.all()
         resource_name = "company"
-        authentication = BasicAuthentication()
-        authorization = UserObjectsOnlyAuthorization()
+        # authentication = BasicAuthentication()
+        # authorization = UserObjectsOnlyAuthorization()
+
 
 
 class CompanyProjectResource(ModelResource):
     class Meta:
         queryset = CompanyProject.objects.all()
         resource_name = "companyproject"
-        authorization = Authorization()
+        # authorization = Authorization()
 
 
 
