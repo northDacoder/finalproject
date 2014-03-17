@@ -1,17 +1,17 @@
 <div class="container">
 
-    <div data-ng-repeat="company in companies" class="white-panel col-xs-12 stackfour">
-        <li>Name: {{ company.name }}</li>
-        <li>City: {{ company.city }}</li>
-        <li>Email: {{ company.email }}</li>
-        <li>Github: {{ company.github }}</li>
-        <li>Resources: {{ company.resource_uri }}</li>
-    </div>
-
     <div class="row">
         <div class="black-panel col-xs-12 stackfifty">
             <div class="view-header">Company Portal</div>
         </div>
+    </div>
+
+    <div data-ng-repeat="company in companies" class="white-panel col-xs-12 stackfour">
+        <p class="bg-danger">Name: {{ company.name }}</p>
+        <p class="bg-success">City: {{ company.city }}</p>
+        <p class="bg-info">Email: {{ company.email }}</p>
+        <p class="bg-warning">Github: {{ company.github }}</p>
+        <p class="bg-danger">Resources: {{ company.resource_uri }}</p>
     </div>
 
 </div>

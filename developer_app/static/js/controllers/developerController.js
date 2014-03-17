@@ -3,6 +3,10 @@ function developerController($scope, $http) {
         console.log(data);
 
         $scope.developers = data.objects;
+    });
+
+}
+
 //    }).error(function(data){
 //        console.log("You have an error in your code");
 //    });
@@ -23,4 +27,3 @@ function developerController($scope, $http) {
 //            alert('You are trying to delete a Developer!');
 //        });
 //    }
-};
