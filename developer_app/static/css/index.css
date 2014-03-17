@@ -26,6 +26,8 @@ div.black-panel { background: #333; margin-bottom: 30px; -moz-box-shadow:    ins
 .stackfour { height: 400px; }
 .stackfive { height: 500px; }
 .stacksidebar { height: 900px; }
+.cushion { padding: 25px; }
+.space { margin: 25px; }
 
 .inset { -moz-box-shadow: inset 0 0 10px #333; -webkit-box-shadow: inset 0 0 10px #333; box-shadow: inset 0 0 10px #333;}
 .insetwhite { -moz-box-shadow: inset 0 0 10px rgba(0,0,0,.8); -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.8); box-shadow: inset 0 0 10px rgba(0,0,0,.8); background: #fff; }
