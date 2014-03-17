@@ -1,38 +1,17 @@
 <div class="container">
-<div class="row">
-    <div class="black-panel col-xs-12 stackfifty">
-        <div class="view-header">Company Portal</div>
+
+    <div data-ng-repeat="company in companies" class="white-panel col-xs-12 stackfour">
+        <li>Name: {{ company.name }}</li>
+        <li>City: {{ company.city }}</li>
+        <li>Email: {{ company.email }}</li>
+        <li>Github: {{ company.github }}</li>
+        <li>Resources: {{ company.resource_uri }}</li>
     </div>
-</div>
 
+    <div class="row">
+        <div class="black-panel col-xs-12 stackfifty">
+            <div class="view-header">Company Portal</div>
+        </div>
+    </div>
 
-<div class="row">
-    <div class="white-panel col-xs-12 stackone"></div>
-</div>
-
-
-<div class="row">
-  <div class="green-panel col-xs-12 stackone inset"></div>
-</div>
-
-
-<div class="row">
-    <div class="black-panel col-xs-12 col-sm-3 stacktwo inset"></div>
-    <div class="col-xs-0 col-sm-1 stacktwo"></div>
-    <div class="white-panel col-xs-12 col-sm-8 stacktwo"></div>
-</div>
-
-
-<div class="row">
-    <div class="green-panel col-xs-12 col-sm-6 stackthree inset"></div>
-    <div class="col-xs-0 col-sm-1"></div>
-    <div class="green-panel col-xs-12 col-sm-5 stackthree inset"></div>
-</div>
-
-
-<div class="row">
-    <div class="white-panel col-xs-12 col-sm-8 stacktwo"></div>
-    <div class="col-xs-0 col-sm-1"></div>
-    <div class="green-panel col-xs-12 col-sm-3 stacktwo inset"></div>
-</div>
 </div>

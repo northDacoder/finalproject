@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
-from company_app.models import Company, CompanyProject, Language
+from company_app.models import CompanyProject, Language
 
 
 class Developer(models.Model):

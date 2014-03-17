@@ -1,7 +1,8 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.forms import ModelForm
-from developer_app.models import Developer, Project
+from developer_app.models import Developer, DeveloperProject
+
 
 class DeveloperForm(ModelForm):
     class Meta:
@@ -10,7 +11,7 @@ class DeveloperForm(ModelForm):
 
 class ProjectForm(ModelForm):
     class Meta:
-        model = Project
+        model = DeveloperProject
 
 
 

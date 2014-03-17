@@ -1,0 +1,3 @@
+function addDeveloperController($scope, $http) {
+
+};

@@ -5,7 +5,7 @@ from tastypie.bundle import Bundle
 from tastypie.fields import CharField
 from tastypie.resources import ModelResource, Resource
 from developer_app.api.authorization import UserObjectsOnlyAuthorization
-from developer_app.models import Project, Developer
+from developer_app.models import DeveloperProject, Developer
 
 
 class DeveloperResource(ModelResource):
@@ -18,7 +18,7 @@ class DeveloperResource(ModelResource):
 
 class DeveloperProjectResource(ModelResource):
     class Meta:
-        queryset = Project.objects.all()
+        queryset = DeveloperProject.objects.all()
         resource_name = "developerproject"
         # authorization = Authorization()
 
