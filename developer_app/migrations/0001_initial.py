@@ -13,7 +13,14 @@ class Migration(SchemaMigration):
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=100)),
             ('city', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('state', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('email', self.gf('django.db.models.fields.URLField')(max_length=1000)),
+            ('age', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('posted', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('github', self.gf('django.db.models.fields.URLField')(max_length=1000)),
+            ('description', self.gf('django.db.models.fields.CharField')(max_length=6000)),
+            ('cover', self.gf('django.db.models.fields.files.ImageField')(max_length=100)),
+            ('screenshot', self.gf('django.db.models.fields.files.ImageField')(max_length=100)),
             ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['auth.User'])),
         ))
         db.send_create_signal(u'developer_app', ['Developer'])
@@ -30,9 +37,12 @@ class Migration(SchemaMigration):
         # Adding model 'DeveloperProject'
         db.create_table(u'developer_app_developerproject', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('project_name', self.gf('django.db.models.fields.CharField')(max_length=1000)),
+            ('created', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('developer', self.gf('django.db.models.fields.related.ForeignKey')(related_name='projects', to=orm['developer_app.Developer'])),
             ('company_project', self.gf('django.db.models.fields.related.ForeignKey')(related_name='developer_projects', to=orm['company_app.CompanyProject'])),
-            ('name', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('project_screenshot', self.gf('django.db.models.fields.files.ImageField')(max_length=100)),
+            ('description', self.gf('django.db.models.fields.CharField')(max_length=6000)),
             ('completed', self.gf('django.db.models.fields.BooleanField')()),
         ))
         db.send_create_signal(u'developer_app', ['DeveloperProject'])
@@ -82,19 +92,27 @@ class Migration(SchemaMigration):
         u'company_app.company': {
             'Meta': {'object_name': 'Company'},
             'city': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'cover': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'}),
+            'description': ('django.db.models.fields.CharField', [], {'max_length': '6000'}),
             'email': ('django.db.models.fields.EmailField', [], {'max_length': '75'}),
             'github': ('django.db.models.fields.URLField', [], {'max_length': '1000'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'posted': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'screenshot': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'}),
+            'state': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'user': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['auth.User']"})
         },
         u'company_app.companyproject': {
             'Meta': {'object_name': 'CompanyProject'},
             'company': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Company']"}),
             'completed': ('django.db.models.fields.BooleanField', [], {}),
+            'created': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'description': ('django.db.models.fields.CharField', [], {'max_length': '6000'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'language': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['company_app.Language']"}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
+            'project_name': ('django.db.models.fields.CharField', [], {'max_length': '1000'}),
+            'project_screenshot': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'})
         },
         u'company_app.language': {
             'Meta': {'object_name': 'Language'},
@@ -110,20 +128,30 @@ class Migration(SchemaMigration):
         },
         u'developer_app.developer': {
             'Meta': {'object_name': 'Developer'},
+            'age': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'city': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'cover': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'}),
+            'description': ('django.db.models.fields.CharField', [], {'max_length': '6000'}),
+            'email': ('django.db.models.fields.URLField', [], {'max_length': '1000'}),
             'github': ('django.db.models.fields.URLField', [], {'max_length': '1000'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'languages': ('django.db.models.fields.related.ManyToManyField', [], {'to': u"orm['company_app.Language']", 'symmetrical': 'False'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
+            'posted': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'screenshot': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'}),
+            'state': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'user': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['auth.User']"})
         },
         u'developer_app.developerproject': {
             'Meta': {'object_name': 'DeveloperProject'},
             'company_project': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'developer_projects'", 'to': u"orm['company_app.CompanyProject']"}),
             'completed': ('django.db.models.fields.BooleanField', [], {}),
+            'created': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
+            'description': ('django.db.models.fields.CharField', [], {'max_length': '6000'}),
             'developer': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'projects'", 'to': u"orm['developer_app.Developer']"}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
+            'project_name': ('django.db.models.fields.CharField', [], {'max_length': '1000'}),
+            'project_screenshot': ('django.db.models.fields.files.ImageField', [], {'max_length': '100'})
         }
     }
 

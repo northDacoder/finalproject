@@ -6,8 +6,14 @@ from django.db import models
 class Company(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
+    description = models.CharField(max_length=6000)
+    email = models.URLField(max_length=1000)
+    posted = models.DateTimeField(auto_now=True)
     github = models.URLField(max_length=1000)
     email = models.EmailField(null=False)
+    cover = models.ImageField(upload_to="images/company_coverphoto")
+    screenshot = models.ImageField(upload_to="images/company_screenshot")
     user = models.ForeignKey(User)
 
     def __unicode__(self):
@@ -22,10 +28,13 @@ class Language(models.Model):
 
 
 class CompanyProject(models.Model):
+    project_name = models.CharField(max_length=1000)
+    created = models.DateTimeField(auto_now=True)
     company = models.ForeignKey(Company)
-    name = models.CharField(max_length=100)
     language = models.ForeignKey(Language)
     completed = models.BooleanField()
+    project_screenshot = models.ImageField(upload_to="images/developer_screenshot")
+    description = models.CharField(max_length=6000)
 
     def __unicode__(self):
         return self.name
