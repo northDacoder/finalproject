@@ -8,12 +8,11 @@ class Company(models.Model):
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
     description = models.CharField(max_length=6000)
-    email = models.URLField(max_length=1000)
     posted = models.DateTimeField(auto_now=True)
     github = models.URLField(max_length=1000)
     email = models.EmailField(null=False)
     cover = models.ImageField(upload_to="images/company_coverphoto")
-    screenshot = models.ImageField(upload_to="images/company_screenshot")
+    screenshot = models.ImageField(upload_to="images/company_screenshots")
     user = models.ForeignKey(User)
 
     def __unicode__(self):
@@ -33,7 +32,7 @@ class CompanyProject(models.Model):
     company = models.ForeignKey(Company)
     language = models.ForeignKey(Language)
     completed = models.BooleanField()
-    project_screenshot = models.ImageField(upload_to="images/developer_screenshot")
+    project_screenshot = models.ImageField(upload_to="images/developer_screenshots")
     description = models.CharField(max_length=6000)
 
     def __unicode__(self):

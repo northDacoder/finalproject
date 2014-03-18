@@ -14,7 +14,7 @@ class Developer(models.Model):
     languages = models.ManyToManyField(Language)
     description = models.CharField(max_length=6000)
     cover = models.ImageField(upload_to="images/developer_coverphoto")
-    screenshot = models.ImageField(upload_to="images/developer_screenshot")
+    screenshot = models.ImageField(upload_to="images/developer_screenshots")
     user = models.ForeignKey(User)
 
     def __unicode__(self):
@@ -26,7 +26,7 @@ class DeveloperProject(models.Model):
     created = models.DateTimeField(auto_now=True)
     developer = models.ForeignKey(Developer, related_name="projects")
     company_project = models.ForeignKey(CompanyProject, related_name="developer_projects")
-    project_screenshot = models.ImageField(upload_to="images/developer_screenshot")
+    project_screenshot = models.ImageField(upload_to="images/developer_screenshots")
     description = models.CharField(max_length=6000)
     completed = models.BooleanField()
 
