@@ -36,4 +36,4 @@ class CompanyProject(models.Model):
     description = models.TextField(max_length=6000)
 
     def __unicode__(self):
-        return self.name
+        return self.project_name
