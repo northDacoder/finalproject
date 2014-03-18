@@ -1,23 +1,25 @@
 <div class="container">
-    <div class="bar bar-header bar-royal">
-       <h1>Mobile Header</h1>
-    </div>
+
     <div class="jumbotron">
-        <h1>Company Portal</h1>
+        <h1>{{ company.name }}</h1>
     </div>
 
-    <div class="black-panel stackfive cushion">
+    <div class="jumbotron">
+        <div class="white-panel stackfive cushion">
 
-        <div data-ng-repeat="company in companies">
-            <h1>Name: </h1><h2>{{  company.name }}</h2>
-            <p class="bg-success">City: {{ company.city }}</p>
-            <p class="bg-success">State: {{ company.state }}</p>
-            <p class="bg-info"><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></p>
-            <p class="bg-warning"><a href="{{ company.github }}">Github: {{ company.github }}</a></p>
-            <p class="bg-danger">Description: {{ company.description }}</p>
-            <p class="bg-danger">Posted: {{ company.posted }}</p>
-            <p class="bg-danger">cover: {{ company.cover }}</p>
-            <p class="bg-danger">screenshot: {{ company.screenshot }}</p>
+            <div data-ng-repeat="company in companies" class="companyProfile">
+                <h1>{{  company.name }}</h1>
+                <div class="list-group companyAddress">
+                    <div class="list-group-item-primary">{{ company.city }}, {{ company.state }}</div>
+                </div>
+                <p class="companyDescription">{{ company.description }}</p>
+                <p class="bg-success"><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></p>
+                <p class="bg-primary"><a href="{{ company.github }}">Github: {{ company.github }}</a></p>
+                <!-- <p class="bg-danger">Posted: {{ company.posted }}</p> -->
+                <p class="bg-danger">cover: {{ company.cover }}</p>
+                <p class="bg-danger">screenshot: {{ company.screenshot }}</p>
+            </div>
+
         </div>
 
     </div>
