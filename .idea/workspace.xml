@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company_app/admin.py" afterPath="$PROJECT_DIR$/company_app/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/admin.py" afterPath="$PROJECT_DIR$/developer_app/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company_app/models.py" afterPath="$PROJECT_DIR$/company_app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/models.py" afterPath="$PROJECT_DIR$/developer_app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
             <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/company_app/models.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="10" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.10562181" vertical-offset="73" max-vertical-offset="660">
+                  <state line="5" column="28" selection-start="130" selection-end="130" vertical-scroll-proportion="0.10221465" vertical-offset="0" max-vertical-offset="660">
                     <folding />
                   </state>
                 </provider>
@@ -59,16 +59,16 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="132" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="16" column="46" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="120" selection-start="258" selection-end="258" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="472">
+            <state line="16" column="56" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -119,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="600">
+            <state line="14" column="29" selection-start="556" selection-end="556" vertical-scroll-proportion="0.3644068" vertical-offset="38" max-vertical-offset="600">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -190,10 +190,10 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/index.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developer.html" />
-        <option value="$PROJECT_DIR$/developer_app/models.py" />
+        <option value="$PROJECT_DIR$/company_app/admin.py" />
         <option value="$PROJECT_DIR$/developer_app/admin.py" />
         <option value="$PROJECT_DIR$/company_app/models.py" />
-        <option value="$PROJECT_DIR$/company_app/admin.py" />
+        <option value="$PROJECT_DIR$/developer_app/models.py" />
       </list>
     </option>
   </component>
@@ -973,22 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="132" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="600">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/developer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="34" selection-start="413" selection-end="413" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
@@ -996,17 +980,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company_app/models.py">
+    <entry file="file://$PROJECT_DIR$/company_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.10562181" vertical-offset="73" max-vertical-offset="660">
+        <state line="16" column="56" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company_app/admin.py">
+    <entry file="file://$PROJECT_DIR$/company_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="120" selection-start="258" selection-end="258" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="472">
+        <state line="5" column="28" selection-start="130" selection-end="130" vertical-scroll-proportion="0.10221465" vertical-offset="0" max-vertical-offset="660">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="556" selection-end="556" vertical-scroll-proportion="0.3644068" vertical-offset="38" max-vertical-offset="600">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@ from django.contrib import admin
 from developer_app.models import Developer, DeveloperProject
 
 class DeveloperAdmin(admin.ModelAdmin):
-    list_display = ("name", "city", "state", "email", "age", "posted", "github", "languages", "description", "cover", "screenshot", "user")
+    list_display = ("name", "city", "state", "email", "age", "posted", "github", "description", "cover", "screenshot", "user")
     search_fields = ("name",)
     #readonly_fields = ("user",)
 

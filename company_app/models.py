@@ -7,7 +7,7 @@ class Company(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
-    description = models.CharField(max_length=6000)
+    description = models.TextField(max_length=6000)
     posted = models.DateTimeField(auto_now=True)
     github = models.URLField(max_length=1000)
     email = models.EmailField(null=False)
@@ -33,7 +33,7 @@ class CompanyProject(models.Model):
     language = models.ForeignKey(Language)
     completed = models.BooleanField()
     project_screenshot = models.ImageField(upload_to="images/developer_screenshots")
-    description = models.CharField(max_length=6000)
+    description = models.TextField(max_length=6000)
 
     def __unicode__(self):
         return self.name
