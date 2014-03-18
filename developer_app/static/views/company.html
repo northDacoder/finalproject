@@ -1,5 +1,7 @@
 <div class="container">
-
+    <div class="bar bar-header bar-royal">
+       <h1>Mobile Header</h1>
+    </div>
     <div class="jumbotron">
         <h1>Company Portal</h1>
     </div>
@@ -7,11 +9,15 @@
     <div class="black-panel stackfive cushion">
 
         <div data-ng-repeat="company in companies">
-            <p class="bg-danger">Name: {{ company.name }}</p>
+            <h1>Name: </h1><h2>{{  company.name }}</h2>
             <p class="bg-success">City: {{ company.city }}</p>
-            <p class="bg-info">Email: {{ company.email }}</p>
-            <p class="bg-warning">Github: {{ company.github }}</p>
-            <p class="bg-danger">Resources: {{ company.resource_uri }}</p>
+            <p class="bg-success">State: {{ company.state }}</p>
+            <p class="bg-info"><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></p>
+            <p class="bg-warning"><a href="{{ company.github }}">Github: {{ company.github }}</a></p>
+            <p class="bg-danger">Description: {{ company.description }}</p>
+            <p class="bg-danger">Posted: {{ company.posted }}</p>
+            <p class="bg-danger">cover: {{ company.cover }}</p>
+            <p class="bg-danger">screenshot: {{ company.screenshot }}</p>
         </div>
 
     </div>
