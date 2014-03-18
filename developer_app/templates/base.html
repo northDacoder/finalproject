@@ -7,7 +7,7 @@
     <title>MVPrototype</title>
 
     <!-- Mobile Meta Tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     <!-- Bootstrap CSS Files -->
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
@@ -49,75 +49,44 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
+
+        {% block header %}
+          {% if user.is_authenticated %}
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">mvprototype</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Profile</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">{{ user.username }}</li>
+                <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
+                <li><a href="{% url 'auth_logout' %}">Log out</a></li>
               </ul>
             </li>
+            <li class="active"><a href="#/developer">Developer</a></li>
+            <li><a href="#/company">Company</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-{#    <div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">#}
-{#        <div class="container">#}
-{#            <div class="navbar-header">#}
-{##}
-{#            {% block header %}#}
-{#                {% if user.is_authenticated %}#}
-{##}
-{#                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">#}
-{#                    <span class="sr-only">Toggle navigation</span>#}
-{#                    <span class="icon-bar"></span>#}
-{#                    <span class="icon-bar"></span>#}
-{#                    <span class="icon-bar"></span>#}
-{#                </button>#}
-{#                <a class="navbar-brand" href="#">mvproto</a>#}
-{#            </div>#}
-{##}
-{#            <ul class="nav nav-pills">#}
-{#          <div class="navbar-collapse collapse">#}
-{#                <ul class="nav navbar-nav">#}
-{#                    <li class="active"><a href="#">mvProto</a></li>#}
-{#                    <li><a href="#/developer">Developer</a></li>#}
-{#                    <li><a href="#/company">Company</a></li>#}
-{#                    <li class="dropdown">#}
-{#                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>#}
-{#                        <ul class="dropdown-menu">#}
-{#                            <li><a href="#">Profile</a></li>#}
-{#                            <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>#}
-{#                            <li><a href="{% url 'auth_logout' %}">Log out</a></li>#}
-{#                        </ul>#}
-{#                    </li>#}
-{#                </ul>#}
-{#            </div>#}
-{##}
-{#            {% else %}#}
-{#                <!-- Log In Button -->#}
-{#                <a href="{% url 'auth_login' %}"><p class="loginText" id="loginTextMain">{% trans "Log in" %}</p></a>#}
-{#            {% endif %}#}
-{#            {% endblock %}#}
-{#         </div>#}
-{#    </div>#}
+
+    {% else %}
+        <!-- Log In Button -->
+        <a href="{% url 'auth_login' %}"><p class="loginText" id="loginTextMain"></p></a>
+    {% endif %}
+
+    {% endblock %}
+
 
     <div id="content" class="container">
         {% block content %}
