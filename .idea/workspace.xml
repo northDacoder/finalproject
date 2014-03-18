@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/addDeveloperController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/addDeveloperController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/app.js" afterPath="$PROJECT_DIR$/developer_app/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/company.html" afterPath="$PROJECT_DIR$/developer_app/static/views/company.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/contact.html" afterPath="$PROJECT_DIR$/developer_app/static/views/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -69,7 +66,7 @@
       <file leaf-file-name="company.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="78" selection-start="858" selection-end="858" vertical-scroll-proportion="0.74561405" vertical-offset="0" max-vertical-offset="495">
+            <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.045592707" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -87,7 +84,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="38" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-4.7818184" vertical-offset="397" max-vertical-offset="765">
+            <state line="44" column="75" selection-start="2471" selection-end="2471" vertical-scroll-proportion="-4.7818184" vertical-offset="397" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -1146,14 +1143,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-4.7818184" vertical-offset="397" max-vertical-offset="765">
+        <state line="44" column="75" selection-start="2471" selection-end="2471" vertical-scroll-proportion="-4.7818184" vertical-offset="397" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/company.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="78" selection-start="858" selection-end="858" vertical-scroll-proportion="0.74561405" vertical-offset="0" max-vertical-offset="495">
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.045592707" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>

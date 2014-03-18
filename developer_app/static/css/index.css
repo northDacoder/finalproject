@@ -41,6 +41,7 @@ div.black-panel { background: #333; margin-bottom: 30px; -moz-box-shadow:    ins
 
 .devContainer { background: #3c3c3c; }
 
-.companyProfile h1 { color: #333; text-align: center; font-family: monospace, serif; }
+.companyProfile { color: #333; }
+.companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
 .companyAddress { text-align: center; }
 .companyDescription { width: 80%; margin: 10px auto; background: lightcoral; }

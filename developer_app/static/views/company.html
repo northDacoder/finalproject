@@ -1,23 +1,33 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1>{{ company.name }}</h1>
-    </div>
-
-    <div class="jumbotron">
-        <div class="white-panel stackfive cushion">
+        <div class="black-panel cushion">
 
             <div data-ng-repeat="company in companies" class="companyProfile">
-                <h1>{{  company.name }}</h1>
-                <div class="list-group companyAddress">
-                    <div class="list-group-item-primary">{{ company.city }}, {{ company.state }}</div>
+                <div class="white-panel stacktwo cushion">
+                    <h1>{{  company.name }}</h1>
+
+                    <div class="list-group companyAddress">
+                        <div class="list-group-item-success">{{ company.city }}, {{ company.state }}</div>
+                        <div class="list-group-item-success">{{ company.description }}</div>
+                    </div>
                 </div>
-                <p class="companyDescription">{{ company.description }}</p>
-                <p class="bg-success"><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></p>
-                <p class="bg-primary"><a href="{{ company.github }}">Github: {{ company.github }}</a></p>
-                <!-- <p class="bg-danger">Posted: {{ company.posted }}</p> -->
-                <p class="bg-danger">cover: {{ company.cover }}</p>
-                <p class="bg-danger">screenshot: {{ company.screenshot }}</p>
+
+                <div class="white-panel cushion">
+                    <h2>Reach out!</h2>
+                    <div class="list-group">
+                        <div class="list-group-item-success"><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></div>
+                        <div class="list-group-item-success"><a href="{{ company.github }}">Github: {{ company.github }}</a></div>
+                    </div>
+                </div>
+
+                <div class="white-panel cushion">
+                    <h2>Check us out!</h2>
+                    <div class="list-group">
+                        <div class="list-group-item-success">cover: {{ company.cover }}</div>
+                        <div class="list-group-item-success">screenshot: {{ company.screenshot }}</div>
+                    </div>
+                </div>
             </div>
 
         </div>
