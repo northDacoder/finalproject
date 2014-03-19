@@ -63,19 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addCompanyProject.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="addCompanyProject.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="123" selection-start="989" selection-end="1113" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="600">
+            <state line="16" column="29" selection-start="515" selection-end="515" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="652">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addDeveloperProject.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addDeveloperProject.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="600">
+            <state line="16" column="28" selection-start="515" selection-end="515" vertical-scroll-proportion="-3.0379746" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -179,8 +179,8 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
       </list>
     </option>
   </component>
@@ -1057,16 +1057,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="123" selection-start="989" selection-end="1113" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="600">
+        <state line="16" column="28" selection-start="515" selection-end="515" vertical-scroll-proportion="-3.0379746" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="600">
+        <state line="16" column="29" selection-start="515" selection-end="515" vertical-scroll-proportion="0.36809817" vertical-offset="0" max-vertical-offset="652">
           <folding />
         </state>
       </provider>
