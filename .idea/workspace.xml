@@ -4,6 +4,7 @@
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" afterPath="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" afterPath="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -66,7 +67,7 @@
       <file leaf-file-name="addCompanyProject.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="916" selection-end="916" vertical-scroll-proportion="0.5981595" vertical-offset="0" max-vertical-offset="652">
+            <state line="21" column="30" selection-start="707" selection-end="707" vertical-scroll-proportion="0.48312885" vertical-offset="0" max-vertical-offset="652">
               <folding />
             </state>
           </provider>
@@ -75,7 +76,7 @@
       <file leaf-file-name="addDeveloperProject.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="905" selection-end="905" vertical-scroll-proportion="-4.936709" vertical-offset="0" max-vertical-offset="600">
+            <state line="21" column="30" selection-start="696" selection-end="696" vertical-scroll-proportion="-3.987342" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -84,7 +85,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="40" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="524" max-vertical-offset="1260">
+            <state line="62" column="22" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
@@ -1052,21 +1053,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="40" selection-start="3842" selection-end="3842" vertical-scroll-proportion="0.0" vertical-offset="524" max-vertical-offset="1260">
+        <state line="62" column="22" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="905" selection-end="905" vertical-scroll-proportion="-4.936709" vertical-offset="0" max-vertical-offset="600">
+        <state line="21" column="30" selection-start="696" selection-end="696" vertical-scroll-proportion="-3.987342" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="916" selection-end="916" vertical-scroll-proportion="0.5981595" vertical-offset="0" max-vertical-offset="652">
+        <state line="21" column="30" selection-start="707" selection-end="707" vertical-scroll-proportion="0.48312885" vertical-offset="0" max-vertical-offset="652">
           <folding />
         </state>
       </provider>
