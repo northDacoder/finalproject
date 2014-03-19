@@ -1,17 +1,17 @@
 <div class="row">
 
-    <div class="jumbotron"><h1>Developers</h1></div>
+    <div class="jumbotron pearl-panel">
+        <h1>Find a developer</h1>
+        <input type="text" placeholder="Filter by..." ng-model="name">
+    </div>
 
-    <input type="text" ng-model="name">
 
-    <div class="teal-panel cushionfifty inset">
+        <div ng-repeat="developer in developers | filter:name" class="teal-panel boxie developerProfile">
 
-        <div ng-repeat="developer in developers | filter:name" class="developerProfile">
-
-            <div class="black-panel cushion">
+            <div class="cushion">
                 <h1>{{ developer.name }}</h1>
 
-                <div class="companyAddress cushion">
+                <div class="companyAddress coral-panel cushion">
                     <div>{{ developer.age }}</div>
                     <div>{{ developer.city }}, {{ developer.state }}</div>
                     <div>{{ developer.description }}</div>
@@ -20,26 +20,25 @@
 
                 <h2>Reach out!</h2>
 
-                <div class="cushion">
+                <div class="coral-panel cushion">
                     <div><a href="mailto:{{ developer.email }}">Email: {{ developer.email }}</a></div>
                     <div><a href="{{ developer.github }}">Github: {{ developer.github }}</a></div>
                 </div>
 
                 <h2>Check us out!</h2>
 
-                <div class="cushion">
+                <div class="coral-panel cushion">
                     <div>cover: {{ developer.cover }}</div>
                     <div>screenshot: {{ developer.screenshot }}</div>
                 </div>
 
                 <h2>Showcase</h2>
 
-                <div class="cushion">
+                <div class="coral-panel cushion">
                     <div><img ng-src="{{ developer.cover }}"></div>
                     <div><img ng-src="{{ developer.screenshot }}"></div>
                 </div>
             </div>
         </div>
 
-    </div>
 </div>
