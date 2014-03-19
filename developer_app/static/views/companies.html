@@ -1,0 +1,36 @@
+<div class="row">
+
+    <div class="jumbotron"><h1>Companies</h1></div>
+
+    <input type="text" ng-model="name">
+
+    <div class="navy-panel cushionfifty">
+
+        <div data-ng-repeat="company in companies | filter:name" class="companyProfile">
+                <div class="pearl-panel cushionfifty cushion">
+                    <h1>{{  company.name }}</h1>
+
+                    <div class="companyAddress white-panel cushion">
+                        <div>{{ company.city }}, {{ company.state }}</div>
+                        <div>{{ company.description }}</div>
+                    </div>
+
+                    <h2>Reach out!</h2>
+                    <div class="white-panel cushion">
+                        <div><a href="mailto:{{ company.email }}">Email: {{ company.email }}</a></div>
+                        <div><a href="{{ company.github }}">Github: {{ company.github }}</a></div>
+                    </div>
+
+                    <h2>Check us out!</h2>
+                    <div class="white-panel cushion">
+                        <div>cover: {{ company.cover }}</div>
+                        <div>screenshot: {{ company.screenshot }}</div>
+                    </div>
+                </div>
+            </div>
+
+         <div data-ng-repeat="project in projects" class="companyProject">
+
+        </div>
+    </div>
+</div>
