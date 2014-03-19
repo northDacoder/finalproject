@@ -58,6 +58,8 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 
 .devContainer { background: #3c3c3c; }
 
+.jumbotron { color: #555555; }
+.jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
 
 .companyProfile, .developerProfile { color: white; }
 .companyProfile a { color: white; }
@@ -69,9 +71,7 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .developerProfile a { color: white; }
 .developerAddress { text-align: center; }
 .developerDescription { width: 80%; margin: 10px auto; background: lightcoral; }
-
 .developerProfile div { color: white; }
 
-.jumbotron { color: #555555; }
-.jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
-
+#addDevProject a { color: white; }
+#addCompProject a { color: white; }
