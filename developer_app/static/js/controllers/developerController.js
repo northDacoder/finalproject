@@ -5,25 +5,17 @@ function developerController($scope, $http) {
         $scope.developers = data.objects;
     });
 
-}
+    $scope.addDeveloperProject = function() {
+        console.log($scope.user);
+        $http.post('api/v1/developer/', $scope.user).success(function(){
+            alert('Add a developer project?');
+        });
+    }
 
-//    }).error(function(data){
-//        console.log("You have an error in your code");
-//    });
-//
-//
-//    $scope.user = {'klass': "api/v1/company/1/", 'projects':[]};
-//
-//    $scope.addDeveloper = function() {
-//        console.log($scope.user);
-//        $http.post('api/v1/developer/', $scope.user).success(function(){
-//            alert('Add a Developer?');
-//        });
-//    }
-//
-//    $scope.deleteDeveloper = function() {
-//        console.log($scope.user);
-//        $http.delete('api/v1/developer/', $scope.user).success(function(){
-//            alert('You are trying to delete a Developer!');
-//        });
-//    }
+    $scope.deleteDeveloperProject = function() {
+        console.log($scope.user);
+        $http.delete('api/v1/developer/', $scope.user).success(function(){
+            alert('You are trying to delete a developer project!');
+        });
+    }
+}
