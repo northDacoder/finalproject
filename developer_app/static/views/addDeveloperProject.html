@@ -1,0 +1,24 @@
+<div class="row">
+
+    <div class="heading">Add Developer Project</div>
+
+    <!-- Add Student Form to POST -->
+    <form ng-submit="addDeveloperProject()">
+
+        <div>Project name</div>
+        <input placeholder="Project name" ng-model="user.project_name">
+
+        <div>Project Screenshot</div>
+        <input placeholder="" ng-model="user.project_screenshot">
+
+        <div>Description</div>
+        <input placeholder="Description..." ng-model="user.description">
+
+        <div>Completed</div>
+        <input placeholder="Completed? True or False" ng-model="user.completed">
+
+        <div><button>Submit Developer Project</button></div>
+    </form>
+
+</div>
+
