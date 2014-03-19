@@ -27,6 +27,7 @@ div.black-panel { background: #333; margin-bottom: 30px; -moz-box-shadow:    ins
 .stackfive { height: 500px; }
 .stacksidebar { height: 900px; }
 .cushion { padding: 25px; }
+.navcushion { padding: 0 20px; }
 .space { margin: 25px; }
 
 .inset { -moz-box-shadow: inset 0 0 10px #333; -webkit-box-shadow: inset 0 0 10px #333; box-shadow: inset 0 0 10px #333;}

@@ -1,10 +1,9 @@
-<div class="container">
+<div class="row">
 
-    <div class="jumbotron">
-        <div class="black-panel cushion">
+    <div class="black-panel cushion">
 
-            <div data-ng-repeat="company in companies" class="companyProfile">
-                <div class="white-panel stacktwo cushion">
+        <div data-ng-repeat="company in companies" class="companyProfile">
+                <div class="white-panel cushion">
                     <h1>{{  company.name }}</h1>
 
                     <div class="list-group companyAddress">
@@ -30,11 +29,8 @@
                 </div>
             </div>
 
-            <div data-ng-repeat="project in projects" class="companyProject">
+         <div data-ng-repeat="project in projects" class="companyProject">
 
-            </div>
         </div>
-
     </div>
-
 </div>
