@@ -5,4 +5,18 @@
 
         <p class="loginText">{% trans "Logged out" %}</p>
 
+         <form method="post" action="." class="loginForm">
+
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <input type="submit" class="btn btn-info" value="{% trans 'Login' %}" id="loginButton"/>
+
+            <input type="hidden" name="next" value="{{ next }}" />
+
+        </form>
+
+        <p class="loginText">{% trans "Forgot password" %}? <a href="{% url 'auth_password_reset' %}">{% trans "Reset it" %}</a></p>
+        <p class="loginText">{% trans "Not member" %}? <a href="{% url 'registration_register' %}">{% trans "Register" %}</a></p>
     {% endblock %}

@@ -10,7 +10,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .when('/login/activate', { templateUrl: '/static/views/registration/delete_developer.html', controller: 'loginController' })
         .when('/login/activation_complete', { templateUrl: '/static/views/registration/activation_complete.html', controller: 'loginController' })
         .when('/login', { templateUrl: '/static/views/registration/login.html', controller: 'loginController' })
-        .when('/login/logout', { templateUrl: '/static/views/registration/logout.html', controller: 'loginController' })
+        .when('/login/logout', { templateUrl: '/static/views/registration/login.html', controller: 'loginController' })
         .when('/account/password_change_done', { templateUrl: '/static/views/registration/password_change_done.html', controller: 'loginController' })
         .when('/account/password_change_form', { templateUrl: '/static/views/registration/password_change_form.html', controller: 'loginController' })
         .when('/account/password_reset_complete', { templateUrl: '/static/views/registration/password_reset_complete.html', controller: 'loginController' })
