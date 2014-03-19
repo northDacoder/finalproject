@@ -7,17 +7,17 @@
     <!-- Add Student Form to POST -->
     <form role="form" ng-submit="addDeveloperProject()" class="restform">
 
-        <div class="form-group">
+        <div class="form-group has-success has-feedback">
             <label>Project Name</label>
             <input type="text" placeholder="Project name" ng-model="user.project_name" class="form-control">
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-success has-feedback">
             <label>Description</label>
             <textarea class="form-control" ng-model="user.description" rows="4"></textarea>
         </div>
 
-        <select multiple class="form-control">
+        <select multiple class="form-control has-success has-feedback">
             <option>Javascript</option>
             <option>Python</option>
             <option>Django</option>
@@ -25,13 +25,13 @@
             <option>CSS</option>
         </select>
 
-        <div class="form-group">
+        <div class="form-group has-success has-feedback">
             <label>Upload Screenshot</label>
             <input type="url" ng-model="user.project_screenshot" class="form-control">
             <button type="submit" class="btn btn-default">Upload</button>
         </div>
 
-        <div class="form-group">
+        <div class="form-group has-success has-feedback">
             <label>Completed</label>
             <input type="text" placeholder="Completed? True or False" ng-model="user.completed" class="form-control">
         </div>
