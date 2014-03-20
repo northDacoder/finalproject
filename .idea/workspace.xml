@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="$PROJECT_DIR$/media/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_coverphoto/rocketucover.jpeg" afterPath="$PROJECT_DIR$/media/images/company_coverphoto/rocketucover.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_coverphoto/rudymeetup.JPG" afterPath="$PROJECT_DIR$/media/images/company_coverphoto/rudymeetup.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_coverphoto/rudymeetup_1.JPG" afterPath="$PROJECT_DIR$/media/images/company_coverphoto/rudymeetup_1.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_coverphoto/ubercover.jpg" afterPath="$PROJECT_DIR$/media/images/company_coverphoto/ubercover.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_screenshots/rocketuscreenshot.jpg" afterPath="$PROJECT_DIR$/media/images/company_screenshots/rocketuscreenshot.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_screenshots/rudymeetup.JPG" afterPath="$PROJECT_DIR$/media/images/company_screenshots/rudymeetup.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_screenshots/shield.jpg" afterPath="$PROJECT_DIR$/media/images/company_screenshots/shield.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/company_screenshots/uberbg.jpg" afterPath="$PROJECT_DIR$/media/images/company_screenshots/uberbg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_coverphoto/battlehack.png" afterPath="$PROJECT_DIR$/media/images/developer_coverphoto/battlehack.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_coverphoto/github120.png" afterPath="$PROJECT_DIR$/media/images/developer_coverphoto/github120.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_coverphoto/rocketucover.jpeg" afterPath="$PROJECT_DIR$/media/images/developer_coverphoto/rocketucover.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_coverphoto/rudymeetup.JPG" afterPath="$PROJECT_DIR$/media/images/developer_coverphoto/rudymeetup.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/gravatar.png" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/gravatar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/gravatar_1.png" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/gravatar_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/rocketucover.jpeg" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/rocketucover.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/rudymeetup.JPG" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/rudymeetup.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/rudymeetup_1.JPG" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/rudymeetup_1.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/rudymeetup_2.JPG" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/rudymeetup_2.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/shield.jpg" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/shield.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/developer_screenshots/ubercover.jpg" afterPath="$PROJECT_DIR$/media/images/developer_screenshots/ubercover.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/models.py" afterPath="$PROJECT_DIR$/developer_app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalproject/settings.py" afterPath="$PROJECT_DIR$/finalproject/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalproject/urls.py" afterPath="$PROJECT_DIR$/finalproject/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -28,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/finalproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="69" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1635">
+            <state line="95" column="62" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.5" vertical-offset="1230" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
@@ -40,7 +62,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1020">
+            <state line="45" column="12" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="825">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -51,7 +73,7 @@
       <file leaf-file-name="developers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="41" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-13.416667" vertical-offset="128" max-vertical-offset="750">
+            <state line="39" column="22" selection-start="1522" selection-end="1522" vertical-scroll-proportion="-8.416667" vertical-offset="383" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -60,7 +82,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="21" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="705">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -77,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="856" selection-end="856" vertical-scroll-proportion="0.6923077" vertical-offset="0" max-vertical-offset="630">
+            <state line="30" column="59" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -185,11 +207,11 @@
         <option value="$PROJECT_DIR$/developer_app/views.py" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
         <option value="$PROJECT_DIR$/company_app/models.py" />
-        <option value="$PROJECT_DIR$/finalproject/urls.py" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
-        <option value="$PROJECT_DIR$/finalproject/settings.py" />
         <option value="$PROJECT_DIR$/developer_app/models.py" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
+        <option value="$PROJECT_DIR$/finalproject/urls.py" />
+        <option value="$PROJECT_DIR$/finalproject/settings.py" />
       </list>
     </option>
   </component>
@@ -252,7 +274,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="developer_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,11 +392,11 @@
       <recent name="$PROJECT_DIR$/developer_app/static/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/developer_app/static/views" />
       <recent name="$PROJECT_DIR$/developer_app/templates" />
       <recent name="$PROJECT_DIR$/developer_app/static/css" />
       <recent name="$PROJECT_DIR$/company_app/static/views" />
-      <recent name="$PROJECT_DIR$/developer_app" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.finalproject">
@@ -901,7 +1005,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/developer_coverphoto/rudymeetup.JPG">
+    <entry file="file://$PROJECT_DIR$/media/images/developer_coverphoto/rudymeetup.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -936,6 +1040,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="57" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="59" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/company_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
@@ -945,23 +1065,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="41" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-13.416667" vertical-offset="128" max-vertical-offset="750">
+        <state line="39" column="22" selection-start="1522" selection-end="1522" vertical-scroll-proportion="-8.416667" vertical-offset="383" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="1020">
+        <state line="45" column="12" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="825">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -970,17 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finalproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="69" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1635">
+        <state line="95" column="62" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.5" vertical-offset="1230" max-vertical-offset="1635">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="856" selection-end="856" vertical-scroll-proportion="0.6923077" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

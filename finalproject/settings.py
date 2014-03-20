@@ -93,7 +93,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_MEDIA = '/media/'
-ROOT_MEDIA = '/Users/northDacoder/Desktop/Dropbox/finalproject/images/'
+MEDIA_ROOT = '/Users/northDacoder/Desktop/Dropbox/finalproject/'
 
 
 TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
