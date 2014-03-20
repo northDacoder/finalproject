@@ -5,7 +5,7 @@ from company_app.models import CompanyProject, Language
 
 class Developer(models.Model):
     name = models.CharField(max_length=100)
-    city = models.CharField(max_length=100)
+    city = models.CharField(max_length=100, blank=True, null=True)
     state = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
     phone = models.IntegerField(max_length=10, null=True, blank=False)
