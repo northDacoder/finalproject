@@ -2,7 +2,6 @@ from django.conf.urls import patterns, include, url
 from django.contrib.auth import views as auth_views
 from django.contrib import admin
 from django.conf import settings
-from django.conf.urls.static import static
 from registration.backends.simple.views import RegistrationView
 from tastypie.api import Api
 from company_app.api.resources import CompanyProjectResource, CompanyResource
@@ -43,7 +42,5 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += patterns('',
-    (r'^media/(?P<path>.*)$', 'django.views.static.serve',{
-        'document._root':settings.MEDIA_ROOT}))
-
-
+        (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+        'document_root': settings.MEDIA_ROOT}))
