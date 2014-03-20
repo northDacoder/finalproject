@@ -8,7 +8,6 @@
     <form role="form" ng-submit="addDeveloperProject()" class="form-horizontal restform">
 
         <div class="form-group has-success has-feedback">
-            <label>Project name</label>
             <input type="text" placeholder="Project name" ng-model="user.project_name" class="form-control">
         </div>
 
@@ -17,13 +16,17 @@
             <textarea class="form-control" ng-model="user.description" rows="4"></textarea>
         </div>
 
-        <select multiple class="form-control has-success has-feedback">
-            <option>Javascript</option>
-            <option>Python</option>
-            <option>Django</option>
-            <option>Angular</option>
-            <option>CSS</option>
-        </select>
+        <div class="form-group has-success">
+            <label>Languages</label>
+            <select multiple class="form-control has-success has-feedback">
+                <option>Javascript</option>
+                <option>Python</option>
+                <option>Django</option>
+                <option>Angular</option>
+                <option>CSS</option>
+            </select>
+        </div>
+            <br>
 
         <div class="form-group has-success has-feedback"">
             <label>Upload Screenshot</label>
