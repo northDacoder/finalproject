@@ -13,6 +13,10 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+    '/Users/northDacoder/Desktop/Dropbox/finalproject/developer_app/static/'
+)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
@@ -93,7 +97,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_MEDIA = '/media/'
-MEDIA_ROOT = '/Users/northDacoder/Desktop/Dropbox/finalproject/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/Users/northDacoder/Desktop/Dropbox/finalproject/media/'
 
 
 TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
