@@ -11,6 +11,7 @@ class Developer(models.Model):
     phone = models.IntegerField(max_length=10, null=True, blank=False)
     age = models.CharField(max_length=100)
     posted = models.DateTimeField(auto_now=True)
+    website = models.URLField(max_length=1000, blank=True, null=True)
     github = models.URLField(max_length=1000)
     languages = models.ManyToManyField(Language)
     description = models.TextField(max_length=6000)
