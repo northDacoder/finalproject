@@ -6,7 +6,7 @@ class Company(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
-    phone = models.IntegerField(max_length=10, blank=True, null=True)
+    phone = models.CharField(max_length=12, blank=True, null=True)
     description = models.TextField(max_length=6000)
     posted = models.DateTimeField(auto_now=True)
     website = models.URLField(max_length=1000, blank=True, null=True)
