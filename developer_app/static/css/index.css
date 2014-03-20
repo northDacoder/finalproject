@@ -78,3 +78,12 @@ input.descriptionbox { height: 100px; }
 
 h1.pageheader {color: #3c3c3c; font-size: 30px;}
 h1, h2 {color: #ffffff; font-size: 50px;}
+
+.img-screenshot {
+    width: 100%;
+    border: 2px solid #3c3c3c;
+}
+
+.img-overlay {
+    background: white;
+}

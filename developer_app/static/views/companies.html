@@ -7,6 +7,7 @@
 
 
         <div data-ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion">
+            <div class="img-overlay"><img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot"></div>
                 <div class="cushion">
                     <h1>{{  company.name }}</h1>
 
@@ -24,7 +25,6 @@
                     <div class="teal-panel boxie teal-panel cushion">
                         <h2>Check us out!</h2>
                         <div>cover: {{ company.cover }}</div>
-                        <div>screenshot: {{ company.screenshot }}</div>
                     </div>
                 </div>
             </div>

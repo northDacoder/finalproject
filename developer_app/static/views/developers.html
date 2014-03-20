@@ -9,28 +9,24 @@
         <div ng-repeat="developer in developers | filter:name" class="developerProfile">
 
             <div class="cushion">
-                <h1>{{ developer.name }}</h1>
-
-                <div class="companyAddress coral-panel cushion">
-                    <div>{{ developer.age }}</div>
-                    <div>{{ developer.city }}, {{ developer.state }}</div>
-                    <div>{{ developer.description }}</div>
-                    <div>{{ developer.languages }}</div>
+                <div>
+                    <img ng-src="{{ developer.cover }}" class="img-screenshot">
+                    <img ng-src="{{ developer.screenshot }}" class="img-cover">
+                    <div class="teal-panel">
+                        <div>{{ developer.age }}</div>
+                        <div>{{ developer.city }}, {{ developer.state }}</div>
+                        <div>{{ developer.description }}</div>
+                        <div>{{ developer.languages }}</div>
+                    </div>
                 </div>
 
-                <h2>Reach out!</h2>
-
                 <div class="coral-panel cushion">
-                    <div><a href="mailto:{{ developer.email }}">Email: {{ developer.email }}</a></div>
+                    <h2>Reach out!</h2>
+                    <div><a href="mailto:{{ developer.email }}">Email Me</a></div>
+                    <div><a href="tel:+"{{ developer.phone }}">Call Me</a></div>
                     <div><a href="{{ developer.github }}">Github: {{ developer.github }}</a></div>
                 </div>
 
-                <h2>Check us out!</h2>
-
-                <div class="coral-panel cushion">
-                    <div><img src="{{ developer.cover }}"/></div>
-                    <div><img src="{{ developer.screenshot }}"</div>
-                </div>
 
                 <h2>Showcase</h2>
 

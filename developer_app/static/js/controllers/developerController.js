@@ -1,7 +1,7 @@
 function developerController($scope, $http) {
     $http.get('api/v1/developer/?format=json').success(function(data){
-        console.log(data);
         $scope.developers = data.objects;
+        console.log($scope.developers);
     });
 
     $scope.addDeveloperProject = function() {
