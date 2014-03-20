@@ -1,5 +1,5 @@
 function developerProfileController($scope, $http, $routeParams) {
-     $http.get('api/v1/developers/' + $routeParams.id + '/?format=json').success(function(data){
+     $http.get('api/v1/developer/' + $routeParams.id + '/?format=json').success(function(data){
         console.log(data);
         $scope.userprofile = data.objects;
     });
@@ -11,11 +11,4 @@ function developerProfileController($scope, $http, $routeParams) {
         });
     }
 }
-//
-//    $scope.deleteDeveloperProject = function() {
-//        console.log($scope.user);
-//        $http.delete('api/v1/developerproject/', $scope.user).success(function(){
-//            alert('You are trying to delete a developer project!');
-//        });
-//    }
 
