@@ -9,7 +9,7 @@ class Developer(models.Model):
     city = models.CharField(max_length=100, blank=True, null=True)
     state = models.CharField(max_length=100, blank=True, null=True)
     email = models.EmailField(max_length=100, blank=True, null=True)
-    phone = models.IntegerField(max_length=14, null=True, blank=False)
+    phone = models.CharField(max_length=14, null=True, blank=False)
     posted = models.DateTimeField(auto_now=True)
     website = models.URLField(max_length=1000, blank=True, null=True)
     github = models.URLField(max_length=1000, blank=True, null=True)

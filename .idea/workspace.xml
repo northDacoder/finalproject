@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/models.py" afterPath="$PROJECT_DIR$/developer_app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -108,7 +103,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="521" selection-end="521" vertical-scroll-proportion="0.23672883" vertical-offset="0" max-vertical-offset="697">
+            <state line="11" column="28" selection-start="504" selection-end="504" vertical-scroll-proportion="0.23672883" vertical-offset="0" max-vertical-offset="697">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -1125,7 +1120,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="521" selection-end="521" vertical-scroll-proportion="0.23672883" vertical-offset="0" max-vertical-offset="697">
+        <state line="11" column="28" selection-start="504" selection-end="504" vertical-scroll-proportion="0.23672883" vertical-offset="0" max-vertical-offset="697">
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
