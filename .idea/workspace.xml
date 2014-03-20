@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/base.html" afterPath="$PROJECT_DIR$/developer_app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -28,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.637827" vertical-offset="763" max-vertical-offset="1260">
+            <state line="13" column="27" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companyController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -116,17 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/jquery/jquery-1.11.0.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31942" selection-start="96380" selection-end="96380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -176,7 +172,6 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/developerProfile.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/developerProfileController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/app.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/userController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/views/contact.html" />
@@ -191,6 +186,7 @@
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
+        <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
       </list>
     </option>
   </component>
@@ -1009,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="33" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -1179,7 +1168,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.637827" vertical-offset="763" max-vertical-offset="1260">
+        <state line="13" column="27" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.38235295" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
