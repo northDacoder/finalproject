@@ -15,8 +15,8 @@ class Developer(models.Model):
     github = models.URLField(max_length=1000)
     languages = models.ManyToManyField(Language)
     description = models.TextField(max_length=6000)
-    cover = models.ImageField(upload_to="images/developer_coverphoto")
-    screenshot = models.ImageField(upload_to="images/developer_screenshots")
+    cover = models.ImageField(upload_to="developer_coverphoto")
+    screenshot = models.ImageField(upload_to="/developer_screenshots")
     user = models.ForeignKey(User)
 
     def __unicode__(self):
