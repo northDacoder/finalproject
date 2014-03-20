@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" afterPath="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" afterPath="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" />
     </list>
     <ignored path="finalproject.iws" />
@@ -43,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addDeveloperProject.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addDeveloperProject.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="79" selection-start="215" selection-end="215" vertical-scroll-proportion="0.16913319" vertical-offset="25" max-vertical-offset="720">
+            <state line="30" column="14" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-12.208333" vertical-offset="157" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addCompanyProject.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="addCompanyProject.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="87" selection-start="221" selection-end="221" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
+            <state line="30" column="65" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.397463" vertical-offset="262" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -176,9 +177,9 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/user.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/api/resources.py" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
         <option value="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html" />
       </list>
     </option>
   </component>
@@ -1088,16 +1089,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="87" selection-start="221" selection-end="221" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="735">
+        <state line="30" column="14" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-12.208333" vertical-offset="157" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/addCompanyProject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="79" selection-start="215" selection-end="215" vertical-scroll-proportion="0.16913319" vertical-offset="25" max-vertical-offset="720">
+        <state line="30" column="65" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.397463" vertical-offset="262" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
