@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +47,7 @@
       <file leaf-file-name="companies.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="48" selection-end="48" vertical-scroll-proportion="0.063424945" vertical-offset="0" max-vertical-offset="630">
+            <state line="20" column="50" selection-start="908" selection-end="908" vertical-scroll-proportion="0.63424945" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -1174,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="48" selection-end="48" vertical-scroll-proportion="0.063424945" vertical-offset="0" max-vertical-offset="630">
+        <state line="20" column="50" selection-start="908" selection-end="908" vertical-scroll-proportion="0.63424945" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
