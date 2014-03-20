@@ -7,7 +7,7 @@ function developerController($scope, $http) {
 
     $scope.addDeveloperProject = function() {
         console.log($scope.user);
-        $http.post('api/v1/developer/', $scope.user).success(function(){
+        $http.post('api/v1/developers/', $scope.user).success(function(){
             alert('Add a developer project?');
         });
     }
