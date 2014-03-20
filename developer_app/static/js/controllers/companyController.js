@@ -11,12 +11,12 @@ function companyController($scope, $http) {
             alert('Add a company project?');
         });
     }
-
-    $scope.deleteCompanyProject = function() {
-        console.log($scope.user);
-        $http.delete('api/v1/companyr/', $scope.user).success(function(){
-            alert('You are trying to delete a company project!');
-        });
-    }
+//
+//    $scope.deleteCompanyProject = function() {
+//        console.log($scope.user);
+//        $http.delete('api/v1/company/', $scope.user).success(function(){
+//            alert('You are trying to delete a company project!');
+//        });
+//    }
 
 }
