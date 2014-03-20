@@ -12,6 +12,7 @@ class DeveloperResource(ModelResource):
     class Meta:
         queryset = Developer.objects.all()
         resource_name = "developer"
+        allowed_methods = ['get', 'post', 'put', 'patch']
         # authentication = BasicAuthentication()
         # authorization = UserObjectsOnlyAuthorization()
 
