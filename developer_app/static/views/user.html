@@ -1,13 +1,18 @@
-<div class="jumbotron"></div>
+<div class="row">
+    <div class="teal-panel jumbotron cushion stacktwo">
+        <h1>{{ profile.name }}</h1>
+        <span class="label label-info" id="addDevProject"><a href="#/addDeveloperProject">Add Project</a></span>
+    </div>
 
-<div class="jumbotron teal-panel cushion">
-   <h2>{{ profile.name }}</h2>
-   <h2>{{ profile.age }}</h2>
-   <h2>{{ profile.description }}</h2>
-   <h2>{{ profile.city }}</h2>
-   <h2>{{ profile.state }}</h2>
-   <h2>{{ profile.email }}</h2>
-   <h2>{{ profile.github }}</h2>
-   <h2>{{ profile.cover }}</h2>
-   <h2>{{ profile.screenshot }}</h2>
+    <div class="slate-panel cushion">
+        <h2>{{ profile.age }}</h2>
+        <h2>{{ profile.description }}</h2>
+        <h2>{{ profile.city }}</h2>
+        <h2>{{ profile.state }}</h2>
+        <h2>{{ profile.email }}</h2>
+        <h2>{{ profile.github }}</h2>
+        <h2>{{ profile.cover }}</h2>
+        <h2>{{ profile.screenshot }}</h2>
+    </div>
 </div>
+

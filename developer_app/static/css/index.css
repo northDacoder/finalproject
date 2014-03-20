@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; background: #e5e5e5; }
+body { margin: 0; padding: 0; background: #333; }
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
 form input { width: 100%; height: 50px; }
@@ -53,7 +53,7 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 
 .devContainer { background: #3c3c3c; }
 
-.jumbotron { color: #555555; }
+.jumbotron { color: #555555; margin-top: 70px;}
 .jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
 
 .companyProfile, .developerProfile { color: white; }
