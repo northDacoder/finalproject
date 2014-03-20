@@ -1,11 +1,58 @@
 <div class="row">
-    <div class="teal-panel jumbotron cushion stacktwo">
-        <h1>{{ profile.name }}</h1>
-        <span class="label label-info" id="addDevProject"><a href="#/addDeveloperProject">Add Project</a></span>
-    </div>
+    <div class="teal-panel jumbotron cushion">
 
-    <div class="coral-panel cushion">
-        <h2>{{ profile.age }}</h2>
+     <div class="profile-card">
+        <div class="profile-cover">
+            <div class="menu-container">
+                <a class="list-icon" title="Expand" href="javascript:void(0);"></a>
+                <ul class="profile-actions" style="display: none;">
+                    <li><a href="#">Follow</a></li>
+                    <li><a href="#">Add as Friend</a></li>
+                    <li><a href="#">Like</a></li>
+                </ul>
+            </div>
+            <div class="profile-avatar">
+                <div class="btns-container">
+                    <div class="profile-links">
+                        <a class="zoom-avatar" href="#"><img src="http://dl.dropboxusercontent.com/s/5liaxzvwbfuqzpo/zoom.png"></a>
+                        <a class="read-more" href="#"><img src="http://dl.dropboxusercontent.com/s/62dfoo9h44o58lw/more.png"></a>
+                    </div>
+                </div>
+                <a href="#"><img src="{{ profile.cover }}" /></a>
+            </div>
+            <div class="profile-details">
+                <h1>{{ profile.name }}</h1>
+                <h6>@{{ profile.name }}</h6>
+            </div>
+        </div>
+        <div class="profile-info" style="display: none;">
+            <h1>About Me</h1>
+            <div class="info-area">
+               {{ profile.description }}
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="profile-content">
+            <ul>
+                <li></li>
+                <li>
+                    <div class="digits">83</div>
+                    Followers
+                </li>
+                <li>
+                    <div class="digits">51</div>
+                    Likes
+                </li>
+                <li>
+                    <div class="digits">42</div>
+                    Gits
+                </li>
+                <li></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <span class="label label-info" id="addDevProject"><a href="#/addDeveloperProject">Add Project</a></span>
+        <div class="coral-panel">
         <h2>{{ profile.description }}</h2>
         <h2>{{ profile.city }}</h2>
         <h2>{{ profile.state }}</h2>
@@ -13,6 +60,23 @@
         <h2>{{ profile.github }}</h2>
         <h2>{{ profile.cover }}</h2>
         <h2>{{ profile.screenshot }}</h2>
+        </div>
+     </div>
+
+    <!--<div class="teal-panel jumbotron cushion stacktwo">
+        <h1>{{ profile.name }}</h1>
+        <h2>Age: {{ profile.age }}</h2>
+        <span class="label label-info" id="addDevProject"><a href="#/addDeveloperProject">Add Project</a></span>
     </div>
+
+    <div class="coral-panel cushion">
+        <h2>{{ profile.description }}</h2>
+        <h2>{{ profile.city }}</h2>
+        <h2>{{ profile.state }}</h2>
+        <h2>{{ profile.email }}</h2>
+        <h2>{{ profile.github }}</h2>
+        <h2>{{ profile.cover }}</h2>
+        <h2>{{ profile.screenshot }}</h2>
+    </div>-->
 </div>
 

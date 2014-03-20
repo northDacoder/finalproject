@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; background: #333; }
+body { margin: 0; padding: 0; background: #3c3c3c; }
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
 form input { width: 100%; height: 50px; }
@@ -47,13 +47,13 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 
 .view-header { text-align: center; margin: 10px; font-size: 30px; color: #fefefe; font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-.loginForm { color: #525252; font-size: 23px; margin: 10px 40px 15px; font-family: 'Helvetica Neue'; }
+.loginForm { color: #525252; font-size: 23px; margin: 10px 40px 15px; font-family: helvetica, arial, sans-serif; }
 .loginForm input[type="text"].hasError { background: #fefefe; border-color: #cb2027; box-shadow: rgba(255,0,0,0.35); position: relative; }
 .firstName, .lastName { float: left; width: 190px; }
 
 .devContainer { background: #3c3c3c; }
 
-.jumbotron { color: #555555; margin-top: 70px;}
+.jumbotron { color: #3c3c3c; }
 .jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
 
 .companyProfile, .developerProfile { color: white; }
