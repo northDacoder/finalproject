@@ -98,3 +98,5 @@ STATIC_MEDIA = '/media/'
 TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
 
 LOGIN_REDIRECT_URL = '/#'
+
+

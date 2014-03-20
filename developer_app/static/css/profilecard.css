@@ -12,7 +12,7 @@ h6 { font-size: 13px; }
     font: 12px "Myriad Pro";
 }
 .profile-card .profile-cover {
-    background: url('http://dl.dropboxusercontent.com/s/b9zehob0bif4zr0/newyork.jpg') no-repeat center;
+    background: url('../images/uberbg.jpg') no-repeat center;
     position: relative;
     height: 260px;
 
@@ -34,13 +34,11 @@ h6 { font-size: 13px; }
 }
 .profile-card .profile-cover:hover {
     filter: none;
-    filter: none;
     -webkit-filter: none;
 
 }
 .profile-card .profile-cover .profile-avatar {
     background: #ffffff;
-    border: 1px solid #eeeeee;
     border: 5px solid #ffffff;
     width: 150px;
     height: 150px;
@@ -117,7 +115,6 @@ h6 { font-size: 13px; }
     background: #e74c3c;
     color: #ffffff;
     padding: 10px;
-    font-family: Arial;
     text-align: justify;
 }
 .profile-card .profile-info h1 {

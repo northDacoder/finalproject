@@ -7,7 +7,7 @@ class Developer(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
-    email = models.URLField(max_length=1000)
+    email = models.EmailField(max_length=100)
     age = models.CharField(max_length=100)
     posted = models.DateTimeField(auto_now=True)
     github = models.URLField(max_length=1000)

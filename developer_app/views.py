@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from developer_app.forms import SignupForm, LoginForm
 
+
 def signup(request):
     if request.method == "POST":
         form = SignupForm(request.POST)
