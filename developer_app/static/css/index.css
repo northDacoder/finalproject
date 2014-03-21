@@ -68,6 +68,13 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .developerDescription { width: 80%; margin: 10px auto; background: lightcoral; }
 .developerProfile div { color: white; }
 
+.profiletext h1, h2, h3 {
+    color: #3c3c3c;
+}
+
+.profiletext h1 {
+    font-size: 30px;
+}
 #addDevProject a { color: white; }
 #addCompProject a { color: white; }
 
@@ -75,9 +82,6 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .restform label {font-size: 24px; }
 .restform input { border-radius: 6px; height: 50px; }
 input.descriptionbox { height: 100px; }
-
-h1.pageheader {color: #3c3c3c; font-size: 30px;}
-h1, h2 {color: #ffffff; font-size: 50px;}
 
 .img-screenshot {
     width: 100%;
