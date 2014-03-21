@@ -5,22 +5,30 @@
             <input type="text" placeholder="Filter by..." ng-model="name">
         </div>
 
-            <div class="col-xs-0 col-sm-2"></div>
-            <div class="col-xs-12 col-sm-8">
-            <div ng-repeat="developer in developers | filter:name" class="widget">
-                <div class="cover">
-                    <img src="{{ developer.screenshot }}" />
-                </div>
-                    <img src="{{ developer.cover }}" class="photo" />
-                    <div class="profiletext">
+        <div class="col-xs-0 col-sm-2"></div>
+        <div class="col-xs-12 col-sm-8">
+        <div ng-repeat="developer in developers | filter:name" class="widget">
+            <div class="cover">
+                <img src="{{ developer.screenshot }}" />
+            </div>
+
+            <img src="{{ developer.cover }}" class="photo" />
+                <div class="teal-panel cushion stackone">
                     {{ developer.name }}<br>
                     {{ developer.city }}, {{ developer.state }}<br>
-                    <!--<h3>{{ developer.age }}</h3>-->
-                    <!--<a href="{{ developer.email }}">Email</a>-->
-                    <div class="githublogo"><a href="{{ developer.github }}"><img src="static/images/github120.png"></a>
+                </div>
+
+                <!--<h3>{{ developer.age }}</h3>-->
+                <!--<a href="{{ developer.email }}">Email</a>-->
+                <div class="coral-panel cushion stackfifty profiletext">
+                    <div class="githublogo">
+                        <a href="{{ developer.github }}">
+                           <img src="static/images/github120.png">
+                        </a>
+                    </div>
                     <!--<a href="{{ developer.website }}"></a>-->
-                    <p>{{ developer.description }}</p>
-                    <h3>{{ developer.languages }}</h3>
+                    <!--<p>{{ developer.description }}</p>-->
+                    <!--<p>{{ developer.languages }}</p>-->
                 </div>
                 <div class="col-xs-0 col-sm-2"></div>
                 <ul>
@@ -30,9 +38,7 @@
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                 </ul>
-            </div>
-            </div>
-
+        </div>
 </div>
 
 

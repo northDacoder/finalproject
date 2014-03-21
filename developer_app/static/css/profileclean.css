@@ -14,10 +14,24 @@ body
   width: 100%;
   height: 350px;
   margin: 50px auto;
-  background: #FFF;
+  background: rgba(44,193,123,1);
   border-radius: 5px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
 }
+
+div.green-panel { background: #5cb85c; margin-bottom: 30px; border-bottom: 2px solid #ccc; }
+div.white-panel { background: #fff; margin-bottom: 30px; box-shadow: 0px 1px 3px rgba(0,0,0,.3); }
+div.black-panel { background: #333; margin-bottom: 30px; }
+div.lightblue-panel { background: rgba(0,159,170,1); margin-bottom: 30px;}
+div.burnt-panel { background: rgba(255,48,13,1); margin-bottom: 30px; }
+div.pearl-panel { background: rgba(255,247,240,1); margin-bottom: 30px; }
+div.coral-panel { background: rgba(241,89,77,1); margin-bottom: 30px; }
+div.navy-panel { background: rgba(33,37,48,1); margin-bottom: 30px; }
+div.teal-panel { background: rgba(44,193,123,1); margin-bottom: 30px; }
+div.neongreen-panel { background: rgba(0,255,0,1); margin-bottom: 30px; }
+div.turq-panel { background: #006666; margin-bottom: 30px; }
+div.ivory-panel { background: #FFFFE6; margin-bottom: 30px; }
+div.slate-panel { background: #333333; margin-bottom: 30px; }
 
 .widget > .cover
 {
@@ -68,9 +82,9 @@ body
 .widget > ul
 {
   position: absolute;
-  top: 20px;
-  left: 100%;
-  background: #2CDFD3;
+  bottom: 0px;
+  right: -30px;
+  background: rgba(241,89,77,1);
   border-radius: 0 3px 3px 0;
 }
 
@@ -92,4 +106,22 @@ body
 {
   border: none;
   border-radius: 0 0 3px 0;
+}
+
+.githublogo {
+  position: relative;
+  top: -20px;
+  left: -20px;
+  height: 40px;
+  width: 40px;
+}
+
+.profiletext {
+  position: relative;
+  top: -30px;
+}
+.profiletext p {
+  position: relative;
+  top: -53px;
+  left: 30px;
 }
