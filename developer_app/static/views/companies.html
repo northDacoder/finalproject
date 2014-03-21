@@ -6,7 +6,7 @@
         </div>
 
 
-        <div data-ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion">
+        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion">
             <div class="img-overlay"><img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot"></div>
                 <div class="cushion">
                     <h1>{{  company.name }}</h1>
@@ -17,24 +17,32 @@
                     </div>
 
                     <div class="coral-panel boxie teal-panel cushion">
-                        <h2>Reach out!</h2>
+                        <h2>Our Portfolio</h2>
                         <div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>
                         <div class="githublogo">
                             <a href="{{ developer.github }}">
                                 <img src="static/images/github120.png">
                             </a>
                         </div>
-                    </div>
-
-                    <div class="teal-panel boxie teal-panel cushion">
-                        <h2>Check us out!</h2>
-                        <div>cover: {{ company.cover }}</div>
+                        <img ng-src="{{ company.cover }}" class="img-responsive img-cover">
                     </div>
                 </div>
             </div>
+
+            <div ng-repeat="project in companyprojects" class="companyProject white-panel cushion">
+                <!--<h1>Company Projects</h1>{{ project }}-->
+                <h1>{{ project.name }}</h1>
+                <ul class="list-group">
+                    <li class="list-group-item-info">Company: {{ project.id }}</li>
+                    <li class="list-group-item-info">Posted: {{ project.created }}</li>
+                    <li class="list-group-item-info">{{ project.description }}</li>
+                    <li class="list-group-item-info">{{ project.completed }}</li>
+                    <li class="list-group-item-info">{{ project.resource_uri }}</li>
+                </ul>
+                <img ng-src="{{ project.project_screenshot }}" class="img-rounded img-responsive">
+            </div>
+
         </div>
 
-    <div data-ng-repeat="project in projects" class="companyProject">
 
-    </div>
 </div>
