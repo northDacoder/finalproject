@@ -10,8 +10,16 @@
 
             <div class="cushion">
                 <div>
-                    <img ng-src="{{ developer.cover }}" class="img-screenshot">
-                    <img ng-src="{{ developer.screenshot }}" class="img-cover">
+                    <div class="col-xs-12">
+                        <img ng-src="{{ developer.screenshot }}" class="img-screenshot">
+                        <div class="row">
+                            <div class="col-xs-4"></div>
+                            <div class="col-xs-4">
+                                 <img ng-src="{{ developer.cover }}" class="img-circle img-cover">
+                            </div>
+                            <div class="col-xs-4"></div>
+                        </div>
+                    </div>
                     <div class="teal-panel">
                         <div>{{ developer.age }}</div>
                         <div>{{ developer.city }}, {{ developer.state }}</div>
