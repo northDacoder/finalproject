@@ -9,40 +9,35 @@
         <div class="col-xs-12 col-sm-8">
         <div ng-repeat="developer in developers | filter:name" class="widget">
             <div class="cover">
-                <img src="{{ developer.screenshot }}" />
+                <img src="{{ developer.cover }}" />
             </div>
 
-            <img src="{{ developer.cover }}" class="photo" />
-                <div class="teal-panel cushion stackone">
+            <!--<img src="{{ developer.screenshot }}" class="photo" />-->
+                <div>
                     {{ developer.name }}<br>
                     {{ developer.city }}, {{ developer.state }}<br>
                 </div>
 
                 <!--<h3>{{ developer.age }}</h3>-->
                 <!--<a href="{{ developer.email }}">Email</a>-->
-                <div class="cushion stackfifty profiletext">
-                    <div class="githublogo">
-                        <a href="{{ developer.github }}">
-                           <img src="static/images/github120.png">
-                        </a>
-                    </div>
-                    <!--<a href="{{ developer.website }}"></a>-->
-                    <!--<p>{{ developer.description }}</p>-->
-                    <!--<p>{{ developer.languages }}</p>-->
+                <div class="githublogo">
+                    <a href="{{ developer.github }}">
+                        <img src="static/images/github120.png">
+                     </a>
                 </div>
+                <!--<a href="{{ developer.website }}"></a>-->
+                <!--<p>{{ developer.description }}</p>-->
+                <!--<p>{{ developer.languages }}</p>-->
                 <div class="col-xs-0 col-sm-2"></div>
-                <ul>
+                <!--<ul>
                     <li><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></li>
                     <li><a href="tel:+"{{ developer.phone }}"><i class="fa fa-phone"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
-                </ul>
+                </ul>-->
         </div>
-        <div class="slate-panel cushion" ng-repeat="project in projects">
 
-
-        </div>
 </div>
 
 
