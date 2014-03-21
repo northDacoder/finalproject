@@ -5,44 +5,79 @@
             <input type="text" placeholder="Filter by..." ng-model="name">
         </div>
 
+<div class="widget">
+  <div class="cover">
+    <img src="http://25.media.tumblr.com/d55a509993790027240311c9f611aaf8/tumblr_n0hpzpKEfE1st5lhmo1_1280.jpg" />
+  </div>
+  <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+  <h1>Ryan Boylett</h1>
+  <h2>Web Developer</h2>
+  <h3>Bristol, UK</h3>
+  <ul>
+    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-xing"></i></a></li>
+  </ul>
+</div>
 
         <div ng-repeat="developer in developers | filter:name" class="developerProfile">
-
-            <div class="cushion">
-                <div>
-                    <div class="col-xs-12">
-                        <img ng-src="{{ developer.screenshot }}" class="img-screenshot">
-                        <div class="row">
-                            <div class="col-xs-4"></div>
-                            <div class="col-xs-4">
-                                 <img ng-src="{{ developer.cover }}" class="img-circle img-cover">
-                            </div>
-                            <div class="col-xs-4"></div>
-                        </div>
-                    </div>
-                    <div class="teal-panel">
-                        <div>{{ developer.age }}</div>
-                        <div>{{ developer.city }}, {{ developer.state }}</div>
-                        <div>{{ developer.description }}</div>
-                        <div>{{ developer.languages }}</div>
-                    </div>
+            <div class="widget">
+                <div class="cover">
+                    <img src="http://25.media.tumblr.com/d55a509993790027240311c9f611aaf8/tumblr_n0hpzpKEfE1st5lhmo1_1280.jpg" />
                 </div>
-
-                <div class="coral-panel cushion">
-                    <h2>Reach out!</h2>
-                    <div><a href="mailto:{{ developer.email }}">Email Me</a></div>
-                    <div><a href="tel:+"{{ developer.phone }}">Call Me</a></div>
-                    <div><a href="{{ developer.github }}">Github: {{ developer.github }}</a></div>
-                </div>
-
-
-                <h2>Showcase</h2>
-
-                <div class="coral-panel cushion">
-                    <img src="{{ developer.cover }}">
-                    <img src="{{ developer.screenshot }}">
-                </div>
+                    <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+                    <h1>Ryan Boylett</h1>
+                    <h2>Web Developer</h2>
+                    <h3>Bristol, UK</h3>
+                <ul>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-xing"></i></a></li>
+                </ul>
             </div>
         </div>
+
+
+
+
+
+
+
+{#            <div class="cushion">#}
+{#                <div>#}
+{#                    <div class="col-xs-12">#}
+{#                        <img ng-src="{{ developer.screenshot }}" class="img-screenshot">#}
+{#                        <div class="row">#}
+{#                            <div class="col-xs-4"></div>#}
+{#                            <div class="col-xs-4">#}
+{#                                 <img ng-src="{{ developer.cover }}" class="img-circle img-cover">#}
+{#                            </div>#}
+{#                            <div class="col-xs-4"></div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class="teal-panel">#}
+{#                        <div>{{ developer.age }}</div>#}
+{#                        <div>{{ developer.city }}, {{ developer.state }}</div>#}
+{#                        <div>{{ developer.description }}</div>#}
+{#                        <div>{{ developer.languages }}</div>#}
+{#                    </div>#}
+{#                </div>#}
+{##}
+{#                <div class="coral-panel cushion">#}
+{#                    <h2>Reach out!</h2>#}
+{#                    <div><a href="mailto:{{ developer.email }}">Email Me</a></div>#}
+{#                    <div><a href="tel:+"{{ developer.phone }}">Call Me</a></div>#}
+{#                    <div><a href="{{ developer.github }}">Github: {{ developer.github }}</a></div>#}
+{#                </div>#}
+{##}
+{##}
+{#                <h2>Showcase</h2>#}
+{##}
+{#                <div class="coral-panel cushion">#}
+{#                    <img src="{{ developer.cover }}">#}
+{#                    <img src="{{ developer.screenshot }}">#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
 
 </div>
