@@ -33,4 +33,4 @@ class DeveloperProject(models.Model):
     completed = models.BooleanField()
 
     def __unicode__(self):
-        return self.name
+        return self.project_name
