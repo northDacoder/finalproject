@@ -8,8 +8,8 @@
         <div class="col-xs-0 col-sm-2"></div>
         <div class="col-xs-12 col-sm-8">
         <div ng-repeat="developer in developers | filter:name" class="widget">
-            <div class="cover">
-                <img src="{{ developer.cover }}" />
+            <div class="cover white-panel">
+                <img src="{{ developer.cover }}" class="img-circle img-responsive" />
             </div>
 
             <!--<img src="{{ developer.screenshot }}" class="photo" />-->
@@ -36,6 +36,12 @@
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                 </ul>-->
+        </div>
+
+        <div ng-repeat="project in projects">
+            <div class="white-panel">
+                {{ projects }}
+            </div>
         </div>
 
 </div>
