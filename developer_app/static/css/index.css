@@ -56,11 +56,14 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .jumbotron { color: #3c3c3c; }
 .jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
 
-.companyProfile, .developerProfile { color: 3c3c3c; }
+.companyProfile, .developerProfile { color: #3c3c3c; }
 .companyProfile a { color: white; }
 .companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
 .companyAddress { text-align: center; }
 .companyDescription { width: 80%; margin: 10px auto; background: lightcoral; }
+.companyHeader { color: #3c3c3c;}
+
+
 
 .developerProfile h1, h2 { text-align: center; font-family: monospace, serif; color: white; }
 .developerProfile a { color: white; }
