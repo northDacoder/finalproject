@@ -15,7 +15,7 @@
             <h1 class="companyHeader">{{ company.name }}</h1>
 
             <!-- COMPANY ADDRESS -->
-            <div class="companyAddress teal-panel boxie cushion stackone">
+            <div class="companyAddress teal-panel cushion stackone">
                  <div>{{ company.city }}, {{ company.state }}</div>
                  <div>{{ company.description }}</div>
             </div>
@@ -41,8 +41,14 @@
                 <!-- COMPANY PROJECT SCREENSHOT IMAGE -->
                 <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
                 <p>Company Id: {{ project.id }}</p>
+
+                <!-- COMPANY PROJECT DATE POSTED -->
                 <p>Date Posted: {{ project.created }}</p>
+
+                <!-- COMPANY PROJECT SUMMARY -->
                 <h1>Project Summary</h1><p>{{ project.description }}</p>
+
+                <!-- COMPANY PROJECT STATUS -->
                 <p>{{ project.completed }}</p>
                 <a href="{{ project.resource_uri }}">Project Resource Link</a>
                 </div>
