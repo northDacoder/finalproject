@@ -5,8 +5,7 @@
             <input type="text" placeholder="Filter by..." ng-model="name">
         </div>
 
-        <div class="col-xs-0 col-sm-2"></div>
-        <div class="col-xs-12 col-sm-8">
+        <div class="col-xs-12 col-sm-12">
         <div ng-repeat="developer in developers | filter:name" class="widget">
             <!-- DEVELOPER COVER IMAGE -->
             <div class="cover white-panel">
@@ -30,7 +29,6 @@
                 <!--<a href="{{ developer.website }}"></a>-->
                 <!--<p>{{ developer.description }}</p>-->
                 <!--<p>{{ developer.languages }}</p>-->
-                <div class="col-xs-0 col-sm-2"></div>
                 <!--<ul>
                     <li><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></li>
                     <li><a href="tel:+"{{ developer.phone }}"><i class="fa fa-phone"></i></a></li>

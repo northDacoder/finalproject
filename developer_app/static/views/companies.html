@@ -1,22 +1,26 @@
 <div class="row">
 
-        <!--<div class="lightblue-panel cushion pageheader">
-            <h1>Find a Company</h1>
+
+        <div class="jumbotron">
             <input type="text" placeholder="Filter by..." ng-model="name" >
-        </div>-->
-
-        <input type="text" placeholder="Filter by..." ng-model="name" >
+        </div>
 
 
-        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion col-xs-6">
+        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion col-xs-12 col-md-6 col-lg-4">
+
+            <!-- COMPANY SCREENSHOT IMAGE -->
             <img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot">
-            <h1>{{  company.name }}</h1>
 
-            <div class="companyAddress teal-panel boxie cushion">
+            <!-- COMPANY HEADER -->
+            <h1 class="companyHeader">{{ company.name }}</h1>
+
+            <!-- COMPANY ADDRESS -->
+            <div class="companyAddress teal-panel boxie cushion stackone">
                  <div>{{ company.city }}, {{ company.state }}</div>
                  <div>{{ company.description }}</div>
             </div>
 
+            <!-- COMPANY PORTFOLIO -->
             <div class="coral-panel boxie teal-panel cushion">
                  <h2>Our Portfolio</h2>
                  <div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>
@@ -28,16 +32,20 @@
                  <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
             </div>
 
+            <!-- COMPANY PROJECTS -->
             <div ng-repeat="project in company.projects" class="companyProject white-panel cushion">
-{#                <h1>Company Projects</h1>{{ project }}
-{#                <h1>{{ project.name }}</h1>
-{#                <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
-{#                <p>Company Id: {{ project.id }}</p>
-{#                <p>Date Posted: {{ project.created }}</p>
-{#                <h1>Project Summary</h1><p>{{ project.description }}</p>
-{#                <p>{{ project.completed }}</p>
-{#                <a href="{{ project.resource_uri }}">Project Resource Link</a>
-{#                </div>
+
+                <!-- COMPANY PROJECT HEADER -->
+                <h1 class="companyProjectHeader">{{ project.name }}</h1>
+
+                <!-- COMPANY PROJECT SCREENSHOT IMAGE -->
+                <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
+                <p>Company Id: {{ project.id }}</p>
+                <p>Date Posted: {{ project.created }}</p>
+                <h1>Project Summary</h1><p>{{ project.description }}</p>
+                <p>{{ project.completed }}</p>
+                <a href="{{ project.resource_uri }}">Project Resource Link</a>
+                </div>
             </div>
         </div>
 

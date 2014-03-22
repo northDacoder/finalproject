@@ -56,7 +56,7 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .jumbotron { color: #3c3c3c; }
 .jumbotron h1 { font-family: "Montserrat", Impact, sans-serif;}
 
-.companyProfile, .developerProfile { color: white; }
+.companyProfile, .developerProfile { color: 3c3c3c; }
 .companyProfile a { color: white; }
 .companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
 .companyAddress { text-align: center; }
@@ -66,7 +66,6 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .developerProfile a { color: white; }
 .developerAddress { text-align: center; }
 .developerDescription { width: 80%; margin: 10px auto; background: lightcoral; }
-.developerProfile div { color: white; }
 
 .profiletext h1, h2, h3 {
     color: #3c3c3c;
@@ -83,9 +82,12 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .restform input { border-radius: 6px; height: 50px; }
 input.descriptionbox { height: 100px; }
 
+
 .img-screenshot {
     width: 100%;
-    border: 2px solid #3c3c3c;
+    height: 200px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.8);
 }
 
 .img-cover {

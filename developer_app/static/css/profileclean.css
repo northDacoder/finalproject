@@ -103,11 +103,8 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 }
 
 .githublogo {
-  position: relative;
-  top: -20px;
-  left: -20px;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .profiletext {
@@ -119,3 +116,7 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
   top: -53px;
   left: 30px;
 }
+
+
+h1.companyHeader {color: white; size: 60px;}
+h1.companyProjectHeader {color: white; size: 40px;}
