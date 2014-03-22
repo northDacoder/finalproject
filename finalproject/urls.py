@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from registration.backends.simple.views import RegistrationView
 from tastypie.api import Api
-from company_app.api.resources import CompanyProjectResource, CompanyResource
+from company_app.api.resources import CompanyProjectResource, CompanyResource, BareCompanyProjectResource
 from developer_app.api.resources import DeveloperResource, DeveloperProjectResource
 
 admin.autodiscover()
@@ -15,6 +15,7 @@ v1_api.register(DeveloperResource())
 v1_api.register(DeveloperProjectResource())
 v1_api.register(CompanyResource())
 v1_api.register(CompanyProjectResource())
+v1_api.register(BareCompanyProjectResource())
 
 urlpatterns = patterns('',
 

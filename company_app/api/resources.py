@@ -1,20 +1,18 @@
 from django.conf import settings
+from tastypie import fields
 from tastypie.authentication import BasicAuthentication
 from tastypie.authorization import Authorization
 from tastypie.bundle import Bundle
-from tastypie.fields import CharField
+from tastypie.fields import CharField, ToManyField
 from tastypie.resources import ModelResource, Resource
 from company_app.api.authorization import UserObjectsOnlyAuthorization
 from company_app.models import CompanyProject, Company
 
 
-class CompanyResource(ModelResource):
+class BareCompanyProjectResource(ModelResource):
     class Meta:
-        queryset = Company.objects.all()
-        resource_name = "company"
-        # authentication = BasicAuthentication()
-        # authorization = UserObjectsOnlyAuthorization()
-
+        queryset = CompanyProject.objects.all()
+        resource_name = "bare_projects"
 
 
 class CompanyProjectResource(ModelResource):
@@ -22,6 +20,15 @@ class CompanyProjectResource(ModelResource):
         queryset = CompanyProject.objects.all()
         resource_name = "companyproject"
         # authorization = Authorization()
+
+class CompanyResource(ModelResource):
+    projects = ToManyField(BareCompanyProjectResource, 'company_projects', full=True, null=True)
+
+    class Meta:
+        queryset = Company.objects.all()
+        resource_name = "company"
+        # authentication = BasicAuthentication()
+        # authorization = UserObjectsOnlyAuthorization()
 
 
 

@@ -2,25 +2,32 @@ from django.conf import settings
 from tastypie.authentication import BasicAuthentication
 from tastypie.authorization import Authorization
 from tastypie.bundle import Bundle
-from tastypie.fields import CharField
+from tastypie.fields import CharField, ToManyField
 from tastypie.resources import ModelResource, Resource
 from developer_app.api.authorization import UserObjectsOnlyAuthorization
 from developer_app.models import DeveloperProject, Developer
 
 
-class DeveloperResource(ModelResource):
+class BareDeveloperProjectResource(ModelResource):
     class Meta:
-        queryset = Developer.objects.all()
-        resource_name = "developer"
-        # authentication = BasicAuthentication()
-        # authorization = UserObjectsOnlyAuthorization()
-
+        queryset = DeveloperProject.objects.all()
+        resource_name = "bare_projects"
 
 class DeveloperProjectResource(ModelResource):
     class Meta:
         queryset = DeveloperProject.objects.all()
         resource_name = "developerproject"
         # authorization = Authorization()
+
+class DeveloperResource(ModelResource):
+    projects = ToManyField(BareDeveloperProjectResource, 'developer_projects', full=True, null=True)
+
+    class Meta:
+        queryset = Developer.objects.all()
+        resource_name = "developer"
+        # authentication = BasicAuthentication()
+        # authorization = UserObjectsOnlyAuthorization()
+
 
 
 

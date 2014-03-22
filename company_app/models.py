@@ -30,7 +30,7 @@ class Language(models.Model):
 class CompanyProject(models.Model):
     project_name = models.CharField(max_length=1000)
     created = models.DateTimeField(auto_now=True)
-    company = models.ForeignKey(Company)
+    company = models.ForeignKey(Company, related_name='company_projects')
     language = models.ForeignKey(Language, blank=True, null=True)
     completed = models.BooleanField()
     project_screenshot = models.ImageField(upload_to="images/developer_screenshots", blank=True, null=True)
