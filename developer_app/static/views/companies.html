@@ -16,17 +16,17 @@
             <h2 class="companyAddress">{{ company.city }}, {{ company.state }}</h2>
 
             <!-- COMPANY ADDRESS -->
-            <div class="teal-panel cushion stackone">
+            <div class="teal-panel cushion">
                  <p>{{ company.description }}</p>
             </div>
 
             <!-- COMPANY PORTFOLIO -->
             <h1 class="companyHeader">Our Portfolio</h1>
 
-            <div class="coral-panel boxie teal-panel cushion">
+            <div class="coral-panel cushion">
                  <div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>
                  <div class="githublogo">
-                    <a href="{{ developer.github }}">
+                    <a href="{{ company.github }}">
                         <img src="static/images/github120.png">
                     </a>
                  </div>
@@ -34,7 +34,7 @@
             </div>
 
             <!-- COMPANY PROJECTS -->
-            <div ng-repeat="project in company.projects" class="companyProject white-panel cushion">
+            <div ng-repeat="project in company.projects" class="companyProject lightblue-panel cushion">
 
                 <!-- PROJECT HEADER -->
                 <h1 class="companyProjectHeader">{{ project.name }}</h1>
