@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/user.html" afterPath="$PROJECT_DIR$/developer_app/static/views/user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="companies.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="14" selection-start="1324" selection-end="2242" vertical-scroll-proportion="-18.125" vertical-offset="435" max-vertical-offset="1035">
+            <state line="36" column="71" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-11.875" vertical-offset="255" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -73,8 +71,20 @@
       <file leaf-file-name="developers.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2286" selection-end="2286" vertical-scroll-proportion="1.7168674" vertical-offset="0" max-vertical-offset="1020">
+            <state line="21" column="39" selection-start="853" selection-end="853" vertical-scroll-proportion="0.45180723" vertical-offset="90" max-vertical-offset="1020">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="20" selection-start="2269" selection-end="2269" vertical-scroll-proportion="-13.25" vertical-offset="522" max-vertical-offset="1020">
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,15 +120,6 @@
         <entry file="file://$PROJECT_DIR$/company_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="71" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -168,7 +169,6 @@
         <option value="$PROJECT_DIR$/developer_app/static/views/addDeveloperProject.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/navbar_fixed.css" />
         <option value="$PROJECT_DIR$/developer_app/static/js/profilecard.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/user.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/profilecard.css" />
         <option value="$PROJECT_DIR$/developer_app/views.py" />
         <option value="$PROJECT_DIR$/finalproject/settings.py" />
@@ -188,6 +188,7 @@
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
         <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/user.html" />
       </list>
     </option>
   </component>
@@ -922,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/baseold.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="14" selection-start="379" selection-end="379" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
@@ -1133,16 +1127,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="20" selection-start="2269" selection-end="2269" vertical-scroll-proportion="-13.25" vertical-offset="522" max-vertical-offset="1020">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="14" selection-start="1324" selection-end="2242" vertical-scroll-proportion="-18.125" vertical-offset="435" max-vertical-offset="1035">
+        <state line="36" column="71" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-11.875" vertical-offset="255" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2286" selection-end="2286" vertical-scroll-proportion="1.7168674" vertical-offset="0" max-vertical-offset="1020">
+        <state line="21" column="39" selection-start="853" selection-end="853" vertical-scroll-proportion="0.45180723" vertical-offset="90" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
