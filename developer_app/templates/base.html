@@ -57,7 +57,6 @@
 </head>
 
 <body>
-<div class="container">
    {% block header %}
    {% if user.is_authenticated %}
 
@@ -122,10 +121,7 @@
         {% endblock %}
         </div>
 
-</div>
+
 <script src="{% get_static_prefix %}jquery/jquery-1.11.0.min.js"></script>
-<script src="{% get_static_prefix %}js/bootstrap-datepicker.js"></script>
-<script src="{% get_static_prefix %}js/datepicker.js"></script>
-<script src="{% get_static_prefix %}js/bootstrap.js"></script>
 </body>
 </html>
