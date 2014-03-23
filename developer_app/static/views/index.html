@@ -6,45 +6,6 @@
     <h1>Home</h1>
 </div>
 
-    <ul class="nav">
-        <li id="header-search">
-         <form action="/s" id="search-form">
-           <div id="search-bar">
-             <i class="icon icon-search"></i>
-             <input type="text" placeholder="Where are you going?" autocomplete="off" name="location" id="header-location">
-             <input type="hidden" name="source" value="hdr">
-           </div>
-           <div id="header-search-settings">
-             <label class="checkin">Check in <input type="text" id="header-search-checkin" name="checkin" class="checkin" placeholder="mm/dd/yyyy"/></label>
-             <label class="checkout">Check out <input type="text" id="header-search-checkout" class="checkout" name="checkout" placeholder="mm/dd/yyyy"/></label>
-             <label class="guests">Guests
-               <div class="select select-block">
-                 <select id="header-search-guests" name="guests">
-                   <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
-                 </select>
-               </div>
-             </label>
-             <label>Room type</label>
-             <label class="checkbox" for="room_type_0"><input type="checkbox" id="room_type_0" name="room_types[]" value="Entire home/apt"/> Entire home/apt</label>
-             <label class="checkbox" for="room_type_1"><input type="checkbox" id="room_type_1" name="room_types[]" value="Private room"/> Private room</label>
-             <label class="checkbox" for="room_type_2"><input type="checkbox" id="room_type_2" name="room_types[]" value="Shared room"/> Shared room</label>
-             <button type="submit" class="btn btn-primary blue"><i class="icon icon-search"></i> Find a place</button>
-           </div>
-         </form>
-        </li>
-        <li class="dropdown item_explore">
-         <a class="dropdown-toggle" href="javascript:void(0)"> Browse <b class="caret"></b></a>
-         <ul class="dropdown-menu dropdown-bordered">
-           <li><a href="/wishlists/popular"><i class="icon icon-product-wishlist icon-heart pink"></i> Popular</a></li>
-           <li><a href="/wishlists/friends"><i class="icon icon-group"></i> Friends</a></li>
-           <li><a href="/locations"><i class="icon icon-product-neighborhoods icon-map-marker blue"></i> Neighborhoods</a></li>
-           <li class="meetups"><a href="/meetup"><i class="icon icon-product-meetups icon-meetups"></i> Meetups</a></li>
-           <li class="groups"><a href="/groups"><i class="icon icon-comments"></i> Groups</a></li>
-         </ul>
-        </li>
-      </ul>
-
-
 <div class="black-panel stackfive cushion">
     <button role="button" class="btn btn-success btn-large"><a href="#/developer">Developer</a></button>
     <button role="button" class="btn btn-success btn-large"><a href="#/company">Company</a></button>
