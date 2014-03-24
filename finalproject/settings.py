@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'registration',
     'developer_app',
     'company_app',
     'south',
@@ -48,6 +49,8 @@ INSTALLED_APPS = (
     'tastypie',
     'tastypie_swagger',
 )
+
+ACCOUNT_ACTIVATION_DAYS = 7
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

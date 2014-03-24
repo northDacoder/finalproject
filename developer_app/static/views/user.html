@@ -33,17 +33,10 @@
         </div>
         <div class="profile-content">
             <ul>
-                <li>
-                   <a href="{{ profile.github }}"><img src="static/images/github120.png"></a>
-                </li>
-                <li>
-                    <div class="digits">51</div>
-                    Likes
-                </li>
-                <li>
-                    <div class="digits">42</div>
-                    Gits
-                </li>
+                <li><a href="{{ profile.github }}"><img src="static/images/github120.png"></a></li>
+                <li></li>
+                <li></li>
+                <li></li>
                 <li></li>
             </ul>
             <div class="clear"></div>
@@ -53,9 +46,8 @@
         <!-- USER PROFILE -->
         <div class="coral-panel cushion userprofile">
             <h2>{{ profile.description }}</h2>
+            <h2>{{ profile.city }}, {{ profile.state }}</h2>
             <a href="maltio:{{ profile.email }}">Contact Me!</a>
-            <img ng-src="{{ profile.cover }}" class="img-responsive img-screenshot">
-            <br>
             <img ng-src="{{ profile.screenshot }}" class="img-responsive img-screenshot">
         </div>
 

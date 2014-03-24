@@ -24,9 +24,8 @@
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/navbar_fixed.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
-
+    <link rel="stylesheet" href="{% get_static_prefix %}css/profilecard.css">
 
     <!-- Bootstrap JavaScript Files -->
 
@@ -34,7 +33,6 @@
     <script src="{% get_static_prefix %}vendor/angular.js"></script>
     <script src="{% get_static_prefix %}vendor/angular-route.js"></script>
     <script src="{% get_static_prefix %}vendor/angular-resource.js"></script>
-    <script src="{% get_static_prefix %}js/ui-bootstrap-tpls-0.10.0.min.js"></script>
 
     <!-- Angular App -->
     <script src="{% get_static_prefix %}js/app.js"></script>
@@ -54,13 +52,12 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
    {% block header %}
    {% if user.is_authenticated %}
 
         <!-- Fixed navbar -->
-        <div class="row">
-        <div class="navbar navbar-inverse navbar-fixed-top navcushion col-xs-12 col-md-10" role="navigation">
+        <div class="navbar navbar-inverse">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -86,13 +83,11 @@
                         <li><a href="#/companies">Companies</a></li>
                         <li><a href="#/contact">Contact</a></li>
                     </ul>
-                </div><!--/.nav-collapse -->
-        </div>
+                </div>
         </div>
 
         {% else %}
-        <div class="row">
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar navbar-default">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -109,21 +104,22 @@
                         <li><a href="#/companies">Companies</a></li>
                         <li><a href="#/contact">Contact</a></li>
                     </ul>
-                </div><!--/.nav-collapse -->
+                </div>
         </div>
-        </div>
+
 
         {% endif %}
         {% endblock %}
 
-        <div class="row">
         {% block content %}
 
         {% endblock %}
-        </div>
-
 </div>
 <script src="{% get_static_prefix %}jquery/jquery-1.11.0.min.js"></script>
 <script src="{% get_static_prefix %}js/bootstrap.js"></script>
+<script src="{% get_static_prefix %}js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+<script src="{% get_static_prefix %}js/profilecard.js"></script>
+
+
 </body>
 </html>
