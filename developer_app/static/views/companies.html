@@ -1,25 +1,28 @@
 <div class="scrollable">
 
+    <div class="jumbotron">
+        <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" bs-input>
+    </div>
+
     <div class="scrollable-content">
-        <div class="jumbotron danger">
-            <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" bs-input>
-        </div>
 
         <div ng-repeat="company in companies | filter:name" class="company">
 
             <!-- COMPANY SCREENSHOT IMAGE -->
             <img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot">
-            <!-- COMPANY HEADER -->
-            <h1 class="companyName">{{ company.name }}</h1>
-            <!-- COMPANY ADDRESS -->
-            <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
-            <!-- COMPANY DESCRIPTION -->
-            <p class="description">{{ company.description }}</p>
 
+            <!-- COMPANY INFO -->
+            <div class="companyInfo inset">
+                <h1 class="companyName">{{ company.name }}</h1>
+                <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
+
+                <!-- COMPANY DESCRIPTION -->
+               <p class="description">{{ company.description }}</p>
+            </div>
 
             <!-- COMPANY PORTFOLIO -->
-            <div class="teal-panel portfolio">
-                 <h1>Our Portfolio</h1>
+            <div class="teal-panel portfolio glass">
+                 <h1 class="portfolioTitle">Our Portfolio</h1>
 
                  <!--<div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>-->
                  <div class="githublogo">
@@ -49,7 +52,7 @@
                     <!--<p>Date Posted: {{ project.created }}</p>-->
 
                     <!-- PROJECT SUMMARY -->
-                    <h2>Project Summary</h2>
+                    <h2 class="projectSummary">Project Summary</h2>
                     <p class="description">{{ project.description }}</p>
 
                     <!-- COMPLETION STATUS -->
