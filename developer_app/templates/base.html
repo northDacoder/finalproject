@@ -23,6 +23,8 @@
     <!-- <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.css"> -->
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/mobile-angular-ui-base.min.css">
+    <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/mobile-angular-ui-desktop.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/profilecard.css">
@@ -30,9 +32,14 @@
     <!-- Bootstrap JavaScript Files -->
 
     <!-- Angular Javascript Files -->
-    <script src="{% get_static_prefix %}vendor/angular.js"></script>
-    <script src="{% get_static_prefix %}vendor/angular-route.js"></script>
+    <script src="{% get_static_prefix %}vendor/angular.min.js"></script>
+    <script src="{% get_static_prefix %}vendor/angular-route.min.js"></script>
     <script src="{% get_static_prefix %}vendor/angular-resource.js"></script>
+
+</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui.min.js">
+</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui-touch-fastclick.min.js">
+</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui-scrollable-overthrow.min.js">
+</script>
 
     <!-- Angular App -->
     <script src="{% get_static_prefix %}js/app.js"></script>
@@ -52,9 +59,12 @@
 </head>
 
 <body>
+   {% block header %}
+   {% if user.is_authenticated %}
+
         <!-- Fixed navbar -->
-        <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
                     <div class="container">
                         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                             <span class="icon-bar"></span>
@@ -68,8 +78,6 @@
                                 <li class="active"><a href="#/">Home</a></li>
                                 <li><a href="#/contact">Contact</a></li>
                                 <li class="dropdown">
-                                {% block header %}
-                                {% if user.is_authenticated %}
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#/user/{{ user.id }}">My Profile</a></li>
@@ -77,22 +85,19 @@
                                         <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
                                     </ul>
                                 </li>
-                                {% else %}
-                                <li><a href="{% url 'auth_login' %}">Login</a></li>
-                                {% endif %}
-                                {% endblock %}
                                 <li><a href="#/developers">Developers</a></li>
                                 <li><a href="#/companies">Companies</a></li>
                             </ul>
-                            <form class="navbar-form pull-right">
-                                <input class="span2" type="text" placeholder="Email">
-                                <input class="span2" type="password" placeholder="Password">
-                                <button type="submit" class="btn">Sign in</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
         </div>
+
+        {% else %}
+
+        <li><a href="{% url 'auth_login' %}">Login</a></li>
+
+        {% endif %}
+        {% endblock %}
 
         {% block content %}
 
@@ -102,17 +107,6 @@
 <script src="{% get_static_prefix %}js/bootstrap.js"></script>
 <script src="{% get_static_prefix %}js/ui-bootstrap-tpls-0.10.0.min.js"></script>
 <script src="{% get_static_prefix %}js/profilecard.js"></script>
-
-          <style type="text/css">
-    .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
-    .headroom--unpinned {top: -100px;}
-    .headroom--pinned {top: 0;}
-    </style>
-   <script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/dist/headroom.js"></script>
-   <script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
-    <script type="text/javascript">
-        $(".navbar-fixed-top").headroom();
-    </script>
 
 
 </body>
