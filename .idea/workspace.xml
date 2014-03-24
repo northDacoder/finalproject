@@ -72,10 +72,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="44" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.48156682" vertical-offset="346" max-vertical-offset="1875">
+            <state line="22" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="-6.923077" vertical-offset="150" max-vertical-offset="1875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1692" column="1" selection-start="22300" selection-end="22300" vertical-scroll-proportion="0.96304345" vertical-offset="24937" max-vertical-offset="25470">
               <folding />
             </state>
           </provider>
@@ -121,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/developer_app/forms.py" />
         <option value="$PROJECT_DIR$/developer_app/admin.py" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/contactController.js" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/addDeveloperController.js" />
@@ -172,6 +180,7 @@
         <option value="$PROJECT_DIR$/developer_app/static/js/app.js" />
         <option value="$PROJECT_DIR$/developer_app/static/mobile/css/style.css" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/css/font-awesome.css" />
       </list>
     </option>
   </component>
@@ -558,6 +567,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="developer_app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="static">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1280,7 +1311,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="44" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.48156682" vertical-offset="346" max-vertical-offset="1875">
+        <state line="22" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="-6.923077" vertical-offset="150" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1692" column="1" selection-start="22300" selection-end="22300" vertical-scroll-proportion="0.96304345" vertical-offset="24937" max-vertical-offset="25470">
           <folding />
         </state>
       </provider>
