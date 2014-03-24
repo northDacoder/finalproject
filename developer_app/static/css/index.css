@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; background: #3c3c3c; }
+/*body { margin: 0; padding: 0; background: #3c3c3c; }*/
 
 div.jumbotron { z-index: -5; margin-bottom: 100px; }
 div.navbar.navbar-top { border: none; }
@@ -72,13 +72,17 @@ div.company {
 }
 
 #companyBody {
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
-
-.searchbox { border: 4px solid rgba(0,0,0,.7); box-shadow: 1px 1px 4px #333; border-radius: 3px; }
-.searchbox input { height: 50px; }
+div#jumboCompany {
+    margin-top: -61px;
+}
+/*.searchbox { border: 4px solid rgba(0,0,0,.7); box-shadow: 1px 1px 4px #333; border-radius: 3px; }*/
+/*.searchbox input { height: 50px; }*/
 .companyInfo { background-color: rgba(0,0,0,.6); width: 100%; padding: 10px 0; }
 .portfolioTitle { padding: 10px 0; margin: 5px auto; }
 .description { margin: 5px auto; max-width: 500px; padding-bottom: 15px; }
 .githublogo { height: 40px; width: 40px;}
+
+#searchBox { position: relative; bottom: 115px; }
