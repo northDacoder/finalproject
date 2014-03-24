@@ -5,24 +5,22 @@
             <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" bs-input>
         </div>
 
-        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile cushion col-xs-12 col-md-6 col-lg-4">
+        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile">
 
             <!-- COMPANY SCREENSHOT IMAGE -->
             <img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot">
-
             <!-- COMPANY HEADER -->
-            <h1 class="companyHeader">{{ company.name }}</h1>
-            <h2 class="companyAddress">{{ company.city }}, {{ company.state }}</h2>
-
+            <h1 class="companyName">{{ company.name }}</h1>
             <!-- COMPANY ADDRESS -->
-            <div class="teal-panel cushion">
-                 <p>{{ company.description }}</p>
-            </div>
+            <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
+            <!-- COMPANY DESCRIPTION -->
+            <p class="description">{{ company.description }}</p>
+
 
             <!-- COMPANY PORTFOLIO -->
-            <h1 class="companyHeader">Our Portfolio</h1>
+            <div class="teal-panel">
+                 <h1 class="companyHeader">Our Portfolio</h1>
 
-            <div class="coral-panel cushion">
                  <!--<div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>-->
                  <div class="githublogo">
                     <a href="{{ company.github }}">
@@ -30,29 +28,36 @@
                     </a>
                  </div>
                  <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
-            </div>
 
-            <!-- COMPANY PROJECTS -->
-            <div ng-repeat="project in company.projects" class="companyProject lightblue-panel cushion">
 
-                <!-- PROJECT HEADER -->
-                <h1 class="companyProjectHeader">{{ project.name }}</h1>
+                <!-- COMPANY PROJECTS -->
+                <div ng-repeat="project in company.projects" class="project">
 
-                <!-- SCREENSHOT IMAGE -->
-                <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
-                <!--<p>Company Id: {{ project.id }}</p>-->
+                    <!-- PROJECT NAME -->
+                    <h1 class="projectName">{{ project.name }}</h1>
 
-                <!-- DATE POSTED -->
-                <!--<p>Date Posted: {{ project.created }}</p>-->
+                    <!-- SCREENSHOT IMAGE -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-project">
+                        </div>
+                    </div>
 
-                <!-- PROJECT SUMMARY -->
-                <h1>Project Summary</h1><p>{{ project.description }}</p>
+                    <!--<p>Company Id: {{ project.id }}</p>-->
 
-                <!-- COMPLETION STATUS -->
-                <!--<p>{{ project.completed }}</p>-->
+                    <!-- DATE POSTED -->
+                    <!--<p>Date Posted: {{ project.created }}</p>-->
 
-                <!-- RESOURCE URI -->
-                <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                    <!-- PROJECT SUMMARY -->
+                    <h2>Project Summary</h2>
+                    <p class="description">{{ project.description }}</p>
+
+                    <!-- COMPLETION STATUS -->
+                    <!--<p>{{ project.completed }}</p>-->
+
+                    <!-- RESOURCE URI -->
+                    <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                </div>
             </div>
         </div>
     </div>

@@ -3,55 +3,59 @@
 
          <div class="jumbotron">
             <input type="text" placeholder="Developer name...   " ng-model="name" label="Search Developers" bs-input>
-        </div>
+         </div>
 
-        <div ng-repeat="developer in developers | filter:name" class="slate-panel developerProfile col-xs-12 col-md-6 col-lg-4">
+         <div ng-repeat="developer in developers | filter:name" class="slate-panel developerProfile">
+
+                <!-- DEVELOPER HEADER -->
+                <h1 class="developerName">{{ developer.name }}</h1>
 
                 <!-- DEVELOPER SCREENSHOT IMAGE -->
-
                 <img ng-src="{{ developer.screenshot }}" class="img-responsive img-screenshot">
 
-                <div class="coral-panel cushion">
-                <!-- DEVELOPER HEADER -->
-                <h1 class="developerHeader">{{ developer.name }}</h1>
-                <h2 class="developerAddress">{{ developer.city }}, {{ developer.state }}</h2>
+                <div class="coral-panel">
 
                 <!-- DEVELOPER ADDRESS -->
-                <p>{{ developer.description }}</p>
+                <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
+
+                <!-- DEVELOPER DESCRIPTION -->
+                <p class="description">{{ developer.description }}</p>
 
                 <!-- DEVELOPER PORTFOLIO -->
-                <h1 class="developerHeader">Our Portfolio</h1>
+                <div class="slate-panel">
+                    <h1 class="portfolioName">Our Portfolio</h1>
 
-                <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
-                <div class="githublogo">
-                    <a href="{{ developer.github }}">
-                        <img src="static/images/github120.png">
-                    </a>
-                </div>
-                <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
-            </div>
+                    <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
+                    <div class="githublogo">
+                        <a href="{{ developer.github }}">
+                            <img src="static/images/github120.png">
+                        </a>
+                    </div>
+                    <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
 
-            <!-- DEVELOPER PROJECTS -->
-            <div ng-repeat="developer in developer.projects" class="developerProject lightblue-panel cushion">
+                    <!-- DEVELOPER PROJECTS -->
+                    <div ng-repeat="developer in developer.projects" class="lightblue-panel">
 
-                <!-- PROJECT HEADER -->
-                <h1 class="developerProjectHeader">{{ project.name }}</h1>
+                    <!-- PROJECT HEADER -->
+                    <h1 class="projectName">{{ project.name }}</h1>
 
-                <!-- SCREENSHOT IMAGE -->
-                <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
-                <!--<p>Developer Id: {{ project.id }}</p>-->
+                    <!-- SCREENSHOT IMAGE -->
+                    <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
 
-                <!-- DATE POSTED -->
-                <!--<p>Date Posted: {{ project.created }}</p>-->
+                     <!--<p>Developer Id: {{ project.id }}</p>-->
 
-                <!-- PROJECT SUMMARY -->
-                <h1>Project Summary</h1><p>{{ project.description }}</p>
+                    <!-- DATE POSTED -->
+                    <!--<p>Date Posted: {{ project.created }}</p>-->
 
-                <!-- COMPLETION STATUS -->
-                <!--<p>{{ project.completed }}</p>-->
+                    <!-- PROJECT SUMMARY -->
+                    <h2>Project Summary</h2>
+                    <p class="description">{{ project.description }}</p>
 
-                <!-- RESOURCE URI -->
-                <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                    <!-- COMPLETION STATUS -->
+                    <!--<p>{{ project.completed }}</p>-->
+
+                    <!-- RESOURCE URI -->
+                    <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
             </div>
 
     </div>

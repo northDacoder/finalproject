@@ -1,4 +1,7 @@
 body { margin: 0; padding: 0; background: #3c3c3c; }
+
+div.jumbotron { margin-top: 50px; }
+
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
 form input { width: 100%; height: 50px; }
@@ -46,26 +49,6 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .loginForm input[type="text"].hasError { background: #fefefe; border-color: #cb2027; box-shadow: rgba(255,0,0,0.35); position: relative; }
 .firstName, .lastName { float: left; width: 190px; }
 
-.companyProfile, .developerProfile { color: #3c3c3c; }
-.companyProfile a { color: white; }
-.companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
-.companyAddress { text-align: center; }
-.companyDescription { width: 80%; margin: 10px auto; background: lightcoral; }
-h1.companyHeader { color: rgba(44,193,123,1); font-size: 40px; }
-
-.developerProfile h1, h2 { text-align: center; font-family: monospace, serif; color: white; }
-.developerProfile a { color: white; }
-.developerAddress { text-align: center; }
-.developerDescription { width: 80%; margin: 10px auto; background: lightcoral; }
-
-
-.profiletext h1, h2, h3 {
-    color: #3c3c3c;
-}
-
-.profiletext h1 {
-    font-size: 30px;
-}
 #addDevProject a { color: white; }
 #addCompProject a { color: white; }
 
@@ -74,24 +57,18 @@ h1.companyHeader { color: rgba(44,193,123,1); font-size: 40px; }
 .restform input { border-radius: 6px; height: 50px; }
 input.descriptionbox { height: 100px; }
 
+.img-screenshot { margin: 0 auto; width: 100%; height: auto; border-radius: 3px; box-shadow: 2px 2px 2px #333; }
+.img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
-.img-screenshot {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px #333;
-}
+.companyProfile, .developerProfile { color: white; margin: 60px 0; }
+.companyProfile a { color: white; text-decoration: none; font-weight: normal; }
+.companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
+.companyAddress { text-align: center; }
 
-.img-cover {
-   height: 250px;
-   width: 100%;
-   margin: 0 auto;
-}
 
-.img-overlay {
-    background: white;
-}
+.address { width: 100%; margin: 10px auto; padding: 5px; max-width: 500px;}
+.description { width: 100%; margin: 10px auto; padding: 5px; max-width: 500px; }
+
 
 
 
