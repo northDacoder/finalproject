@@ -1,4 +1,4 @@
-var app = angular.module('mvpApp', ['ui.bootstrap','ngRoute', 'ngResource']);
+var app = angular.module('mvpApp', ['ngRoute', 'mobile-angular-ui', 'mobile-angular-ui.touch', 'mobile-angular-ui.scrollable', 'ngResource']);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider

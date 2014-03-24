@@ -28,21 +28,18 @@
     <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
     <link rel="stylesheet" href="{% get_static_prefix %}css/profilecard.css">
-
-    <!-- Bootstrap JavaScript Files -->
+    <link rel="stylesheet" href="{% get_static_prefix %}css/index.css">
+    <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/style.css">
 
     <!-- Angular Javascript Files -->
     <script src="{% get_static_prefix %}vendor/angular.min.js"></script>
     <script src="{% get_static_prefix %}vendor/angular-route.min.js"></script>
     <script src="{% get_static_prefix %}vendor/angular-resource.js"></script>
+    <script src="{% get_static_prefix %}mobile/js/mobile-angular-ui.min.js"></script>
+    <script src="{% get_static_prefix %}mobile/js/mobile-angular-ui-touch-fastclick.min.js"></script>
+    <script src="{% get_static_prefix %}mobile/js/mobile-angular-ui-scrollable-overthrow.min.js"></script>
 
-</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui.min.js">
-</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui-touch-fastclick.min.js">
-</script><script src="mobile-angular-ui/dist/js/mobile-angular-ui-scrollable-overthrow.min.js">
-</script>
 
-    <!-- Angular App -->
-    <script src="{% get_static_prefix %}js/app.js"></script>
 
     <!-- Controllers -->
     <script src="{% get_static_prefix %}js/controllers/developerController.js"></script>
@@ -51,53 +48,63 @@
     <script src="{% get_static_prefix %}js/controllers/companyProjectController.js"></script>
     <script src="{% get_static_prefix %}js/controllers/userController.js"></script>
 
-    <!-- CSS FILES -->
+    <!-- Angular App -->
+    <script src="{% get_static_prefix %}js/app.js"></script>
 
-    <link href="{% get_static_prefix %}css/index.css" rel="stylesheet" type="text/css">
 
 
 </head>
 
 <body>
-   {% block header %}
-   {% if user.is_authenticated %}
+ <div class="navbar navbar-top">
+        <h1 class="navbar-brand">
+          Mobile Angular UI
+        </h1>
 
-        <!-- Fixed navbar -->
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <div class="navbar-header">
-                    <div class="container">
-                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="brand" href="#">mvprototype</a>
-
-                        <div class="nav-collapse collapse">
-                            <ul class="nav">
-                                <li class="active"><a href="#/">Home</a></li>
-                                <li><a href="#/contact">Contact</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#/user/{{ user.id }}">My Profile</a></li>
-                                        <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
-                                        <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#/developers">Developers</a></li>
-                                <li><a href="#/companies">Companies</a></li>
-                            </ul>
-                    </div>
-                </div>
-        </div>
-
-        {% else %}
-
-        <li><a href="{% url 'auth_login' %}">Login</a></li>
-
-        {% endif %}
-        {% endblock %}
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="demo" class="btn btn-primary"><i class="fa fa-eye"></i> Demo</a></li>
+          <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+{#   {% block header %}#}
+{#   {% if user.is_authenticated %}#}
+{##}
+{#        <!-- Fixed navbar -->#}
+{#        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">#}
+{#                <div class="navbar-header">#}
+{#                    <div class="container">#}
+{#                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">#}
+{#                            <span class="icon-bar"></span>#}
+{#                            <span class="icon-bar"></span>#}
+{#                            <span class="icon-bar"></span>#}
+{#                        </button>#}
+{#                        <a class="brand" href="#">mvprototype</a>#}
+{##}
+{#                        <div class="nav-collapse collapse">#}
+{#                            <ul class="nav">#}
+{#                                <li class="active"><a href="#/">Home</a></li>#}
+{#                                <li><a href="#/contact">Contact</a></li>#}
+{#                                <li class="dropdown">#}
+{#                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>#}
+{#                                    <ul class="dropdown-menu">#}
+{#                                        <li><a href="#/user/{{ user.id }}">My Profile</a></li>#}
+{#                                        <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>#}
+{#                                        <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>#}
+{#                                    </ul>#}
+{#                                </li>#}
+{#                                <li><a href="#/developers">Developers</a></li>#}
+{#                                <li><a href="#/companies">Companies</a></li>#}
+{#                            </ul>#}
+{#                    </div>#}
+{#                </div>#}
+{#        </div>#}
+{##}
+{#        {% else %}#}
+{##}
+{#        <li><a href="{% url 'auth_login' %}">Login</a></li>#}
+{##}
+{#        {% endif %}#}
+{#        {% endblock %}#}
 
         {% block content %}
 
