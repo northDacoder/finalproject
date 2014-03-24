@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/app.js" afterPath="$PROJECT_DIR$/developer_app/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/base.html" afterPath="$PROJECT_DIR$/developer_app/templates/base.html" />
     </list>
     <ignored path="finalproject.iws" />
@@ -76,7 +75,7 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="77" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.5875576" vertical-offset="180" max-vertical-offset="1875">
+            <state line="37" column="44" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.48156682" vertical-offset="346" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -1281,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="77" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.5875576" vertical-offset="180" max-vertical-offset="1875">
+        <state line="37" column="44" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.48156682" vertical-offset="346" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
