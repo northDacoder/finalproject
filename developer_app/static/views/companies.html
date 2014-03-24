@@ -1,10 +1,10 @@
 <div class="scrollable">
 
     <div class="jumbotron">
-        <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" bs-input>
+        <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" class="searchbox"bs-input>
     </div>
 
-    <div class="scrollable-content">
+    <div class="scrollable-content" id="companybody">
 
         <div ng-repeat="company in companies | filter:name" class="company">
 
