@@ -38,10 +38,11 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .stackfour { height: 400px; }
 .stackfive { height: 500px; }
 .stacksidebar { height: 900px; }
-.cushion { padding: 25px; }
-.cushionfifty { padding: 50px; }
+
+.cushion-sm { padding: 5px; }
+.cushion-md { padding: 15px; }
+.cushion-lg { padding: 25px }
 .navcushion { padding: 0 20px; }
-.space { margin: 25px; }
 
 .inset { -moz-box-shadow: inset 0 0 10px #333; -webkit-box-shadow: inset 0 0 10px #333; box-shadow: inset 0 0 10px #333;}
 
@@ -60,18 +61,33 @@ input.descriptionbox { height: 100px; }
 .img-screenshot { margin: 0 auto; width: 100%; height: auto; border-radius: 3px; box-shadow: 2px 2px 2px #333; }
 .img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
-.companyProfile, .developerProfile { color: white; margin: 60px 0; }
-.companyProfile a { color: white; text-decoration: none; font-weight: normal; }
-.companyProfile h1, h2 { text-align: center; font-family: monospace, serif; }
-.companyAddress { text-align: center; }
+div.company, div.developer {
+    color: white;
+    margin: 60px 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
+.companyName {
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    bottom: 420px;
+}
+h2.address {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 5px;
+    max-width: 500px;
+}
 
-.address { width: 100%; margin: 10px auto; padding: 5px; max-width: 500px;}
-.description { width: 100%; margin: 10px auto; padding: 5px; max-width: 500px; }
+p.description { width: 100%; margin: 10px auto; max-width: 500px; }
 
+div.portfolio h1 { margin-top: 10px; }
 
-
-
-.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
-.headroom--unpinned {top: -100px;}
-.headroom--pinned {top: 0;}
+.githublogo {
+  height: 40px;
+  width: 40px;
+}

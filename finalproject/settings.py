@@ -106,6 +106,6 @@ MEDIA_ROOT = '/Users/northDacoder/Desktop/Dropbox/finalproject/media/'
 
 TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
 
-LOGIN_REDIRECT_URL = '/#'
+LOGIN_REDIRECT_URL = '/#/developers'
 
 

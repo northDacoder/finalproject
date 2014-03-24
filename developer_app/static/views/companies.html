@@ -1,11 +1,11 @@
 <div class="scrollable">
 
     <div class="scrollable-content">
-        <div class="jumbotron">
+        <div class="jumbotron danger">
             <input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" bs-input>
         </div>
 
-        <div ng-repeat="company in companies | filter:name" class="slate-panel companyProfile">
+        <div ng-repeat="company in companies | filter:name" class="company">
 
             <!-- COMPANY SCREENSHOT IMAGE -->
             <img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot">
@@ -18,8 +18,8 @@
 
 
             <!-- COMPANY PORTFOLIO -->
-            <div class="teal-panel">
-                 <h1 class="companyHeader">Our Portfolio</h1>
+            <div class="teal-panel portfolio">
+                 <h1>Our Portfolio</h1>
 
                  <!--<div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>-->
                  <div class="githublogo">

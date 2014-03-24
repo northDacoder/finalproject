@@ -5,7 +5,7 @@
             <input type="text" placeholder="Developer name...   " ng-model="name" label="Search Developers" bs-input>
          </div>
 
-         <div ng-repeat="developer in developers | filter:name" class="slate-panel developerProfile">
+         <div ng-repeat="developer in developers | filter:name" class="slate-panel developer">
 
                 <!-- DEVELOPER HEADER -->
                 <h1 class="developerName">{{ developer.name }}</h1>
@@ -40,7 +40,7 @@
                     <h1 class="projectName">{{ project.name }}</h1>
 
                     <!-- SCREENSHOT IMAGE -->
-                    <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-screenshot">
+                    <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-project">
 
                      <!--<p>Developer Id: {{ project.id }}</p>-->
 
