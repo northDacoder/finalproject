@@ -1,32 +1,34 @@
-<div class="row">
+<div class="scrollable">
+    <div class="scrollable-content">
 
-        <input type="text" placeholder="Filter by..." ng-model="name">
+         <div class="jumbotron">
+            <input type="text" placeholder="Developer name...   " ng-model="name" label="Search Developers" bs-input>
+        </div>
 
-        <div ng-repeat="developer in developers | filter:name" class="slate-panel developerProfile cushion col-xs-12 col-md-6 col-lg-4">
+        <div ng-repeat="developer in developers | filter:name" class="slate-panel developerProfile col-xs-12 col-md-6 col-lg-4">
 
-            <!-- DEVELOPER SCREENSHOT IMAGE -->
-            <img ng-src="{{ developer.screenshot }}" class="img-responsive img-screenshot">
+                <!-- DEVELOPER SCREENSHOT IMAGE -->
 
-             <!-- DEVELOPER HEADER -->
-            <h1 class="developerHeader">{{ developer.name }}</h1>
-            <h2 class="developerAddress">{{ developer.city }}, {{ developer.state }}</h2>
+                <img ng-src="{{ developer.screenshot }}" class="img-responsive img-screenshot">
 
-            <!-- DEVELOPER ADDRESS -->
-            <div class="teal-panel cushion">
-                 <p>{{ developer.description }}</p>
-            </div>
+                <div class="coral-panel cushion">
+                <!-- DEVELOPER HEADER -->
+                <h1 class="developerHeader">{{ developer.name }}</h1>
+                <h2 class="developerAddress">{{ developer.city }}, {{ developer.state }}</h2>
 
-            <!-- DEVELOPER PORTFOLIO -->
-            <h1 class="developerHeader">Our Portfolio</h1>
+                <!-- DEVELOPER ADDRESS -->
+                <p>{{ developer.description }}</p>
 
-            <div class="coral-panel cushion">
-                 <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
-                 <div class="githublogo">
+                <!-- DEVELOPER PORTFOLIO -->
+                <h1 class="developerHeader">Our Portfolio</h1>
+
+                <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
+                <div class="githublogo">
                     <a href="{{ developer.github }}">
                         <img src="static/images/github120.png">
                     </a>
-                 </div>
-                 <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
+                </div>
+                <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
             </div>
 
             <!-- DEVELOPER PROJECTS -->
@@ -51,8 +53,8 @@
                 <!-- RESOURCE URI -->
                 <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
             </div>
-        </div>
 
+    </div>
 </div>
 
 

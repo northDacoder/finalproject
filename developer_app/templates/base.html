@@ -20,14 +20,14 @@
     <!--<link rel="apple-touch-startup-image" href="/startup.png">-->
 
     <!-- Bootstrap CSS Files -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="{% get_static_prefix %}css/font-awesome.css">-->
     <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap.min.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/mobile-angular-ui-base.min.css">
     <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/mobile-angular-ui-desktop.min.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">
-    <link rel="stylesheet" href="{% get_static_prefix %}css/profilecard.css">
+    <!--<link rel="stylesheet" href="{% get_static_prefix %}css/jumbotron.css">-->
+    <!--<link rel="stylesheet" href="{% get_static_prefix %}css/signin.css">-->
+    <!--<link rel="stylesheet" href="{% get_static_prefix %}css/profilecard.css">-->
     <link rel="stylesheet" href="{% get_static_prefix %}css/index.css">
     <link rel="stylesheet" href="{% get_static_prefix %}mobile/css/style.css">
 
@@ -52,21 +52,57 @@
     <!-- Angular App -->
     <script src="{% get_static_prefix %}js/app.js"></script>
 
-
-
 </head>
-
 <body>
- <div class="navbar navbar-top">
+
+    {% block header %}
+    {% if user.is_authenticated %}
+    <div class="navbar navbar-top">
+        <div class="btn-group pull-left">
+            <div class="btn btn-navbar">
+                <a href="#/developers" class="btn btn-danger"><i class="fa fa-laptop"></i></a>
+                <a href="#/companies" class="btn btn-warning"><i class="fa fa-rocket"></i></a>
+            </div>
+        </div>
+
+        <!--<ul class="nav navbar-nav pull-left">
+            <li><a class="nav-github pull-left" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>-->
+
         <h1 class="navbar-brand">
-          Mobile Angular UI
+           rocketLaunchIT
         </h1>
 
         <ul class="nav navbar-nav pull-right">
-          <li><a href="demo" class="btn btn-primary"><i class="fa fa-eye"></i> Demo</a></li>
-          <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#/user/{{ user.id }}">My Profile</a></li>
+                <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
+                <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
+              </ul>
+          </li>
         </ul>
     </div>
+
+    {% else %}
+
+    <div class="navbar navbar-top">
+        <h1 class="navbar-brand">
+           develop.io
+        </h1>
+
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
+          <li><a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
+          <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="{% url 'auth_login' %}">Login</a></li>
+        </ul>
+    </div>
+
+    {% endif %}
+    {% endblock %}
+
 {#   {% block header %}#}
 {#   {% if user.is_authenticated %}#}
 {##}
@@ -110,7 +146,6 @@
         {% block content %}
 
         {% endblock %}
-
 <!--<script src="{% get_static_prefix %}jquery/jquery-1.11.0.min.js"></script>-->
 <!--<script src="{% get_static_prefix %}js/ui-bootstrap-tpls-0.10.0.min.js"></script>-->
 <script src="{% get_static_prefix %}js/profilecard.js"></script>

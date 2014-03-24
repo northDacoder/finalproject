@@ -236,3 +236,7 @@ h6 { font-size: 13px; }
     font-size: 22px;
     color: white;
 }
+
+img.img-screenshot {
+    border-radius: 12px;
+}
