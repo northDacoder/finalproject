@@ -1,28 +1,29 @@
 <div class="scrollable">
-    <div class="scrollable-content">
 
-         <div class="jumbotron">
-            <input type="text" placeholder="Developer name...   " ng-model="name" label="Search Developers" bs-input>
-         </div>
+    <form class="form-wrapper cf" id="searchbox">
+        <!--<input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" class="searchbox"bs-input>-->
+        <input type="text" placeholder="Company name" ng-model="name" >
+        <button type="submit">Search</button>
+    </form>
 
-         <div ng-repeat="developer in developers | filter:name" class="slate-panel developer">
+    <div class="scrollable-content col-xs-12 col-md-6" id="developerbody">
 
-                <!-- DEVELOPER HEADER -->
-                <h1 class="developerName">{{ developer.name }}</h1>
+         <div ng-repeat="developer in developers | filter:name" class="developer">
 
                 <!-- DEVELOPER SCREENSHOT IMAGE -->
                 <img ng-src="{{ developer.screenshot }}" class="img-responsive img-screenshot">
 
-                <div class="coral-panel">
+                <!-- DEVELOPER INFO -->
+                <div class="developerInfo inset">
+                    <h1 class="developerName">{{ developer.name }}</h1>
+                    <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
 
-                <!-- DEVELOPER ADDRESS -->
-                <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
-
-                <!-- DEVELOPER DESCRIPTION -->
-                <p class="description">{{ developer.description }}</p>
+                    <!-- DEVELOPER DESCRIPTION -->
+                    <p class="description">{{ developer.description }}</p>
+                </div>
 
                 <!-- DEVELOPER PORTFOLIO -->
-                <div class="slate-panel">
+                <div class="slate-panel portfolio glass">
                     <h1 class="portfolioName">Our Portfolio</h1>
 
                     <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
@@ -31,34 +32,39 @@
                             <img src="static/images/github120.png">
                         </a>
                     </div>
-                    <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
+                    <!--<img ng-src="{{ developer.cover }}" class="img-responsive img-cover">-->
 
                     <!-- DEVELOPER PROJECTS -->
-                    <div ng-repeat="developer in developer.projects" class="lightblue-panel">
+                    <div ng-repeat="project in developer.projects" class="project">
 
-                    <!-- PROJECT HEADER -->
-                    <h1 class="projectName">{{ project.name }}</h1>
+                        <!-- PROJECT NAME -->
+                        <h1 class="projectName">{{ project.name }}</h1>
 
-                    <!-- SCREENSHOT IMAGE -->
-                    <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-project">
+                        <!-- SCREENSHOT IMAGE -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                 <img ng-src="{{ project.project_screenshot }}" class="img-responsive img-project">
+                            </div>
+                        </div>
 
-                     <!--<p>Developer Id: {{ project.id }}</p>-->
+                        <!--<p>Developer Id: {{ project.id }}</p>-->
 
-                    <!-- DATE POSTED -->
-                    <!--<p>Date Posted: {{ project.created }}</p>-->
+                        <!-- DATE POSTED -->
+                        <!--<p>Date Posted: {{ project.created }}</p>-->
 
-                    <!-- PROJECT SUMMARY -->
-                    <h2>Project Summary</h2>
-                    <p class="description">{{ project.description }}</p>
+                        <!-- PROJECT SUMMARY -->
+                        <h2 class="projectSummary">Project Summary</h2>
+                        <p class="description">{{ project.description }}</p>
 
-                    <!-- COMPLETION STATUS -->
-                    <!--<p>{{ project.completed }}</p>-->
+                        <!-- COMPLETION STATUS -->
+                        <!--<p>{{ project.completed }}</p>-->
 
-                    <!-- RESOURCE URI -->
-                    <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                        <!-- RESOURCE URI -->
+                        <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                    </div>
+                </div>
             </div>
-
-    </div>
+     </div>
 </div>
 
 
