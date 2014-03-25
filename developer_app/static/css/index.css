@@ -10,8 +10,10 @@ body { margin: 0; padding: 0; }
     z-index: -10;
 }
 
+a { color: white; text-decoration: none; }
+a:visited { color: white; text-decoration: none; }
+a:hover { color: white; opacity: .6; text-decoration: none; }
 
-a { color: white; }
 
 div.navbar.navbar-top { border: none; }
 h1.sitelogo { font-family: 'Raleway Dots', cursive; text-align: center; padding-top: 12px; font-size: 24px;}
