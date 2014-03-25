@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
 body { margin: 0; padding: 0; }
-
+.jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
     background: rgba(0,0,0,.7);
     height: 2200px;
