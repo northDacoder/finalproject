@@ -55,6 +55,7 @@
 
 </head>
 <body>
+    <div class="backgroundoverlay"></div>
 
 
     {% block header %}
@@ -103,14 +104,15 @@
 
     <div class="navbar navbar-top" role="navigation">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <div class="navbar-brand">
-                    mvproto.io
+            <div class="navbar-header loginbuttons">
+
+                <h1 class="sitelogo">MVprototype</h1>
+
+                <div>
+                    <button role="button" class="btn btn-success"><a href="{% url 'auth_login' %}">Sign in</a></button>
+                    <button role="button" class="btn btn-success"><a href="{% url 'auth_login' %}">Register</a></button>
                 </div>
 
-                <div class="navbar-brand">
-                    <a href="{% url 'auth_login' %}">Sign in</a>
-                </div>
             </div>
         </div>
     </div>
