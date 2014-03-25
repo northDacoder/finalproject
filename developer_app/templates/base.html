@@ -56,49 +56,66 @@
 </head>
 <body>
 
+
     {% block header %}
     {% if user.is_authenticated %}
-    <div class="navbar navbar-top">
-        <div class="btn-group pull-left">
-            <div class="btn btn-navbar">
-                <a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a>
-                <a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a>
+
+    <div class="navbar navbar-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="#" class="navbar-brand" href="#">mvproto.io</a>
+                <button type="button" class="btn btn-danger navbar-btn">Sign in</button>
+
+
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/user/{{ user.id }}">My Profile</a></li>
+                        <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
+                        <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
+                </ul>
+                </li>
+            </ul>
             </div>
         </div>
+    </div>
 
+        <!--<div class="btn-group pull-left">
+                    <div class="btn btn-navbar">
+                        <a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a>
+                        <a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a>
+                    </div>
+                </div>-->
         <!--<ul class="nav navbar-nav pull-left">
             <li><a class="nav-github pull-left" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>-->
 
-        <h1 class="navbar-brand-center sitelogo">
-           rocketLaunchIT
-        </h1>
-
-        <ul class="nav navbar-nav pull-right">
-          <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#/user/{{ user.id }}">My Profile</a></li>
-                <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
-                <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
-              </ul>
-          </li>
-        </ul>
-    </div>
-
     {% else %}
 
-    <div class="navbar navbar-top">
-        <h1 class="navbar-brand">
-           develop.io
-        </h1>
+    <div class="navbar navbar-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-brand">
+                    develop.io
+                </h1>
 
-        <ul class="nav navbar-nav pull-right">
-          <li><a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
-          <li><a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
-          <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
-          <li><a href="{% url 'auth_login' %}">Login</a></li>
-        </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
+                    <li><a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
+                    <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="{% url 'auth_login' %}">Login</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     {% endif %}
