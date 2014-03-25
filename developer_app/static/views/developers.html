@@ -1,55 +1,90 @@
 
 <div class="scrollable">
 
-    <form class="form-wrapper cf searchbox">
+    <form class="form-wrapper cf" id="searchbox">
         <!--<input type="text" placeholder="Developer name..." ng-model="name" label="Search Developers" class="searchbox"bs-input>-->
         <input type="text" placeholder="Developer name" ng-model="name" >
         <button type="submit">Search</button>
     </form>
 
-    <div class="scrollable-content" id="developerbody">
+    <div class="scrollable-content">
         <div class="backgroundoverlay"></div>
 
         <div ng-repeat="developer in developers | filter:name" class="developers">
 
+            <!-- developer INFO -->
             <div class="developerInfo">
                 <h1 class="developerName">{{ developer.name }}</h1>
                 <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
-                <!--<p class="description">{{ developer.description }}</p>-->
+                <p class="description">{{ developer.description }}</p>
                 <a href="mailto:{{ developer.email }}"><span class="label label-primary"><i class="fa fa-envelope"></i> {{ developer.email }}</span></a>
                 <a href="tel:+{{ developer.phone }}"><span class="label label-success"><i class="fa fa-phone"></i> Call</span></a>
-
             </div>
 
+            <!-- developer SCREENSHOT IMAGE -->
             <div class="imagewrap">
                 <img ng-src="{{ developer.screenshot }}" >
             </div>
 
+            <!-- developer PORTFOLIO -->
             <div class="teal-panel glass">
                     <!--<div class="githublogo"><a href="{{ developer.github }}"><img src="static/images/github120.png"></a></div>-->
 
-                    <div ng-repeat="developer in developer.projects">
+                    <div ng-repeat="project in developer.projects">
                         <div class="row">
                             <h1 class="portfolioTitle">Project Portfolio</h1>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-4 coral-panel inset">
-                                <h1 class="projectName">{{ project.project_name }}</h1>
-                                <img ng-src="{{ developer.screenshot }}">
-                                <p class="description">{{ project.description }}</p>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img ng-src="{{ developer.screenshot }}" alt="{{ project.project_name }}">
+                                    <div class="caption">
+                                        <h3>{{ project.project_name }}</h3>
+                                        <p>{{ project.description }}</p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4 coral-panel inset">
-                                <h1 class="projectName">{{ project.project_name }}</h1>
-                                <img ng-src="{{ developer.screenshot }}">
-                                <p class="description">{{ project.description }}</p>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img ng-src="{{ developer.screenshot }}" alt="{{ project.project_name }}">
+                                    <div class="caption">
+                                        <h3>{{ project.project_name }}</h3>
+                                        <p>{{ project.description }}</p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4 coral-panel inset">
-                                <h1 class="projectName">{{ project.project_name }}</h1>
-                                <img ng-src="{{ developer.screenshot }}">
-                                <p class="description">{{ project.description }}</p>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img ng-src="{{ developer.screenshot }}" alt="{{ project.project_name }}">
+                                    <div class="caption">
+                                        <h3>{{ project.project_name }}</h3>
+                                        <p>{{ project.description }}</p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+                        <!--<div class="row">
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                        </div>-->
                         <!--<h2 class="projectSummary">Project Summary</h2>-->
 
                         <!--<div class="imagethumb">
