@@ -24,7 +24,7 @@
                 <img ng-src="{{ company.screenshot }}" >
             </div>
 
-            <div class="bootstrap-green-panel glass">
+            <div class="slate-panel glass">
                     <!--<div class="githublogo"><a href="{{ company.github }}"><img src="static/images/github120.png"></a></div>-->
 
                     <div ng-repeat="project in company.projects">
@@ -32,14 +32,15 @@
                             <h1 class="portfolioTitle">Project Portfolio</h1>
                         </div>
 
-                        <div class="row">
+                        <div class="row inset gallery">
                             <div class="col-md-4">
                                 <div class="thumbnail">
                                     <img ng-src="{{ company.screenshot }}" >
                                     <div class="caption">
                                         <h3>{{ project.project_name }}</h3>
                                         <p>{{ project.description }}</p>
-                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                        <button class="btn btn-default" role="button"><a href="#" ></a><i class="glyphicon glyphicon-star"></i> Favorite</a></button>
+                                        <button class="btn btn-danger" role="button"><a href="#" >More <i class="glyphicon glyphicon-share-alt"></i></a></button>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +50,8 @@
                                     <div class="caption">
                                         <h3>{{ project.project_name }}</h3>
                                         <p>{{ project.description }}</p>
-                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                        <button class="btn btn-default" role="button"><a href="#" ></a><i class="glyphicon glyphicon-star"></i> Favorite</a></button>
+                                        <button class="btn btn-danger" role="button"><a href="#" >More <i class="glyphicon glyphicon-share-alt"></i></a></button>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +61,8 @@
                                     <div class="caption">
                                         <h3>{{ project.project_name }}</h3>
                                         <p>{{ project.description }}</p>
-                                        <p><a href="#" class="btn btn-primary" role="button">Favorite</a> <a href="#" class="btn btn-default" role="button">More</a></p>
+                                        <button class="btn btn-default" role="button"><a href="#" ></a><i class="glyphicon glyphicon-star"></i> Favorite</a></button>
+                                        <button class="btn btn-danger" role="button"><a href="#" >More <i class="glyphicon glyphicon-share-alt"></i></a></button>
                                     </div>
                                 </div>
                             </div>

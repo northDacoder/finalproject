@@ -2,7 +2,7 @@
 body { margin: 0; padding: 0; }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: rgba(0,0,0,.6);
+    background: rgba(0,0,0,.9);
     height: 2200px;
     width: 100%;
     position: absolute;
@@ -15,15 +15,6 @@ a:visited { color: white; text-decoration: none; }
 a:hover { color: white; opacity: .6; text-decoration: none; }
 
 
-div.navbar.navbar-top { border: none; }
-.loginbuttons { margin-bottom: 20px; }
-.navbar-toggle { border: 2px solid white; }
-.navbar-toggle:hover { background: #5CB85C; }
-.icon-bar { background: white; }
-a.dropdown-toggle { background: #3c3c3c; margin-bottom: 15px; }
-
-h1.sitelogo { font-family: 'Raleway Dots', cursive; text-align: center; padding-top: 12px; font-size: 24px;  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-}
 
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
@@ -48,7 +39,7 @@ div.burnt-panel { background: rgba(255,48,13,1); margin-bottom: 30px; }
 div.pearl-panel { background: rgba(255,247,240,1); margin-bottom: 30px; }
 div.coral-panel { background: rgba(241,89,77,1); margin-bottom: 30px; }
 div.teal-panel { background: rgba(44,193,123,1); margin-bottom: 30px; }
-div.bootstrap-green-panel { background: #5CB85C; margin-bottom: 30px; }
+div.bootstrap-green-panel { background: #5CB85C; margin-bottom: 30px; opacity: .9}
 div.neongreen-panel { background: rgba(0,255,0,1); margin-bottom: 30px; }
 div.ivory-panel { background: #FFFFE6; margin-bottom: 30px; }
 div.slate-panel { background: #333333; margin-bottom: 30px; }
@@ -77,7 +68,7 @@ input.descriptionbox { height: 100px; }
 .img-screenshot { margin: 10px auto; width: 100%; max-height: 250px; border-radius: 3px; box-shadow: 2px 2px 2px #333; }
 .img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
-.glass { opacity: 1; }
+.glass { opacity: .7; }
 
 
 div.company, div.developer {
@@ -85,23 +76,32 @@ div.company, div.developer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 h1.companyName, h1.developerName {
     font-size: 40px;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Raleway Dots', cursive;
 }
 
 
-.companyInfo, .developerInfo { width: 400px; font-family: 'Nixie One', cursive; background-color: rgba(0,0,0,.8); padding: 30px 0; position: relative; top: 190px; margin: 0 auto;}
+.companyInfo, .developerInfo { width: 300px; border-radius: 4px; box-shadow: 1px 1px 2px #333; font-family: 'Raleway Dots', cursive;, cursive; background-color: rgba(0,0,0,.8); padding: 30px 0; position: relative; top: 190px; margin: 0 auto;}
 .portfolioWrap { width: 400px; margin: 0 auto; }
-.portfolioTitle { text-align: center; color: #3c3c3c; font-family: 'Nixie One', cursive; padding: 9px 0 0 0; }
-.projectName { font-size: 16px; font-family: 'Nixie One', cursive; }
-.address {font-family: 'Nixie One', cursive;}
+.portfolioTitle { text-align: center; margin-top: 10px; padding: 14px 0 0 0; }
+.projectName { font-size: 16px;  }
+.address { }
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .githublogo { height: 40px; width: 40px; position: relative; left: 15px; top: 15px; }
 .imagewrap { width: 100%; height: 205px; overflow: hidden; }
+.gallery { padding-top: 20px; }
+.thumbnail { background: rgba(0,0,0,.0); border: none; }
+
+div.navbar.navbar-top { border: none; }
+a.nabar-brand:first-child { font-family: 'Raleway Dots', cursive; }
+.loginbuttons { margin-bottom: 20px; }
+.navbar-toggle { border: 2px solid white; }
+.navbar-toggle:hover { background: #5CB85C; opacity: .9}
+.icon-bar { background: white; }
 
 
 
