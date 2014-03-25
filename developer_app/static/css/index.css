@@ -11,6 +11,7 @@ body { margin: 0; padding: 0; }
 
 div.jumbotron { z-index: -5; margin-bottom: 100px; }
 div.navbar.navbar-top { border: none; }
+h1.sitelogo { font-family: 'Raleway Dots', cursive; text-align: center; padding-top: 12px; font-size: 24px;}
 
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
@@ -70,8 +71,10 @@ input.descriptionbox { height: 100px; }
 .img-screenshot { margin: 10px auto; width: 100%; max-height: 250px; border-radius: 3px; box-shadow: 2px 2px 2px #333; }
 .img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
-.glass { opacity: .6; }
+.glass { opacity: .9; }
 
+#companyBody { position: absolute; top: -75px; z-index: -2;}
+#developerBody { position: absolute; top: 0; z-index: -2; }
 div.company, div.developer {
     color: white;
     text-align: center;
@@ -82,13 +85,13 @@ div.company, div.developer {
 
 h1.companyName, h1.developerName {
     font-size: 40px;
-    font-family: 'Source Code Pro';
+    font-family: 'Nixie One', cursive;
 }
-#companyBody, #developerBody { position: absolute; top: -75px; }
-.companyInfo, .developerInfo { width: 400px; font-family: 'Source Code Pro'; background-color: rgba(0,0,0,.6); padding: 10px 0; position: relative; top: 190px; margin: 0 auto;}
+
+.companyInfo, .developerInfo { width: 400px; font-family: 'Nixie One', cursive; background-color: rgba(0,0,0,.8); padding: 30px 0; position: relative; top: 190px; margin: 0 auto;}
 .portfolioWrap { width: 400px; margin: 0 auto; }
-.portfolioTitle { text-align: center; color: #3c3c3c;}
-.address {}
+.portfolioTitle { text-align: center; color: #3c3c3c; font-family: 'Nixie One', cursive;}
+.address {font-family: 'Nixie One', cursive;}
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .githublogo { height: 40px; width: 40px; position: relative; left: 15px; top: 15px; }
 .imagewrap { width: 100%; height: 205px; overflow: hidden; }
