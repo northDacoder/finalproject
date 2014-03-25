@@ -10,7 +10,6 @@ body { margin: 0; padding: 0; }
     z-index: -10;
 }
 
-div.jumbotron { z-index: -5; margin-bottom: 100px; }
 div.navbar.navbar-top { border: none; }
 h1.sitelogo { font-family: 'Raleway Dots', cursive; text-align: center; padding-top: 12px; font-size: 24px;}
 
