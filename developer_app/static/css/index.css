@@ -2,7 +2,7 @@
 body { margin: 0; padding: 0; }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: rgba(0,0,0,.9);
+    background: rgba(0,0,0,.3);
     height: 2200px;
     width: 100%;
     position: absolute;
@@ -85,7 +85,7 @@ h1.companyName, h1.developerName {
 }
 
 
-.companyInfo, .developerInfo { width: 300px; border-radius: 4px; box-shadow: 1px 1px 2px #333; font-family: 'Raleway Dots', cursive;, cursive; background-color: rgba(0,0,0,.8); padding: 30px 0; position: relative; top: 190px; margin: 0 auto;}
+.companyInfo, .developerInfo { width: 300px; border-radius: 4px; box-shadow: 1px 1px 2px #333; font-family: 'Raleway Dots', cursive;, cursive; background-color: rgba(0,0,0,.8); padding: 7px; position: relative; top: 190px; margin: 0 auto;}
 .portfolioWrap { width: 400px; margin: 0 auto; }
 .portfolioTitle { text-align: center; margin-top: 10px; padding: 14px 0 0 0; }
 .projectName { font-size: 16px;  }
@@ -94,7 +94,9 @@ h1.companyName, h1.developerName {
 .githublogo { height: 40px; width: 40px; position: relative; left: 15px; top: 15px; }
 .imagewrap { width: 100%; height: 205px; overflow: hidden; }
 .gallery { padding-top: 20px; }
-.thumbnail { background: rgba(0,0,0,.0); border: none; }
+
+div.thumbnail { background: black; padding: 30px; }
+.thumbnail { background: rgba(0,0,0,.0); border: none; width: 100%; }
 
 div.navbar.navbar-top { border: none; }
 a.nabar-brand:first-child { font-family: 'Raleway Dots', cursive; }
