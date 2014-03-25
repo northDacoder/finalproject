@@ -9,10 +9,10 @@ function developerController($scope, $http) {
         console.log($scope.projects);
     })
 
-    $scope.addDeveloperProject = function() {
-        console.log($scope.user);
-        $http.post('api/v1/developers/', $scope.user).success(function(){
-            alert('Add a developer project?');
-        });
-    }
+//    $scope.addDeveloperProject = function() {
+//        console.log($scope.user);
+//        $http.post('api/v1/developers/', $scope.user).success(function(){
+//            alert('Add a developer project?');
+//        });
+//    }
 }
