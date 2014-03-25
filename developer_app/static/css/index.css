@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
-body { margin: 0; padding: 0;}
+body { margin: 0; padding: 0; }
 
 div.jumbotron { z-index: -5; margin-bottom: 100px; }
 div.navbar.navbar-top { border: none; }
@@ -72,6 +72,12 @@ div.company {
     margin: 40px auto;
 }
 
+h1.companyName {
+    font-size: 60px;
+    font-family: 'Raleway Dots', cursive;
+}
+
+
 #companyBody {
     position: absolute;
     top: -75px;
@@ -94,3 +100,19 @@ div#jumboCompany {
     height: 50%;
     overflow: hidden;
 }
+
+
+
+/*font-family: 'Nixie One', cursive;*/
+/*font-family: 'Share Tech', sans-serif;*/
+/*font-family: 'Ubuntu Mono', ;*/
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Rum Raisin', sans-serif;*/
+/*font-family: 'Paytone One', sans-serif;*/
+/*font-family: 'Wendy One', sans-serif;*/
+/*font-family: 'Coda Caption', sans-serif;*/
+/*font-family: 'Source Code Pro', ;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway Dots', cursive;*/
+/*font-family: 'Comfortaa', cursive;*/
