@@ -11,16 +11,13 @@
 
         <div ng-repeat="company in companies | filter:name" class="company">
 
-
             <!-- COMPANY INFO -->
             <div class="companyInfo">
                 <h1 class="companyName">{{ company.name }}</h1>
                 <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
-
-                <!-- COMPANY DESCRIPTION -->
-               <p class="description">{{ company.description }}</p>
-
+                <p class="description">{{ company.description }}</p>
             </div>
+
             <!-- COMPANY SCREENSHOT IMAGE -->
             <div class="imagewrap">
                 <img ng-src="{{ company.screenshot }}" >
@@ -66,7 +63,6 @@
 
                     <!-- RESOURCE URI -->
                     <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
-                </div>
                 </div>
             </div>
         </div>
