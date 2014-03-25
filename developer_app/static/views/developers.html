@@ -25,28 +25,42 @@
                 <img ng-src="{{ developer.screenshot }}" >
             </div>
 
-            <div class="teal-panel portfolio glass">
-                 <div class="portfolioWrap">
-                    <div class="githublogo"><a href="{{ developer.github }}"><img src="static/images/github120.png"></a></div>
+            <div class="teal-panel glass">
+                    <!--<div class="githublogo"><a href="{{ developer.github }}"><img src="static/images/github120.png"></a></div>-->
 
-                    <div ng-repeat="project in developer.projects" class="project">
+                    <div ng-repeat="developer in developer.projects">
+                        <div class="row">
+                            <h1 class="portfolioTitle">Project Portfolio</h1>
+                        </div>
 
-                        <h1 class="portfolioTitle">Portfolio</h1>
-                        <h1 class="projectName">{{ project.name }}</h1>
-                        <h2 class="projectSummary">Project Summary</h2>
-                        <p class="description">{{ project.description }}</p>
+                        <div class="row">
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                            <div class="col-md-4 coral-panel inset">
+                                <h1 class="projectName">{{ project.project_name }}</h1>
+                                <img ng-src="{{ developer.screenshot }}">
+                                <p class="description">{{ project.description }}</p>
+                            </div>
+                        </div>
+                        <!--<h2 class="projectSummary">Project Summary</h2>-->
 
                         <!--<div class="imagethumb">
-                            <img ng-src="{{ project.project_screenshot }}">
                         </div>-->
-                        <!--<p>Developer Id: {{ project.id }}</p>-->
+                        <!--<p>Company Id: {{ project.id }}</p>-->
                         <!--<p>Date Posted: {{ project.created }}</p>-->
                         <!--<p>{{ project.completed }}</p>-->
                         <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
                         <!--<img ng-src="{{ developer.cover }}" class="img-responsive img-cover">-->
 
                     </div>
-                 </div>
             </div>
         </div>
     </div>
