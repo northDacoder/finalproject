@@ -2,13 +2,16 @@
 body { margin: 0; padding: 0; }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.6);
     height: 2200px;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -10;
 }
+
+
+a { color: white; }
 
 div.navbar.navbar-top { border: none; }
 h1.sitelogo { font-family: 'Raleway Dots', cursive; text-align: center; padding-top: 12px; font-size: 24px;}
@@ -35,18 +38,14 @@ div.lightblue-panel { background: rgba(0,159,170,1); margin-bottom: 30px;}
 div.burnt-panel { background: rgba(255,48,13,1); margin-bottom: 30px; }
 div.pearl-panel { background: rgba(255,247,240,1); margin-bottom: 30px; }
 div.coral-panel { background: rgba(241,89,77,1); margin-bottom: 30px; }
-div.navy-panel { background: rgba(33,37,48,1); margin-bottom: 30px; }
 div.teal-panel { background: rgba(44,193,123,1); margin-bottom: 30px; }
 div.neongreen-panel { background: rgba(0,255,0,1); margin-bottom: 30px; }
-div.turq-panel { background: #006666; margin-bottom: 30px; }
 div.ivory-panel { background: #FFFFE6; margin-bottom: 30px; }
 div.slate-panel { background: #333333; margin-bottom: 30px; }
 
 .stackfifty { height: 50px; }
 .stackone { height: 100px; }
 .stacktwo { height: 200px; }
-.stackthree { height: 300px; }
-.stackfour { height: 400px; }
 .stackfive { height: 500px; }
 .stacksidebar { height: 900px; }
 
@@ -60,9 +59,6 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .loginForm input[type="text"].hasError { background: #fefefe; border-color: #cb2027; box-shadow: rgba(255,0,0,0.35); position: relative; }
 .firstName, .lastName { float: left; width: 190px; }
 
-#addDevProject a { color: white; }
-#addCompProject a { color: white; }
-
 .restform { max-width: 500px; margin: 0 auto; background: #fff; padding: 30px 45px; border-radius: 10px; color: rgba(0,0,0,.5); font-family: helvetica, arial, sans-serif; border: 2px dashed red; box-shadow: 2px 2px 2px #333;}
 .restform label {font-size: 24px; }
 .restform input { border-radius: 6px; height: 50px; }
@@ -73,8 +69,7 @@ input.descriptionbox { height: 100px; }
 
 .glass { opacity: .9; }
 
-#companyBody { position: absolute; top: -75px; z-index: -2;}
-#developerBody { position: absolute; top: 0; z-index: -2; }
+
 div.company, div.developer {
     color: white;
     text-align: center;
@@ -88,7 +83,7 @@ h1.companyName, h1.developerName {
     font-family: 'Nixie One', cursive;
 }
 
-.devprojects { z-index: 1000; }
+
 .companyInfo, .developerInfo { width: 400px; font-family: 'Nixie One', cursive; background-color: rgba(0,0,0,.8); padding: 30px 0; position: relative; top: 190px; margin: 0 auto;}
 .portfolioWrap { width: 400px; margin: 0 auto; }
 .portfolioTitle { text-align: center; color: #3c3c3c; font-family: 'Nixie One', cursive; padding: 9px 0 0 0; }
@@ -97,7 +92,6 @@ h1.companyName, h1.developerName {
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .githublogo { height: 40px; width: 40px; position: relative; left: 15px; top: 15px; }
 .imagewrap { width: 100%; height: 205px; overflow: hidden; }
-.imagethumb { width: 400px; height: 100%; }
 
 
 /*font-family: 'Nixie One', cursive;*/

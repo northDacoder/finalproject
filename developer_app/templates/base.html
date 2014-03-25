@@ -61,7 +61,7 @@
     {% if user.is_authenticated %}
 
     <div class="navbar navbar-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header pull-left">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -71,22 +71,25 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="#" >mvproto.io</a>
+                <!--<a class="navbar-brand" href="#" >mvproto.io</a>-->
                 <!--<button type="button" class="btn btn-danger navbar-btn">Sign in</button>-->
             </div>
 
+            <h1 class="sitelogo">MVprototype</h1>
+
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav pull-right">
+                <ul class="nav navbar-nav">
                     <li><a href="#developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
                     <li><a href="#companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                            <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li class="divider"></li>
-                            <li class="dropdown-header">My Profile</li>
+                            <li class="dropdown-header"><i class="glyphicon glyphicon-user"></i>  My Profile</li>
                             <li><a href="#/user/{{ user.id }}">{{ user.username }}</a></li>
                             <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
                             <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
