@@ -6,6 +6,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .when('/developers', { templateUrl: '/static/views/developers.html', controller: 'developerController' })
         .when('/companies', { templateUrl: '/static/views/companies.html', controller: 'companyController' })
         .when('/contact', { templateUrl: '/static/views/contact.html' })
+        .when('/about', { templateUrl: '/static/views/about.html' })
         .when('/developerProfile', { templateUrl: '/static/views/developerProfile.html', controller: 'developerProfileController' })
         .when('/user/:id', { templateUrl: '/static/views/user.html', controller: 'userController' })
         .when('/addDeveloperProject', { templateUrl: '/static/views/addDeveloperProject.html', controller: 'developerProjectController' })
