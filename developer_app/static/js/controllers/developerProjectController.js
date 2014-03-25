@@ -9,12 +9,6 @@ function developerProjectController($scope, $http) {
         $http.post('api/v1/developerproject/', $scope.user).success(function(){
             alert('Add a developer project?');
         });
-    }
-//
-//    $scope.deleteDeveloperProject = function() {
-//        console.log($scope.user);
-//        $http.delete('api/v1/developerproject/', $scope.user).success(function(){
-//            alert('You are trying to delete a developer project!');
-//        });
-//    }
+    };
+
 }

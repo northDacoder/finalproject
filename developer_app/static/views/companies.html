@@ -16,6 +16,7 @@
                 <h1 class="companyName">{{ company.name }}</h1>
                 <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
                 <p class="description">{{ company.description }}</p>
+                <a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a>
             </div>
 
             <!-- COMPANY SCREENSHOT IMAGE -->
@@ -26,15 +27,12 @@
             <!-- COMPANY PORTFOLIO -->
             <div class="teal-panel portfolio glass">
                 <div class="portfolioWrap">
-                 <div class="githublogo">
-                    <a href="{{ company.github }}">
-                        <img src="static/images/github120.png">
-                    </a>
-                 </div>
+                    <div class="githublogo">
+                        <a href="{{ company.github }}">
+                            <img src="static/images/github120.png">
+                        </a>
+                    </div>
                  <h1 class="portfolioTitle">Our Portfolio</h1>
-
-                 <!--<div><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></div>-->
-
                  <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
 
 

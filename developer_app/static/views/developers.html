@@ -1,3 +1,4 @@
+
 <div class="scrollable">
 
     <form class="form-wrapper cf" id="searchbox">
@@ -16,6 +17,8 @@
                 <h1 class="developerName">{{ developer.name }}</h1>
                 <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
                 <p class="description">{{ developer.description }}</p>
+                <a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a>
+                <h1>{{ developer.finished }}</h1>
             </div>
 
             <!-- developer SCREENSHOT IMAGE -->
@@ -32,8 +35,6 @@
                     </a>
                  </div>
                  <h1 class="portfolioTitle">Our Portfolio</h1>
-
-                 <!--<div><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></div>-->
 
                  <!--<img ng-src="{{ developer.cover }}" class="img-responsive img-cover">-->
 
