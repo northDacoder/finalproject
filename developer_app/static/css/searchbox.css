@@ -27,7 +27,7 @@
     /*-------------------------------------*/
 
     .form-wrapper {
-        width: 470px;
+        width: 300px;
         padding: 15px;
         margin: 150px auto 50px auto;
         background: #444;
@@ -42,7 +42,7 @@
     }
 
     .form-wrapper input {
-        width: 330px;
+        width: 160px;
         height: 40px;
         padding: 10px 5px;
         float: left;

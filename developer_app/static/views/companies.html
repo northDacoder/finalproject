@@ -1,27 +1,28 @@
 <div class="scrollable">
 
-
-
     <form class="form-wrapper cf" id="searchbox">
         <!--<input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" class="searchbox"bs-input>-->
         <input type="text" placeholder="Company name" ng-model="name" >
         <button type="submit">Search</button>
     </form>
 
-    <div class="scrollable-content col-xs-12 col-md-6" id="companybody">
+    <div class="scrollable-content" id="companybody">
 
         <div ng-repeat="company in companies | filter:name" class="company">
 
-            <!-- COMPANY SCREENSHOT IMAGE -->
-            <img ng-src="{{ company.screenshot }}" class="img-responsive img-screenshot">
+
 
             <!-- COMPANY INFO -->
-            <div class="companyInfo inset">
+            <div class="companyInfo">
                 <h1 class="companyName">{{ company.name }}</h1>
                 <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
 
                 <!-- COMPANY DESCRIPTION -->
                <p class="description">{{ company.description }}</p>
+            </div>
+            <!-- COMPANY SCREENSHOT IMAGE -->
+            <div class="imagewrap">
+                <img ng-src="{{ company.screenshot }}" >
             </div>
 
             <!-- COMPANY PORTFOLIO -->

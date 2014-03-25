@@ -6,12 +6,14 @@
         <button type="submit">Search</button>
     </form>
 
-    <div class="scrollable-content col-xs-12 col-md-6" id="developerbody">
+    <div class="scrollable-content" id="developerbody">
 
          <div ng-repeat="developer in developers | filter:name" class="developer">
 
                 <!-- DEVELOPER SCREENSHOT IMAGE -->
-                <img ng-src="{{ developer.screenshot }}" class="img-responsive img-screenshot">
+                <div class="imagewrap">
+                    <img ng-src="{{ developer.screenshot }}">
+                </div>
 
                 <!-- DEVELOPER INFO -->
                 <div class="developerInfo inset">
