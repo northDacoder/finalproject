@@ -4,6 +4,7 @@
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +26,19 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="companies.html" pinned="false" current="true" current-in-tab="true">
+            <file leaf-file-name="companies.html" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="59" column="65" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.5730337" vertical-offset="375" max-vertical-offset="1335">
+                  <state line="42" column="67" selection-start="2192" selection-end="2192" vertical-scroll-proportion="-5.1" vertical-offset="375" max-vertical-offset="1335">
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="92" column="74" selection-start="4121" selection-end="4121" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1905">
+                  <state line="74" column="15" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.31619257" vertical-offset="821" max-vertical-offset="1905">
                     <folding />
                   </state>
                 </provider>
@@ -66,7 +67,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="20" selection-start="5050" selection-end="5050" vertical-scroll-proportion="0.5219365" vertical-offset="1050" max-vertical-offset="2280">
+            <state line="89" column="51" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.18154311" vertical-offset="1215" max-vertical-offset="2280">
               <folding />
             </state>
           </provider>
@@ -227,8 +228,8 @@
         <option value="$PROJECT_DIR$/finalproject/urls.py" />
         <option value="$PROJECT_DIR$/developer_app/static/css/searchbox.css" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
-        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
         <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
       </list>
     </option>
   </component>
@@ -859,11 +860,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17420067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17420067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3330333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3330333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1253,23 +1254,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="74" selection-start="4121" selection-end="4121" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="20" selection-start="5050" selection-end="5050" vertical-scroll-proportion="0.5219365" vertical-offset="1050" max-vertical-offset="2280">
+        <state line="89" column="51" selection-start="4632" selection-end="4632" vertical-scroll-proportion="0.18154311" vertical-offset="1215" max-vertical-offset="2280">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="65" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.5730337" vertical-offset="375" max-vertical-offset="1335">
+        <state line="42" column="67" selection-start="2192" selection-end="2192" vertical-scroll-proportion="-5.1" vertical-offset="375" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="15" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.31619257" vertical-offset="821" max-vertical-offset="1905">
           <folding />
         </state>
       </provider>
