@@ -1,13 +1,13 @@
 
 <div class="scrollable">
 
-    <form class="form-wrapper cf" id="searchbox">
+    <form class="form-wrapper cf" class="searchbox">
         <!--<input type="text" placeholder="Developer name..." ng-model="name" label="Search Developers" class="searchbox"bs-input>-->
         <input type="text" placeholder="Developer name" ng-model="name" >
         <button type="submit">Search</button>
     </form>
 
-    <div class="scrollable-content" id="companybody">
+    <div class="scrollable-content" id="developerbody">
         <div class="backgroundoverlay"></div>
 
         <div ng-repeat="developer in developers | filter:name" class="developers">
@@ -17,8 +17,8 @@
                 <h1 class="developerName">{{ developer.name }}</h1>
                 <h2 class="address">{{ developer.city }}, {{ developer.state }}</h2>
                 <p class="description">{{ developer.description }}</p>
-                <a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a>
-                <h1>{{ developer.finished }}</h1>
+                <a href="mailto:{{ developer.email }}"><span class="label label-primary"><i class="fa fa-envelope"></i> {{ developer.email }}</span></a>
+                <a href="tel:+{{ developer.phone }}"><span class="label label-success"><i class="fa fa-phone"></i> Call</span></a>
             </div>
 
             <!-- developer SCREENSHOT IMAGE -->
@@ -28,44 +28,35 @@
 
             <!-- developer PORTFOLIO -->
             <div class="teal-panel portfolio glass">
-                <div class="portfolioWrap">
-                 <div class="githublogo">
-                    <a href="{{ developer.github }}">
-                        <img src="static/images/github120.png">
-                    </a>
-                 </div>
-                 <h1 class="portfolioTitle">Our Portfolio</h1>
-
-                 <!--<img ng-src="{{ developer.cover }}" class="img-responsive img-cover">-->
-
-
-                <!-- COMPANY PROJECTS -->
-                <div ng-repeat="project in developer.projects" class="project">
-
-                    <!-- PROJECT NAME -->
-                    <h1 class="projectName">{{ project.name }}</h1>
-
-                    <!-- SCREENSHOT IMAGE -->
-                    <div class="imagethumb">
-                        <img ng-src="{{ project.project_screenshot }}">
+                 <div class="portfolioWrap">
+                    <div class="githublogo">
+                        <a href="{{ developer.github }}">
+                            <img src="static/images/github120.png">
+                        </a>
                     </div>
+                    <h1 class="portfolioTitle">Our Portfolio</h1>
 
-                    <!--<p>Company Id: {{ project.id }}</p>-->
+                    <!-- DEVELOPER PROJECTS -->
+                    <div ng-repeat="project in developer.projects" class="project">
 
-                    <!-- DATE POSTED -->
-                    <!--<p>Date Posted: {{ project.created }}</p>-->
+                        <!-- PROJECT NAME -->
+                        <h1 class="projectName">{{ project.name }}</h1>
 
-                    <!-- PROJECT SUMMARY -->
-                    <h2 class="projectSummary">Project Summary</h2>
-                    <p class="description">{{ project.description }}</p>
+                        <!-- SCREENSHOT IMAGE -->
+                        <div class="imagethumb">
+                            <img ng-src="{{ project.project_screenshot }}">
+                        </div>
 
-                    <!-- COMPLETION STATUS -->
-                    <!--<p>{{ project.completed }}</p>-->
+                        <!-- PROJECT SUMMARY -->
+                        <h2 class="projectSummary">Project Summary</h2>
+                        <p class="description">{{ project.description }}</p>
 
-                    <!-- RESOURCE URI -->
-                    <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                        <!--<p>Developer Id: {{ project.id }}</p>-->
+                        <!--<p>Date Posted: {{ project.created }}</p>-->
+                        <!--<p>{{ project.completed }}</p>-->
+                        <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                        <!--<img ng-src="{{ developer.cover }}" class="img-responsive img-cover">-->
                 </div>
             </div>
         </div>
-    </div>
 </div>
