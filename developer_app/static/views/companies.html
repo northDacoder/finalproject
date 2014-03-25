@@ -1,6 +1,6 @@
 <div class="scrollable">
 
-    <form class="form-wrapper cf" class="searchbox">
+    <form class="form-wrapper cf searchbox">
         <!--<input type="text" placeholder="Company name..." ng-model="name" label="Search Companies" class="searchbox"bs-input>-->
         <input type="text" placeholder="Company name" ng-model="name" >
         <button type="submit">Search</button>
@@ -15,7 +15,7 @@
             <div class="companyInfo">
                 <h1 class="companyName">{{ company.name }}</h1>
                 <h2 class="address">{{ company.city }}, {{ company.state }}</h2>
-                <p class="description">{{ company.description }}</p>
+                <!--<p class="description">{{ company.description }}</p>-->
                 <a href="mailto:{{ company.email }}"><span class="label label-primary"><i class="fa fa-envelope"></i> {{ company.email }}</span></a>
                 <a href="tel:+{{ company.phone }}"><span class="label label-success"><i class="fa fa-phone"></i> Call</span></a>
             </div>
@@ -28,33 +28,22 @@
             <!-- COMPANY PORTFOLIO -->
             <div class="teal-panel portfolio glass">
                 <div class="portfolioWrap">
-                    <div class="githublogo">
-                        <a href="{{ company.github }}">
-                            <img src="static/images/github120.png">
-                        </a>
-                    </div>
+                    <div class="githublogo"><a href="{{ company.github }}"><img src="static/images/github120.png"></a></div>
+
+                    <div ng-repeat="project in company.projects" class="project">
                     <h1 class="portfolioTitle">Portfolio</h1>
+                    <h1 class="projectName">{{ project.name }}</h1>
+                    <h2 class="projectSummary">Project Summary</h2>
+                    <p class="description">{{ project.description }}</p>
 
-                        <!-- COMPANY PROJECTS -->
-                        <div ng-repeat="project in company.projects" class="project">
-
-                        <!-- PROJECT NAME -->
-                        <h1 class="projectName">{{ project.name }}</h1>
-
-                        <!-- SCREENSHOT -->
-                        <div class="imagethumb">
-                            <img ng-src="{{ project.project_screenshot }}">
-                        </div>
-
-                        <!-- PROJECT SUMMARY -->
-                        <h2 class="projectSummary">Project Summary</h2>
-                        <p class="description">{{ project.description }}</p>
-
-                        <!--<p>Company Id: {{ project.id }}</p>-->
-                        <!--<p>Date Posted: {{ project.created }}</p>-->
-                        <!--<p>{{ project.completed }}</p>-->
-                        <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
-                        <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
+                    <!--<div class="imagethumb">
+                       <img ng-src="{{ project.project_screenshot }}">
+                    </div>-->
+                    <!--<p>Company Id: {{ project.id }}</p>-->
+                    <!--<p>Date Posted: {{ project.created }}</p>-->
+                    <!--<p>{{ project.completed }}</p>-->
+                    <!--<a href="{{ project.resource_uri }}">Project Resource Link</a>-->
+                    <!--<img ng-src="{{ company.cover }}" class="img-responsive img-cover">-->
 
                 </div>
             </div>
