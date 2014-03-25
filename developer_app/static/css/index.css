@@ -2,7 +2,7 @@
 body { margin: 0; padding: 0; }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.8);
     height: 2200px;
     width: 100%;
     position: absolute;
@@ -63,7 +63,7 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .restform input { border-radius: 6px; height: 50px; }
 input.descriptionbox { height: 100px; }
 
-.img-screenshot { margin: 10px auto; width: 100%; max-height: 250px; border-radius: 3px; box-shadow: 2px 2px 2px #333; }
+.img-screenshot { margin: 0 auto; width: 100%; max-height: 300px; box-shadow: 2px 2px 2px #333; }
 .img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
 .glass { opacity: 1; }
@@ -75,6 +75,7 @@ div.company, div.developer {
     padding: 0;
     padding-top: 50px;
     margin: 0px auto;
+    margin-bottom: -160px;
 }
 
 h1.companyName, h1.developerName {
@@ -83,19 +84,20 @@ h1.companyName, h1.developerName {
 }
 
 
-.companyInfo, .developerInfo { width: 300px; border-radius: 4px; box-shadow: 1px 1px 2px #333; font-family: 'Raleway Dots', cursive;, cursive; background-color: rgba(0,0,0,.8); padding: 0; position: relative; top: 170px; margin: 0 auto;}
+.companyInfo, .developerInfo { width: 400px; box-shadow: 1px 1px 2px #333; font-family: 'Raleway Dots', cursive;, cursive; background-color: rgba(0,0,0,.8); padding: 7px; position: relative; top: 160px; margin: 0 auto;}
 .portfolioWrap { width: 400px; margin: 0 auto; }
-.portfolioTitle { opacity: 1; z-index: 100; background-color: white; text-align: center; margin: 0; padding: 0; height: 60px; }
+.portfolioTitle { background: rgba(0,0,0,.0); width: 400px; font-family: 'Nixie One', cursive; opacity: 1; z-index: 100; text-align: center; margin: 0 auto; padding: 10px 0 0 0; height: 60px; position: relative; top: 10px; }
 .projectName { font-size: 16px;  }
 .address { }
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .githublogo { height: 40px; width: 40px; position: relative; left: 15px; top: 15px; }
 .imagewrap { width: 100%; height: 205px; overflow: hidden; }
-.gallery { padding-top: 0px; }
+.gallery { padding: 0 15px; }
 
-div.thumbnail { background: black; padding: 30px; margin: 0; }
-.thumbnail { background: rgba(0,0,0,.0); border: none; width: 100%; margin: 0; }
-
+div.thumbnail { width: 400px; background: rgba(0,0,0,.0); padding: 0; margin: 0 auto; padding-top: 40px; }
+.thumbnail { background: rgba(0,0,0,.0); border: none; width: 100%; margin: 0; border-radius: none; }
+.thumbnail h3 { color: white; }
+.thumbnail p { color: white;}
 div.navbar {z-index: 1000;}
 div.navbar.navbar-top { border: none; height: 60px; padding-top: 5px;}
 a.nabar-brand:first-child { font-family: 'Raleway Dots', cursive; }
