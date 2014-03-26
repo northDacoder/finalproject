@@ -17,6 +17,8 @@ body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
     z-index: -1000;
 }
 
+button:visited { opacity: 1; text-decoration: none;}
+a:visited { opacity: 1; text-decoration: none; }
 
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
@@ -72,17 +74,6 @@ input.descriptionbox { height: 100px; }
 
 .glass { opacity: 1; }
 
-
-/*div.company, div.developer {*/
-    /*color: white;*/
-    /*text-align: center;*/
-    /*padding: 0;*/
-    /*margin: 0 auto;*/
-    /*margin-top: 160px;*/
-    /*z-index: -100;*/
-/*}*/
-
-
 h1.companyName {
     font-family: 'Nixie One', cursive;
     width: 100%;
@@ -122,12 +113,12 @@ a.nabar-brand:first-child { font-family: 'Raleway Dots', cursive; }
 .loginbuttons { margin-bottom: 20px; }
 
 .navbar-toggle { border: 2px solid white; }
-.navbar-toggle:hover { background: #5CB85C; opacity: .9}
+.navbar-toggle:hover { background: #5CB85C; opacity: 1}
 .icon-bar { background: white; }
 
 .portfoliotoggle { font-size: 50px; width: 100%; }
 
-.projectsDropdown { color: #3c3c3c; }
+.dropdown-menu { color: #3c3c3c; padding: 15px; }
 .dropdownTitle { padding: 12px 0 5px 0; font-size: 24px; font-family: 'Nixie One', cursive;}
 
 /*font-family: 'Nixie One', cursive;*/

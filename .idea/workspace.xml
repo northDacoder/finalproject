@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/base.html" afterPath="$PROJECT_DIR$/developer_app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -23,6 +22,23 @@
     <disable_hints />
   </component>
   <component name="DockManager">
+    <window id="6">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="companies.html" pinned="false" current="true" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="55" column="32" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.8196721" vertical-offset="375" max-vertical-offset="2775">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
     <window id="5">
       <content type="file-editors">
         <state>
@@ -102,9 +118,7 @@
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/jumbotron.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding>
-                <marker date="1395802942000" expanded="false" signature="20421:20561" placeholder="data:image/png" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,19 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="57" selection-start="5268" selection-end="5268" vertical-scroll-proportion="0.4764398" vertical-offset="1677" max-vertical-offset="2250">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="59" selection-start="2429" selection-end="2429" vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="2625">
+            <state line="115" column="54" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.369287" vertical-offset="1523" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -198,8 +203,8 @@
         <option value="$PROJECT_DIR$/developer_app/static/css/profilecard.css" />
         <option value="$PROJECT_DIR$/developer_app/static/css/jumbotron.css" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
       </list>
     </option>
   </component>
@@ -1279,15 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/jumbotron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <marker date="1395802942000" expanded="false" signature="20421:20561" placeholder="data:image/png" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="42" selection-start="536" selection-end="536" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1320">
@@ -1320,16 +1316,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/jumbotron.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="59" selection-start="2429" selection-end="2429" vertical-scroll-proportion="-13.75" vertical-offset="225" max-vertical-offset="2625">
+        <state line="7" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="57" selection-start="5268" selection-end="5268" vertical-scroll-proportion="0.4764398" vertical-offset="1677" max-vertical-offset="2250">
+        <state line="115" column="54" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.369287" vertical-offset="1523" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="32" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.8196721" vertical-offset="375" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>
