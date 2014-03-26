@@ -30,7 +30,7 @@
         position: relative;
         width: 380px;
         padding: 15px;
-        margin: 40px auto 0 auto;
+        margin: 30px auto 0 auto;
         background: #444;
         background: rgba(0,0,0,.2);
         -moz-border-radius: 10px;
@@ -46,7 +46,7 @@
         width: 209px;
         height: 40px;
         padding: 10px 15px;
-        font-family: 'source code pro';
+        font-family: 'Open Sans', sans-serif;
         border: 0;
         background: #eee;
         -moz-border-radius: 3px 0 0 3px;
@@ -87,10 +87,11 @@
         cursor: pointer;
         height: 40px;
         width: 141px;
-        font-family: 'source code pro';
+        font-family: 'Open Sans', sans-serif;
         color: #fff;
         text-transform: uppercase;
         background: #d83c3c;
+        background: #5CB85C;
         -moz-border-radius: 0 3px 3px 0;
         -webkit-border-radius: 0 3px 3px 0;
         border-radius: 0 3px 3px 0;
@@ -111,7 +112,7 @@
         position: absolute;
         border-width: 8px 8px 8px 0;
         border-style: solid solid solid none;
-        border-color: transparent #d83c3c transparent;
+        border-color: transparent #5CB85C transparent;
         top: 12px;
         left: -6px;
     }
