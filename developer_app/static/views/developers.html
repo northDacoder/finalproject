@@ -13,18 +13,22 @@
         <div ng-repeat="developer in developers | filter:name" class="company">
 
             <div class="container">
+
                 <div class="row">
+
                     <div class="col-xs-12">
+
                         <div class="row">
+
                             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
                                 <h1 class="developerName">{{ developer.name }}</h1>
                                 <div class="imagewrap"><img ng-src="{{ developer.screenshot }}" class="img-screenshot"></div>
                                 <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
-                                <ul class="list-group col-xs-12 imageoverlay">
+                                <ul class="list-group imageoverlay">
                                     <!--<li><p>{{ developer.description }}</p></li>-->
                                     <!--<li><p>{{ developer.posted }}</p></li>-->
                                     <!--{{ developer.cover }}-->
-                                    <!--{{ developer.language }}-->
                                     <!--{{ developer.completed }}-->
                                     <li><a href="{{ developer.github }}" class="gitlink"><span class="fa fa-github"></span> github</a></li>
                                     <li><a href="{{ developer.website }}" class="website"><span class="fa fa-linkedin"></span> linkedin</a></li>
@@ -32,24 +36,39 @@
                                     <li><a href="tel:+1{{ developer.phone }}" class="phone"><span class="fa fa-mobile-phone"></span> call</a></li>
                                 </ul>
 
-                                <div class="toggleable-dropdown" active-class="open" id="devDropdown" toggleable>
-                                    <button type="button" value="{{ developer.name }} Projects" class="btn btn-default btn-block dropdown-toggle" toggle target="devDropdown">
+                                <div class="toggleable-dropdown" active-class="open" id="myDropdown" toggleable>
+                                    <button type="button" value="{{ developer.name }} Projects" class="btn btn-default btn-block dropdown-toggle" toggle target="myDropdown">
                                         <p class="dropdownTitle">{{ developer.name }} Projects <i class="fa fa-chevron-down"></i></p>
                                     </button>
 
-                                    <div ng-repeat="project in developer.projects" class="dropdown-menu" role="menu" toggle="off" bubble target="devDropdown">
+                                    <div ng-repeat="project in developer.projects" class="dropdown-menu" role="menu" toggle="off" bubble target="myDropdown">
                                         <h1>Project #1</h1>
                                         <h1>{{ project.project_name }}</h1>
                                         <p>{{ project.description }}</p>
-                                        <button class="btn btn-danger" role="button"><p><i class="glyphicon glyphicon-star"></i> Favorite</p></button>
-                                        <button class="btn btn-danger" role="button"><p>More <i class="glyphicon glyphicon-share-alt"></i></p></button>
+                                        <ul>
+                                            <li>{{ project.created }}</li>
+                                            <li>{{ project.developer }}</li>
+                                            <li>{{ project.company_project }}</li>
+                                            <li>{{ project.completed }}</li>
+                                        </ul>
+                                        <button class="btn btn-danger" role="button"><i class="glyphicon glyphicon-star"></i> Favorite</button>
+                                        <button class="btn btn-danger" role="button">More <i class="glyphicon glyphicon-share-alt"></i></button>
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </div>

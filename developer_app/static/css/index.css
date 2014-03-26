@@ -3,16 +3,15 @@ body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
 
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: #333;
-    opacity: .5;
+    background: rgba(88, 153, 208, .7);
+    opacity: .6;
     height: 3000px;
     width: 100%;
     position: absolute;
     top: 0;
-    z-index: -60;
 }
 
-.scrollable-content { padding-top: 70px;}
+.scrollable-content { padding-top: 52px;}
 
 
 button:visited { opacity: 1; text-decoration: none;}
@@ -46,6 +45,7 @@ div.bootstrap-green-panel { background: #5CB85C; margin-bottom: 30px; opacity: .
 div.neongreen-panel { background: rgba(0,255,0,1); margin-bottom: 30px; }
 div.ivory-panel { background: #FFFFE6; margin-bottom: 30px; }
 div.slate-panel { background: #333333; margin-bottom: 30px; }
+.navblue { background-color: rgba(88, 153, 208, 1); }
 
 .stackfifty { height: 50px; }
 .stackone { height: 100px; }
@@ -68,85 +68,81 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .restform input { border-radius: 6px; height: 50px; }
 input.descriptionbox { height: 100px; }
 
-.img-screenshot { margin: 0 auto; width: 100%; max-height: 300px; }
-.img-cover { height: 250px; width: 100%; margin: 0 auto; }
 
-.glass { opacity: 1; }
+/* NAVBAR CSS */
+.navbar navbar-top { height: 50px; }
+.navbar-toggle { border: 2px solid white; }
+.navbar-toggle:hover { background: #5CB85C; opacity: 1; }
+.icon-bar { background: white; }
+.dropdown { padding-bottom: 20px; }
+.nav navbar-nav { padding: 0; height: 50px; }
+a.navbar-brand { color: white; font-family: 'Raleway Dots', cursive; position: relative; top: 5px; }
+div.navbar-collapse { padding-top: 20px; }
+#navdrop { padding: 0; width: 100%; }
+/* NAVBAR CSS */
 
+/* COMPANIES STYLES */
+.company { margin: 0px; padding: 0px; color: white; font-family: 'Raleway Dots'; font-size: 30px; z-index: -100; }
 h1.companyName {
-    /* font-family: 'Nixie One', cursive; */
     font-family: 'Raleway Dots';
     width: 100%;
     padding: 10px;
     background: rgba(255,247,240,1);
     background: rgba(88, 153, 208, .7);
-    color: #3c3c3c;
     color: white;
     position: relative;
     top: 68px;
     box-shadow: 0px 3px 4px #333;
 }
+/* COMPANIES STYLES */
 
+
+/* DEVELOPER STYLES */
+.developer { margin: 0px; padding: 0px; color: white; font-family: 'Raleway Dots'; font-size: 30px; z-index: -100; }
 h1.developerName {
-    font-family: 'Nixie One', cursive;
     font-family: 'Raleway Dots';
     width: 100%;
     padding: 10px;
-    /* background: rgba(0,0,0,.6); */
-    /* background: rgba(88, 153, 208, 1); */
-    background: #5CB85C;
-    opacity: .7;
+    background: rgba(92,184,92, .7);
     color: white;
     position: relative;
     top: 68px;
     box-shadow: 0px 3px 4px #333;
 }
+/* DEVELOPER STYLES */
 
-.company { margin: 0px; padding: 0px; color: white; font-family: 'Raleway Dots'; font-size: 30px; z-index: -100;}
 
+/* SHARED STYLES */
+.address { background: rgba(0,0,0,.7); font-size: 30px; width: 100%; color: white; padding: 10px 0;  font-family: 'Raleway Dots'; }
+.description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .portfolioWrap { width: 100%; margin: 0 auto; }
+.portfoliotoggle { font-size: 50px; width: 100%; }
 .portfolioTitle { font-size: 30px; background: rgba(0,0,0,1); width: 100%; font-family: 'Raleway Dots'; text-align: center; margin: 0 auto; padding: 10px 0 0 0;}
-.projectName { font-size: 22x;  font-family: 'Raleway Dots'; }
-
+.projectName { font-size: 22px;  font-family: 'Raleway Dots'; }
+.dropdown-menu { color: #3c3c3c; padding: 15px; }
+.dropdownTitle { padding: 12px 0 5px 0; font-size: 24px; font-family: 'Nixie One', cursive;}
 /*a.gitlink {  }*/
 /*a.gitlink:hover {  }*/
 /*a.email { }*/
+/* SHARED STYLES */
 
-.address { background: rgba(0,0,0,.9); font-size: 30px; width: 100%; color: white; padding: 10px 0;  font-family: 'Raleway Dots'; }
-.description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 
-.imagewrap { width: 100%; height: 205px; overflow: hidden; margin: 0 auto; }
 
+/* IMAGES */
 img { width: 100%: height: 100%: }
-
-.imageoverlay { height: 180px; background: rgba(0,0,0,.9); opacity: .8; padding: 15px 0; }
+.imagewrap { width: 100%; height: 306px; overflow: hidden; margin: 0 auto; }
+.img-screenshot { margin: 0 auto; width: 100%; max-height: 300px; }
+.imageoverlay { height: 180px; background: rgba(0,0,0,.7); opacity: .8; padding: 15px 0; }
 .imageoverlay a { color: white; font-size: 30px; }
 .imageoverlay a:hover { text-decoration: none; }
+/* .img-cover { height: 250px; width: 100%; margin: 0 auto; } */
+/* IMAGES */
 
-.thumbnail { margin: 0; padding: 30px 20px; width: 100%; border: none; border-radius: none; }
 
-.loginbuttons { margin-bottom: 20px; }
-.navbar-toggle { border: 2px solid white; }
-.navbar-toggle:hover { background: #5CB85C; opacity: 1; }
-.icon-bar { background: white; }
 
-.dropdown { padding-bottom: 20px; }
-.nav navbar-nav { padding: 0; height: 50px; }
 
-.navbar navbar-top { height: 50px; }
 
-a.navbar-brand { color: white; font-family: 'Raleway Dots', cursive; position: relative; top: 22px; }
-div.navbar-collapse { padding-top: 20px; }
 
-#navdrop { padding: 0;}
-
-.portfoliotoggle { font-size: 50px; width: 100%; }
-.dropdown-menu { color: #3c3c3c; padding: 15px; }
-.dropdownTitle { padding: 12px 0 5px 0; font-size: 24px; font-family: 'Nixie One', cursive;}
-
-.navblue {
-    background-color: rgba(88, 153, 208, 1);
-}
 
 /*font-family: 'Nixie One', cursive;*/
 /*font-family: 'Share Tech', sans-serif;*/
