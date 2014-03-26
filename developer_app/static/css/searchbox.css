@@ -27,9 +27,10 @@
     /*-------------------------------------*/
 
     .form-wrapper {
+        position: relative;
         width: 380px;
         padding: 15px;
-        margin: 50px auto;
+        margin: 40px auto 0 auto;
         background: #444;
         background: rgba(0,0,0,.2);
         -moz-border-radius: 10px;
@@ -42,16 +43,16 @@
     }
 
     .form-wrapper input {
-        width: 240px;
-        height: 50px;
+        width: 209px;
+        height: 40px;
         padding: 10px 15px;
-        float: left;
         font-family: 'source code pro';
         border: 0;
         background: #eee;
         -moz-border-radius: 3px 0 0 3px;
         -webkit-border-radius: 3px 0 0 3px;
         border-radius: 3px 0 0 3px;
+        float: left;
     }
 
     .form-wrapper input:focus {
@@ -84,8 +85,8 @@
         border: 0;
         padding: 0;
         cursor: pointer;
-        height: 50px;
-        width: 110px;
+        height: 40px;
+        width: 141px;
         font-family: 'source code pro';
         color: #fff;
         text-transform: uppercase;
