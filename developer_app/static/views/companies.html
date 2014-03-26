@@ -16,22 +16,22 @@
 
                 <div class="row">
 
-                <div class="col-xs-12 col-md-4">
-                    <div class="row">
-                        <h1 class="companyName">{{ company.name }}</h1>
-                        <a href="{{ company.github }}"><i class="fa fa-github"></i> Github</a>
-                        <div class="imagewrap"><img ng-src="{{ company.screenshot }}" ></div>
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <h1 class="companyName">{{ company.name }}</h1>
+                            <div class="imagewrap"><img ng-src="{{ company.screenshot }}" ></div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-xs-12 col-sm-4">
-                    <h2 class="address"><span class="glyphicon glyphicon-map-marker"></span> {{ company.city }}, {{ company.state }}</h2>
-                    <button class="btn btn-success" role="button"><a href="mailto:{{ developer.email }}" ></a><i class="glyphicon glyphicon-envelope"></i> email</a></button>
-                    <button class="btn btn-success" role="button"><a href="tel:+1{{ developer.phone }}" ></a><i class="glyphicon glyphicon-phone"></i> call</a></button>
-                </div>
+                    <div class="col-xs-12">
+                        <a href="{{ company.github }}" class="gitlink"><i class="fa fa-github"></i> Github</a>
+                        <h2 class="address"><span class="glyphicon glyphicon-map-marker"></span> {{ company.city }}, {{ company.state }}</h2>
+                        <button class="btn btn-success" role="button"><a href="mailto:{{ developer.email }}" ></a><i class="glyphicon glyphicon-envelope"></i> email</a></button>
+                        <button class="btn btn-success" role="button"><a href="tel:+1{{ developer.phone }}" ></a><i class="glyphicon glyphicon-phone"></i> call</a></button>
+                    </div>
 
-                <!--<p class="description">{{ company.description }}</p>-->
-                <!--<div class="githublogo"><a href="{{ company.github }}"><img src="static/images/github120.png"></a></div>-->
+                    <!--<p class="description">{{ company.description }}</p>-->
+                    <!--<div class="githublogo"><a href="{{ company.github }}"><img src="static/images/github120.png"></a></div>-->
 
                 </div>
             </div>
@@ -41,21 +41,21 @@
             <div ng-repeat="project in company.projects" class="container">
 
                 <div class="row">
-                    <h1 class="portfolioTitle"><span class="glyphicon glyphicon-picture"></span> Projects</h1>
+                    <h1 class="portfolioTitle col-xs-12"><span class="glyphicon glyphicon-picture"></span> Projects</h1>
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-12 col-md-4">
-                        <div class="thumbnail">
-                            <div class="imagewrap"><img ng-src="{{ company.cover }}" ></div>
-
-                            <div class="caption">
-                                <h3>{{ project.project_name }}</h3>
-                                <p>{{ project.description }}</p>
-                                <button class="btn btn-success" role="button"><a href="#" ></a><i class="glyphicon glyphicon-star"></i> Favorite</a></button>
-                                <button class="btn btn-primary" role="button"><a href="#" >More <i class="glyphicon glyphicon-share-alt"></i></a></button>
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="thumbnail">
+                                <div class="imagewrap"><img ng-src="{{ company.cover }}"></div>
+                                <div class="caption">
+                                    <h3>{{ project.project_name }}</h3>
+                                    <p>{{ project.description }}</p>
+                                    <button class="btn btn-success" role="button"><a href="#" ><i class="glyphicon glyphicon-star"></i> Favorite</a></button>
+                                    <button class="btn btn-primary" role="button"><a href="#" >More <i class="glyphicon glyphicon-share-alt"></i></a></button>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                  </div>
