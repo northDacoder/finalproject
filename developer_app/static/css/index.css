@@ -106,6 +106,8 @@ h1.companyName {
 
 .navbar navbar-top { border: none; height: 60px; padding: 10px; }
 a.nabar-brand:first-child { font-family: 'Raleway Dots', cursive; }
+
+
 .loginbuttons { margin-bottom: 20px; }
 
 .navbar-toggle { border: 2px solid white; }
