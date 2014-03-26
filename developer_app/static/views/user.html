@@ -1,3 +1,8 @@
+<div class="scrollable">
+    <div class="scrollable-content">
+     <div class="container">
+        <div class="row">
+
 
      <div class="profile-card">
         <div class="profile-cover">
@@ -16,7 +21,7 @@
                         <a class="read-more" href="#"><img src="http://dl.dropboxusercontent.com/s/62dfoo9h44o58lw/more.png"></a>
                     </div>
                 </div>
-                <a href="#"><img src="{{ profile.cover }}" /></a>
+                <div class="img-container"><img src="{{ profile.cover }}" /></div>
             </div>
             <div class="profile-details">
                 <h1>{{ profile.name }}</h1>
@@ -33,10 +38,6 @@
         <div class="profile-content">
             <ul>
                 <li><a href="{{ profile.github }}"><img src="static/images/github120.png"></a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
             </ul>
             <div class="clear"></div>
         </div>
@@ -47,6 +48,10 @@
             <h2>{{ profile.description }}</h2>
             <h2>{{ profile.city }}, {{ profile.state }}</h2>
             <a href="maltio:{{ profile.email }}">Contact Me!</a>
-            <img ng-src="{{ profile.screenshot }}" class="img-responsive img-screenshot">
+            <!--<img ng-src="{{ profile.screenshot }}" class="imagewrap">-->
         </div>
      </div>
+  </div>
+</div>
+        </div>
+    </div

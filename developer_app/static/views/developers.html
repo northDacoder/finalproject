@@ -14,10 +14,11 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="row">
+                        <div class="row">
                             <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 
                                 <h1 class="developerName">{{ developer.name }}</h1>
-                                <div class="imagewrap"><img ng-src="{{ developer.screenshot }}" class="img-screenshot"></div>
+                                <div class="img-container"><img ng-src="{{ developer.screenshot }}" ></div>
                                 <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
                                 <ul class="list-group imageoverlay">
                                     <!--<li><p>{{ developer.description }}</p></li>-->
@@ -37,6 +38,7 @@
 
                                     <div ng-repeat="project in developer.projects" class="dropdown-menu" role="menu" toggle="off" bubble target="myDropdown">
                                         <h1>{{ project.project_name }}</h1>
+                                        <div class="img-container"><img ng-src="{{ project.project_screenshot }}"></div>
                                         <p>{{ project.description }}</p>
                                         <ul>
                                             <li>{{ project.created }}</li>
