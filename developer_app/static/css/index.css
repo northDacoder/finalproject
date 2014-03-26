@@ -113,7 +113,7 @@ h1.developerName {
 
 
 /* SHARED STYLES */
-.address { background: rgba(0,0,0,.7); font-size: 30px; width: 100%; color: white; padding: 10px 0;  font-family: 'Raleway Dots'; }
+.address { background: rgba(0,0,0,.6); font-size: 30px; width: 100%; color: white; padding: 10px 0;  font-family: 'Raleway Dots'; }
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .portfolioWrap { width: 100%; margin: 0 auto; }
 .portfoliotoggle { font-size: 50px; width: 100%; }
