@@ -1,6 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
 body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
 
+#jumbo { background: rgba(0,0,0,1); }
+#jumbo:after {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 8px;
+        border-style: solid solid solid none;
+        border-color: black transparent black;
+        top: 12px;
+        left: -6px;
+}
+
+#jumbo1 { opacity: .7; background: rgba(0,0,0,.7); color: white;}
+.jumbotron:after {  }
+#jumbo2 { position: relative; bottom: 30px; }
+.jumbo-logo { padding-top: 100px;  }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
     background: rgba(88, 153, 208, .7);
@@ -14,9 +29,11 @@ body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
 .scrollable-content { padding-top: 52px;}
 
 
-button:visited { opacity: 1; text-decoration: none;}
+button:visited { opacity: 1; text-decoration: none; color: white; }
 a:visited { opacity: 1; text-decoration: none; }
 ul {list-style-type: none;}
+button a { color: white; opacity: 1;}
+
 
 form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
@@ -88,11 +105,12 @@ h1.companyName {
     width: 100%;
     padding: 10px;
     background: rgba(255,247,240,1);
-    background: rgba(88, 153, 208, .7);
+    background: rgba(88, 153, 208, .9);
     color: white;
     position: relative;
-    top: 68px;
+    top: 96px;
     box-shadow: 0px 3px 4px #333;
+    font-size: 60px;
 }
 /* COMPANIES STYLES */
 
@@ -106,14 +124,16 @@ h1.developerName {
     background: rgba(92,184,92, .7);
     color: white;
     position: relative;
-    top: 68px;
+    top: 96px;
     box-shadow: 0px 3px 4px #333;
+    font-size: 60px;
+
 }
 /* DEVELOPER STYLES */
 
 
 /* SHARED STYLES */
-.address { background: rgba(0,0,0,.6); font-size: 30px; width: 100%; color: white; padding: 10px 0;  font-family: 'Raleway Dots'; }
+.address { background: rgba(0,0,0,.3); font-size: 20px; width: 100%; color: rgba(255,255,255,.4); padding: 10px 0;  font-family: 'Ubuntu Mono',; }
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
 .portfolioWrap { width: 100%; margin: 0 auto; }
 .portfoliotoggle { font-size: 50px; width: 100%; }
@@ -134,14 +154,13 @@ img { width: 100%: height: 100%: }
 .img-screenshot { margin: 0 auto; width: 100%; max-height: 300px; }
 .imageoverlay { height: 180px; background: rgba(0,0,0,.7); opacity: .8; padding: 15px 0; }
 .imageoverlay a { color: white; font-size: 30px; }
-.imageoverlay a:hover { text-decoration: none; }
+.imageoverlay a:hover { text-decoration: none; color: rgba(0,255,0,1); }
 /* .img-cover { height: 250px; width: 100%; margin: 0 auto; } */
 /* IMAGES */
 
 
-.img-container { width: 100%; height: 306px; overflow: hidden; }
+.img-container { width: 100%; max-height: 306px; overflow: hidden; }
 .img-container img { width: 100%; }
-
 
 
 

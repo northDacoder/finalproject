@@ -70,11 +70,11 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand pull-left" href="#" ><i class="fa fa-rocket"></i>  RocketLaunchIt</a>
+                <a class="navbar-brand pull-left" href="#" ><i class="fa fa-rocket"></i>  rocketlaunchit</a>
             </div>
 
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav pull-right" id="navdrop">
+            <div class="navbar-collapse collapse pull-right">
+                <ul class="nav navbar-nav" id="navdrop">
                     <li><a href="#developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
                     <li><a href="#companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
 
@@ -88,7 +88,7 @@
                             <li class="dropdown-header"><i class="glyphicon glyphicon-user"></i>  My Profile</li>
                             <li><a href="#/user/{{ user.id }}">{{ user.username }}</a></li>
                             <li><a href="{% url 'auth_password_change' %}"><p class="loginText">{% trans "Change password" %}</p></a></li>
-                            <li><a href="{% url 'auth_logout' %}?next=/accounts/login">Log out</a></li>
+                            <li><a href="{% url 'auth_logout' %}?next=/accounts/login"><i class="fa fa-sign-out"></i> Log out</a></li>
                         </ul>
                     </li>
                 </ul>

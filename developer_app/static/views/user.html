@@ -1,54 +1,22 @@
 <div class="scrollable">
     <div class="scrollable-content">
-     <div class="container">
-        <div class="row">
-
-
-     <div class="profile-card">
-        <div class="profile-cover">
-            <div class="menu-container">
-                <a class="list-icon" title="Expand" href="javascript:void(0);"></a>
-                <ul class="profile-actions" style="display: none;">
-                    <li><a href="#">Follow</a></li>
-                    <li><a href="#">Add as Friend</a></li>
-                    <li><a href="#">Like</a></li>
-                </ul>
-            </div>
-            <div class="profile-avatar">
-                <div class="btns-container">
-                    <div class="profile-links">
-                        <a class="zoom-avatar" href="#"><img src="http://dl.dropboxusercontent.com/s/5liaxzvwbfuqzpo/zoom.png"></a>
-                        <a class="read-more" href="#"><img src="http://dl.dropboxusercontent.com/s/62dfoo9h44o58lw/more.png"></a>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="row">
                 <div class="img-container"><img src="{{ profile.cover }}" /></div>
             </div>
             <div class="profile-details">
                 <h1>{{ profile.name }}</h1>
                 <h6>@{{ profile.name }}</h6>
             </div>
-        </div>
-        <div class="profile-info" style="display: none;">
-            <h1>About Me</h1>
-            <div class="info-area">
-               {{ profile.description }}
-            </div>
-            <div class="clear"></div>
-        </div>
-        <div class="profile-content">
-            <ul>
-                <li><a href="{{ profile.github }}"><img src="static/images/github120.png"></a></li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        <span class="label label-info" id="addDevProject"><a href="#/addDeveloperProject">Add Project</a></span>
 
-        <!-- USER PROFILE -->
-        <div class="coral-panel cushion userprofile">
+               {{ profile.description }}
+
+                <a href="{{ profile.github }}"><img src="static/images/github120.png"></a>
+
             <h2>{{ profile.description }}</h2>
             <h2>{{ profile.city }}, {{ profile.state }}</h2>
             <a href="maltio:{{ profile.email }}">Contact Me!</a>
-            <!--<img ng-src="{{ profile.screenshot }}" class="imagewrap">-->
+            <div class="img-container"> <img ng-src="{{ profile.screenshot }}" class="imagewrap"></div>
         </div>
      </div>
   </div>
