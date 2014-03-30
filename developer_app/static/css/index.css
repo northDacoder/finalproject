@@ -66,9 +66,6 @@ div.ivory-panel { background: #FFFFE6; margin-bottom: 30px; }
 div.slate-panel { background: #333333; margin-bottom: 30px; }
 .navblue { background-color: rgba(88, 153, 208, 1); }
 
-.cushion-sm { padding: 5px; }
-.cushion-md { padding: 15px; }
-.cushion-lg { padding: 25px }
 
 /* NAVBAR CSS */
 .navbar-toggle { border: 2px solid white; }
