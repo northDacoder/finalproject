@@ -22,10 +22,6 @@ urlpatterns = patterns('',
     url(r'^api/', include(v1_api.urls)),
 
     url(r'^$', 'developer_app.views.angular', name="angular"),
-
-
-    url(r'^register/developer/$', RegistrationView.as_view(success_url='/developer/new/'), name='registration_register_developer',),
-    url(r'^register/company/$', RegistrationView.as_view(success_url='/company/new/'), name='registration_register_company',),
     url(r'^register/user/$', RegistrationView.as_view(success_url='/user/home/'), name='registration_register_developer',),
 
     #url(r'^accounts/login/', 'users.views.login_page', name='login'),

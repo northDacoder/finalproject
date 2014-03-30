@@ -24,6 +24,7 @@ body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
     width: 100%;
     position: absolute;
     top: 0;
+    z-index: -1000;
 }
 div.container-fluid { height: 60px; }
 
@@ -36,9 +37,9 @@ ul {list-style-type: none;}
 button a { color: white; opacity: 1;}
 
 
-form { box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-form.loginForm { background: #fff; margin: 0 auto; width: 470px; height: 598px; padding: 100px 40px; }
-form input { width: 100%; height: 50px; }
+form { border: 1px dashed #dd1144; box-shadow: 0px 1px 3px rgba(0,0,0,.3); color: rgba(0,0,0,.4); font-family: "nixieOne", "Helvetica Neue", Helvetica; border-radius: 12px;  }
+form.loginForm { background: #fff; margin: 0 auto; margin-top: 120px; width: 300px; height: auto;  padding: 20px 40px; }
+form input { width: 100%; height: 30px; border: 2px solid rgba(88, 153, 208, .3); border-radius: 4px; }
 
 input[type=text] { height: 38px; }
 input[type=password]{ height: 38px; }
@@ -46,10 +47,10 @@ input#id_username { font-size: 16px; color: #333; }
 input#id_password { font-size: 16px; color: #333; }
 
 div#inner-editor { height: 70px; }
-p.loginText { color: rgba(0,0,0,.4); font-size: 16px; width: 205px;  margin: 10px auto; }
+p.loginText { color: rgba(255,255,255,.6); font-size: 16px; width: 205px;  margin: 10px auto; }
 
-#loginButton { width: 100%; }
-#loginTextMain { position: relative; top: 180px; }
+/*#loginButton { width: 100%; }*/
+/*#loginTextMain { position: relative; top: 180px; }*/
 
 div.green-panel { background: #5cb85c; margin-bottom: 30px; border-bottom: 2px solid #ccc; }
 div.white-panel { background: #fff; margin-bottom: 30px; box-shadow: 0px 1px 3px rgba(0,0,0,.3); }
@@ -68,18 +69,6 @@ div.slate-panel { background: #333333; margin-bottom: 30px; }
 .cushion-sm { padding: 5px; }
 .cushion-md { padding: 15px; }
 .cushion-lg { padding: 25px }
-
-.inset { -moz-box-shadow: inset 0 0 10px #333; -webkit-box-shadow: inset 0 0 10px #333; box-shadow: inset 0 0 10px #333;}
-
-.loginForm { color: #525252; font-size: 23px; margin: 10px 40px 15px; font-family: helvetica, arial, sans-serif; }
-.loginForm input[type="text"].hasError { background: #fefefe; border-color: #cb2027; box-shadow: rgba(255,0,0,0.35); position: relative; }
-.firstName, .lastName { float: left; width: 190px; }
-
-.restform { max-width: 500px; margin: 0 auto; background: #fff; padding: 30px 45px; border-radius: 10px; color: rgba(0,0,0,.5); font-family: helvetica, arial, sans-serif; border: 2px dashed red; box-shadow: 2px 2px 2px #333;}
-.restform label {font-size: 24px; }
-.restform input { border-radius: 6px; height: 50px; }
-input.descriptionbox { height: 100px; }
-
 
 /* NAVBAR CSS */
 .navbar-toggle { border: 2px solid white; }
@@ -168,9 +157,6 @@ p.description { padding: 30px 15px; font-family: 20px; color: #3c3c3c; }
 .imageoverlay { background: rgba(0,0,0,.7); padding: 0; color: white; }
 .imageoverlay a { color: white; font-size: 30px; font-family: 'Raleway Dots', cursive; }
 .imageoverlay a:hover { text-decoration: none; color: rgba(0,255,0,1); }
-/*.img-container { width: 100%; height: 250px;  }*/
-/*.img-container img { width: 100%; height: auto; overflow: hidden; }*/
-
 .img-container img {
     max-width: 100% !important;
     max-height: 100% !important;
