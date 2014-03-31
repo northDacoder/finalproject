@@ -25,7 +25,7 @@ urlpatterns = patterns('',
     url(r'^register/user/$', RegistrationView.as_view(success_url='/user/home/'), name='registration_register_developer',),
 
     #url(r'^accounts/login/', 'users.views.login_page', name='login'),
-    url(r'^accounts/password/change/$', auth_views.password_change, name='password_change'),
+    url(r'^accounts/password/change/$', auth_views.password_change_form, name='password_change'),
     url(r'^accounts/password/change/done/$', auth_views.password_change_done, name='password_change_done'),
 
     url(r'^accounts/password/reset/$', auth_views.password_reset, name='password_reset'),
