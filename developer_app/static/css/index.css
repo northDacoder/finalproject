@@ -43,11 +43,13 @@ form input { width: 100%; height: 35px; border: 2px solid rgba(88, 153, 208, .3)
 
 /*input[type=text] { height: 38px; }*/
 /*input[type=password]{ height: 38px; }*/
-input#id_username { font-size: 16px; color: #333; }
-input#id_password { font-size: 16px; color: #333; }
+input { color: #3c3c3c; }
+input#id_username { font-size: 16px; color: #3c3c3c; }
+input#id_password { font-size: 16px; color: #3c3c3c; }
+input#id_email { color: #3c3c3c; }
 
 /*div#inner-editor { height: 70px; }*/
-/*p.loginText { color: rgba(255,255,255,.6); font-size: 16px; width: 205px;  margin: 10px auto; }*/
+p.loginText { color: rgba(255,255,255,.6); font-size: 16px; width: 205px;  margin: 10px auto; }*/
 
 /*#loginButton { width: 100%; }*/
 /*#loginTextMain { position: relative; top: 180px; }*/

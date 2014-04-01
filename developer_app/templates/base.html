@@ -98,36 +98,20 @@
 
     {% else %}
 
-    <div class="navbar navbar-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header loginbuttons">
+      <div class="navbar navbar-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
 
-                <h1 class="sitelogo">MVprototype</h1>
+                <a class="navbar-brand pull-left" href="#" ><i class="fa fa-rocket"></i>  rocketlaunchit</a>
 
-                <div>
+                <!--<div>
                     <button role="button" class="btn btn-success"><a href="{% url 'auth_login' %}">Sign in</a></button>
                     <button role="button" class="btn btn-success"><a href="{% url 'auth_login' %}">Register</a></button>
-                </div>
+                </div>-->
 
             </div>
         </div>
     </div>
-    <!--<div class="navbar navbar-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <h1 class="navbar-brand">
-                    develop.io
-                </h1>
-
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#/developers" class="btn btn-success"><i class="fa fa-laptop"></i> Developers </a></li>
-                    <li><a href="#/companies" class="btn btn-success"><i class="fa fa-rocket"></i> Companies </a></li>
-                    <li><a class="nav-github" href="https://github.com/mcasimir/mobile-angular-ui" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="{% url 'auth_login' %}">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>-->
 
     {% endif %}
     {% endblock %}

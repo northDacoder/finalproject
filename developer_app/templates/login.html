@@ -1,14 +1,15 @@
 {% extends 'base.html' %}
 {% load i18n %}
 
-
 <html>
     <body>
+        <h1>Login</h1>
+
         <form method="post">
             {% csrf_token %}
-            {{ signup_form.as_p }}
+            {{ login_form.as_p }}
 
-            <input type="submit" name="submit" value="Sign up!">
+            <input type="submit" name="submit" value="Login!">
         </form>
     </body>
 </html>
