@@ -19,7 +19,6 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .when('/accounts/password/reset/confirm', { templateUrl: '/static/views/registration/password_reset_confirm.html', controller: 'loginController' })
         .when('/accounts/password/reset/done', { templateUrl: '/static/views/registration/password_reset_done.html', controller: 'loginController' })
         .when('/accounts/password/reset/email', { templateUrl: '/static/views/registration/password_reset_email.html', controller: 'loginController' })
-//      .when('/accounts/password_reset_email', { templateUrl: '/static/views/registration/password_reset_email.html', controller: 'loginController' })
         .when('/registration/closed', { templateUrl: '/static/views/registration/registration_closed.html', controller: 'loginController' })
         .when('/registration/complete', { templateUrl: '/static/views/registration/registration_closed.html', controller: 'loginController' })
         .when('/registration/form', { templateUrl: '/static/views/registration/registration_closed.html', controller: 'loginController' })

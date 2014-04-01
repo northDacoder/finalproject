@@ -1,4 +1,4 @@
-<div class="scrollable">
+<div class="scrollable" xmlns="http://www.w3.org/1999/html">
 
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
@@ -21,9 +21,12 @@
 
                     <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
 
-                    <button type="button" class="btn btn-success"><a href="{{ developer.website }}" class="website col-xs-12 col-sm-4"><span class="fa fa-linkedin"></span> linkedin</a></button>
-                    <button type="button" class="btn btn-success"><a href="mailto:{{ developer.email }}" class="email col-xs-12 col-sm-4"><span class="fa fa-envelope-o"></span> email</a></button>
-                    <button type="button" class="btn btn-success"><a href="tel:+{{ developer.phone }}" class="phone col-xs-12 col-sm-4"><span class="fa fa-mobile-phone"></span> call</a></button>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
+                    </div>
 
                     <!--{{ company.description }}-->
                     <!--{{ company.posted }}-->

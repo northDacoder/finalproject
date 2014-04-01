@@ -2,7 +2,6 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
-
 # Create your views here.
 from developer_app.forms import SignupForm, LoginForm
 
@@ -21,6 +20,7 @@ def signup(request):
     data = {"signup_form": form}
     return render(request, "signup.html", data)
 
+
 def login_page(request):
     if request.method == "POST":
         form = LoginForm(request.POST)
@@ -34,6 +34,7 @@ def login_page(request):
         form = LoginForm()
     data = {"login_form": form}
     return render(request, "login.html", data)
+
 
 
 def angular(request):
