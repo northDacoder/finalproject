@@ -23,10 +23,10 @@
 
 
                     <div class="btn-group">
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.github }}"><i class="fa fa-github"></i> Github</a></button>
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i> Email</a></button>
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.github }}"><i class="fa fa-github"></i> Github</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i> Email</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
                     </div>
 
 
@@ -41,11 +41,12 @@
                                 <div class="carousel-example-content">
                                     <div class="projectCard">
                                         <h3 class="projectName">{{ project.project_name }}</h3>
-                                        <span class="label label-info">posted: {{ project.created }}</span>
                                         <p class="description">{{ project.description }}</p>
+                                        <p>{{ project.accepted_project }}</p>
 
-                                        <button type="button" class="btn btn-danger btn-block"><a href="#">Add to Projects</a></button>
-                                        <button type="button" class="btn btn-success btn-block"><a href="#">Request Info</a></button>
+                                        <button type="button" class="btn btn-default"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></button>
+                                        <button type="button" class="btn btn-default"><a href="#"><i class="fa fa-envelope"></i> Request Info</a></button>
+                                        <br><br><span class="label label-info">posted: {{ project.created }}</span>
                                     </div>
                                 </div>
                             </div>
