@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
 body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
+a:hover { text-decoration: none; color: white;}
+
 #jumbo { background: rgba(0,0,0,1); }
 #jumbo:after {
         content: '';

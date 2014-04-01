@@ -9,51 +9,56 @@
     <div class="scrollable-content">
 
 
+
         <div ng-repeat="developer in developers | filter:name" >
 
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <h1 class="companyName">{{ developer.name }}</h1>
+                    <h1 class="developerName">{{ developer.name }}</h1>
                     <div class="img-container">
                         <img ng-src="{{ developer.screenshot }}">
                     </div>
 
                     <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
 
+
                     <div class="btn-group">
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
+                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
+                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
+                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
+                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
                     </div>
 
-                    <!--{{ company.description }}-->
-                    <!--{{ company.posted }}-->
-                    <!--{{ company.language }}-->
-                    <!--{{ company.completed }}-->
-                    <div id="carousel-example" class="carousel"  ng-repeat="project in developer.projects">
+
+
+                    <!--{{ developer.description }}-->
+                    <!--{{ developer.posted }}-->
+                    <!--{{ developer.language }}-->
+                    <!--{{ developer.completed }}-->
+                    <div id="carousel-example" class="carousel" ng-repeat="project in projects">
                         <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
 
-                            <div href="" class="item active" >
+                            <div href="" class="item active">
                                 <div class="carousel-example-content">
                                     <div class="projectCard">
                                         <h3 class="projectName">{{ project.project_name }}</h3>
                                         <p class="description">{{ project.description }}</p>
+                                        <p>{{ project.accepted_project }}</p>
 
-
-                                        <button type="button" class="btn btn-default"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></button>
-                                        <button type="button" class="btn btn-default"><a href="#"><i class="fa fa-envelope"></i> Request Info</a></button>
+                                        <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></button>
+                                        <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-envelope"></i> Request Info</a></button>
                                         <br><br><span class="label label-info">posted: {{ project.created }}</span>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
+
                     </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 </div>
