@@ -108,6 +108,11 @@ p.description { color: white; }
 /*.btn a { font-size: 32px; font-family: 'Raleway Dots', cursive; }*/
 /*.btn a:hover { text-decoration: none; opacity: 1; }*/
 
+.pageLeft { font-size: 40px; color: rgba(0,0,0,.7); }
+.pageLeft:hover { color: rgba(0,0,0,.5); }
+.pageRight { font-size: 40px; color: rgba(0,0,0,.7); }
+.pageRight:hover { color: rgba(0,0,0,.5); }
+
 #carousel-example {
     position: relative;
     bottom: 80px;
@@ -123,15 +128,16 @@ p.description { color: white; }
 }
 .projectCard {
     background: rgba(255,255,255,1);
-    padding: 20px 15px;
+    padding: 0px 5px 15px 5px;
     color: #3c3c3c;
     position: relative;
     top: 90px;
 }
 
-h3.projectName { font-size: 20px; padding: 20px 4px; font-family: 'Nixie One', cursive; color: #3c3c3c; }
+h3.projectName { font-size: 20px; padding: 10px 0 0 0; color: rgba(0,0,0,.6); font-family: 'Source Code Pro', ; }
 h3.projectDate { color: #3c3c3c; }
-p.description { padding: 30px 15px; font-family: 20px; color: #3c3c3c; }
+p.description { padding: 0px 40px; font-family: 20px; color: rgba(0,0,0,.6);}
+.dates { color: rgba(0,0,0,.6); }
 
 .imageoverlay { background: rgba(0,0,0,.7); padding: 0; color: white; }
 .imageoverlay a { color: white; font-size: 30px; font-family: 'Raleway Dots', cursive; }

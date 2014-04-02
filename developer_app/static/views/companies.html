@@ -41,12 +41,19 @@
                                 <div class="carousel-example-content">
                                     <div class="projectCard">
                                         <h3 class="projectName">{{ project.project_name }}</h3>
-                                        <p class="description">{{ project.description }}</p>
+                                        <div class="row">
+                                            <a href="#" class="pageLeft pull-left col-xs-1"><i class="fa fa-chevron-left"></i></a>
+                                            <p class="description col-xs-10">{{ project.description }}</p>
+                                            <a href="#" class="pageRight pull-right col-xs-1"><i class="fa fa-chevron-right"></i></a>
+                                        </div>
+
                                         <p>{{ project.accepted_project }}</p>
 
                                         <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></button>
                                         <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-envelope"></i> Request Info</a></button>
-                                        <br><br><span class="label label-info">posted: {{ project.created }}</span>
+                                        <hr>
+                                        <span class="label label-primary dates">Date Posted: {{ project.created }}</span>
+                                        <span class="label label-danger dates">Deadline: {{ project.deadline }}</span>
                                     </div>
                                 </div>
                             </div>

@@ -29,13 +29,14 @@ class Language(models.Model):
 
 class CompanyProject(models.Model):
     project_name = models.CharField(max_length=1000)
-    created = models.DateTimeField(auto_now=True)
+    created = models.DateField(auto_now=True)
     company = models.ForeignKey(Company, related_name='company_projects')
     language = models.ForeignKey(Language, blank=True, null=True)
     completed = models.BooleanField()
     project_screenshot = models.ImageField(upload_to="images/developer_screenshots", blank=True, null=True)
     description = models.TextField(max_length=6000, blank=True, null=True)
     accepted_project = models.OneToOneField('developer_app.DeveloperProject', related_name="company_pick", blank=True, null=True)
+    deadline = models.DateField(blank=True, null=True)
 
     def __unicode__(self):
         return self.project_name
