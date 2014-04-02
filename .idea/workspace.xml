@@ -66,7 +66,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="630">
+            <state line="8" column="33" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="630">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -86,7 +86,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.42446044" vertical-offset="288" max-vertical-offset="705">
+            <state line="38" column="0" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.676259" vertical-offset="288" max-vertical-offset="705">
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -978,10 +978,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="211" y="22" width="862" height="718" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22342065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22342065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6609929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1364,7 +1364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="630">
+        <state line="8" column="33" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="630">
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -1373,7 +1373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/company_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.42446044" vertical-offset="288" max-vertical-offset="705">
+        <state line="38" column="0" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.676259" vertical-offset="288" max-vertical-offset="705">
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>

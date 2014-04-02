@@ -8,7 +8,7 @@ class Company(models.Model):
     state = models.CharField(max_length=100, blank=True, null=True)
     phone = models.CharField(max_length=14, blank=True, null=True)
     description = models.TextField(max_length=6000, blank=True, null=True)
-    posted = models.DateField(auto_now=True)
+    posted = models.DateTimeField(auto_now=True)
     website = models.URLField(max_length=1000, blank=True, null=True)
     github = models.URLField(max_length=1000, blank=True, null=True)
     email = models.EmailField(blank=True, null=True)
@@ -29,7 +29,7 @@ class Language(models.Model):
 
 class CompanyProject(models.Model):
     project_name = models.CharField(max_length=1000)
-    created = models.DateField(auto_now=True)
+    created = models.DateTimeField(auto_now=True)
     company = models.ForeignKey(Company, related_name='company_projects')
     language = models.ForeignKey(Language, blank=True, null=True)
     completed = models.BooleanField()
