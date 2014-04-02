@@ -10,7 +10,7 @@ class Developer(models.Model):
     state = models.CharField(max_length=100, blank=True, null=True)
     email = models.EmailField(max_length=100, blank=True, null=True)
     phone = models.CharField(max_length=14, null=True, blank=False)
-    posted = models.DateTimeField(auto_now=True)
+    posted = models.DateField(auto_now=True)
     website = models.URLField(max_length=1000, blank=True, null=True)
     github = models.URLField(max_length=1000, blank=True, null=True)
     languages = models.ManyToManyField(Language)
@@ -25,7 +25,7 @@ class Developer(models.Model):
 
 class DeveloperProject(models.Model):
     project_name = models.CharField(max_length=1000)
-    created = models.DateTimeField(auto_now=True)
+    created = models.DateField(auto_now=True)
     developer = models.ForeignKey(Developer, related_name="projects")
     company_project = models.ForeignKey(CompanyProject, related_name="developer_projects")
     project_screenshot = models.ImageField(upload_to="images/developer_screenshots", blank=True, null=True)
