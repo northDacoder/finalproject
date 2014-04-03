@@ -89,15 +89,8 @@ h1.developerName {
 
 .address { background: rgba(0,0,0,.5); font-size: 16px; width: 100%; color: rgba(255,255,255,.7); padding: 10px 0;  font-family: 'Ubuntu Mono',; }
 .description { margin: 5px auto; max-width: 400px; padding-bottom: 15px; }
-.portfolioWrap { width: 100%; margin: 0 auto; }
-.portfoliotoggle { font-size: 50px; width: 100%; }
-.portfolioTitle { font-size: 30px; background: rgba(0,0,0,1); width: 100%; font-family: 'Raleway Dots'; text-align: center; margin: 0 auto; padding: 0;}
-p.description { color: white; }
-.dropdownTitle { padding: 12px 0 5px 0; font-size: 24px; font-family: 'Nixie One', cursive;}
-.item-active {
-    margin: 0;
-    padding: 0;
-}
+.dropdownTitle { padding: 12px 0 5px 0; font-size: 24px; font-family: 'Nixie One', cursive;}*/
+.item-active { margin: 0; padding: 0; }
 
 .btn a { font-size: 32px; font-family: 'Raleway Dots', cursive; }
 .btn a:hover { text-decoration: none; opacity: 1; }
