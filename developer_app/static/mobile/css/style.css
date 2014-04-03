@@ -1,10 +1,10 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nixie One', cursive;
     font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Nixie One', cursive;
     font-weight: normal;
 }
 
@@ -69,12 +69,12 @@ b, strong {
 }
 
 .navbar-brand {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin: 0;
 }
 
 .navbar-nav>li>a:hover {
-    background: none;
+    /*background: none;*/
     opacity: .8;
 }
 
@@ -128,7 +128,7 @@ b, strong {
 }
 
 .feature-box {
-    margin-bottom: 20px;
+    margin-bottom: 00px;
 }
 
 html .page-header {
@@ -136,7 +136,7 @@ html .page-header {
 }
 
 #carousel-example-generic {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #carousel-example-generic .item {

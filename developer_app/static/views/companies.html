@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-10">
+                    <div class="col-xs-12">
                         <div id="carousel-example" class="carousel">
                             <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
                                 <div href="" class="item active"  ng-repeat="project in company.projects">
@@ -44,8 +44,10 @@
                             </div>
                         </div>
                     </div>
-                    <div ng-click="carouselPrev('carousel-example')" class="pageLeft col-xs-1"><i class="fa fa-chevron-left"></i></div>
-                    <div ng-click="carouselNext('carousel-example')" class="pageRight col-xs-1"><i class="fa fa-chevron-right"></i></div>
+
+                    <div ng-click="carouselPrev('carousel-example')" class="pageLeft col-xs-2"><i class="fa fa-chevron-left"></i></div>
+                    <div class="col-xs-8"></div>
+                    <div ng-click="carouselNext('carousel-example')" class="pageRight col-xs-2"><i class="fa fa-chevron-right"></i></div>
                 </div>
             </div>
         </div>
