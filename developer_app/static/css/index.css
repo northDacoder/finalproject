@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
-body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
+body { margin: 0; padding: 0;  font-family: 'Raleway Dots', helvetica, arial, sans-serif; }
 
 /*a:hover { text-decoration: none; color: #3c3c3c; }*/
 
@@ -30,7 +30,7 @@ body { margin: 0; padding: 0;  font-family: 'Raleway Dots'; }
     z-index: -1000;
 }
 div.container-fluid { height: 60px; }
-.scrollable-content { padding-top: 55px;}
+.scrollable-content { padding-top: 55px; }
 
 ul {list-style-type: none;}
 
@@ -95,19 +95,19 @@ h1.developerName {
 .btn a { font-size: 32px; font-family: 'Raleway Dots', cursive; }
 .btn a:hover { text-decoration: none; opacity: 1; }
 
-.pageLeft { font-size: 40px; color: rgba(0,0,0,.7); position: relative; left: 10px; top: 80%;}
-.pageLeft:hover { color: rgba(0,0,0,.5); }
-.pageRight { font-size: 40px; color: rgba(0,0,0,.7); position: relative; right: 10px; }
-.pageRight:hover { color: rgba(0,0,0,.5); }
+.pageLeft { font-size: 50px; color: rgba(255,255,255,.8); padding: 15px; text-align: center;}
+.pageLeft:hover { color: color: rgba(255,255,255,.4); }
+.pageRight { font-size: 50px; color: rgba(255,255,255,.8); padding: 15px; text-align: center; }
+.pageRight:hover { color: color: rgba(255,255,255,.4); }
 
 #carousel-example { position: relative; bottom: 80px; margin-bottom: -140px; }
 .carousel-example-content { margin: 0; padding: 0; }
 .carousel { margin: 0; padding: 0; }
-.projectCard { background: rgba(255,255,255,1); padding: 0px 5px 15px 5px; color: #3c3c3c; position: relative; top: 90px; }
+.projectCard { background: rgba(255,255,255,1); padding: 0px 0px 15px 0px; color: #3c3c3c; position: relative; top: 90px; }
 
 h3.projectName { font-size: 20px; padding: 10px 0 0 0; color: rgba(0,0,0,.6); font-family: 'Source Code Pro', ; }
 h3.projectDate { color: #3c3c3c; }
-p.description { background: lightblue; padding: 5px; margin: 0 auto; font-family: 20px; color: rgba(0,0,0,.6);}
+p.description { background: lightblue; padding: 5px 35px; margin: 0 auto; font-family: 20px; color: rgba(0,0,0,.6); }
 .dates { color: rgba(0,0,0,.6); }
 
 .imageoverlay { background: rgba(0,0,0,.7); padding: 0; color: white; }
@@ -116,6 +116,9 @@ p.description { background: lightblue; padding: 5px; margin: 0 auto; font-family
 .img-container img { max-width: 100% !important; max-height: 100% !important; display: block !important; }
 img {width: 100%; overflow: hidden; }
 
+.row { width: 100%: height: 100%; padding: 5px 0; margin-top: 0; margin-bottom: 0; }
+.col-xs-1 { margin: 0; padding: 0; }
+.col-xs-10 { margin: 0; padding: 0; }
 /*.col-xs-12 { margin: 0; padding: 0; }*/
 /*.col-sm-12 { margin: 0; padding: 0; }*/
 /*.col-md-3 { margin: 0; padding: 0; }*/

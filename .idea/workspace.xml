@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/css/jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/css/profilecard.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,81 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="companyController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="71" selection-start="1334" selection-end="1334" vertical-scroll-proportion="-8.125" vertical-offset="210" max-vertical-offset="1980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25470">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="630">
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company_app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="720">
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resources.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company_app/api/resources.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="8" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1080">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resources.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/api/resources.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1065">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="companies.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="83" selection-start="2683" selection-end="2683" vertical-scroll-proportion="-1.8987342" vertical-offset="540" max-vertical-offset="1125">
+            <state line="46" column="20" selection-start="2835" selection-end="2835" vertical-scroll-proportion="0.75" vertical-offset="210" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -110,16 +40,16 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.153846" vertical-offset="13" max-vertical-offset="2010">
+            <state line="97" column="36" selection-start="3850" selection-end="3850" vertical-scroll-proportion="-4.3818183" vertical-offset="1214" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchbox.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="searchbox.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/searchbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
+            <state line="20" column="5" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
               <folding />
             </state>
           </provider>
@@ -176,7 +106,6 @@
         <option value="$PROJECT_DIR$/developer_app/templates/signup.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
         <option value="$PROJECT_DIR$/finalproject/settings.py" />
         <option value="$PROJECT_DIR$/company_app/admin.py" />
@@ -185,18 +114,19 @@
         <option value="$PROJECT_DIR$/company_app/api/resources.py" />
         <option value="$PROJECT_DIR$/company_app/models.py" />
         <option value="$PROJECT_DIR$/developer_app/models.py" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
+    <option name="x" value="62" />
     <option name="y" value="22" />
-    <option name="width" value="1023" />
-    <option name="height" value="718" />
+    <option name="width" value="1218" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -443,20 +373,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="developer_app">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -493,11 +409,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
+            <PATH_ELEMENT USER_OBJECT="static">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="registration">
+            <PATH_ELEMENT USER_OBJECT="views">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -516,54 +432,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="static">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="developer_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="static">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="developer_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="static">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -586,56 +454,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="css">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="developer_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="company_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="company_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="api">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -935,16 +753,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="22" width="1023" height="718" extended-state="0" />
+    <frame x="62" y="22" width="1218" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22342065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20567375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6609929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1215,13 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.375" vertical-offset="345" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finalproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="35" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1800">
@@ -1279,12 +1090,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company_app/models.py">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/searchbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="720">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state line="20" column="5" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="71" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.46875" vertical-offset="210" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="25470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="12" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.6969697" vertical-offset="480" max-vertical-offset="975">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,37 +1127,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
+    <entry file="file://$PROJECT_DIR$/company_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="83" selection-start="2683" selection-end="2683" vertical-scroll-proportion="-1.8987342" vertical-offset="540" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="25470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="71" selection-start="1334" selection-end="1334" vertical-scroll-proportion="-8.125" vertical-offset="210" max-vertical-offset="1980">
-          <folding />
+        <state line="30" column="52" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.47976878" vertical-offset="201" max-vertical-offset="720">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.153846" vertical-offset="13" max-vertical-offset="2010">
+        <state line="97" column="36" selection-start="3850" selection-end="3850" vertical-scroll-proportion="-4.3818183" vertical-offset="1214" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/searchbox.css">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
+        <state line="46" column="20" selection-start="2835" selection-end="2835" vertical-scroll-proportion="0.75" vertical-offset="210" max-vertical-offset="990">
           <folding />
         </state>
       </provider>

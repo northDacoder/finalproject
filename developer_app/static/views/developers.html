@@ -22,15 +22,10 @@
 
                     <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
 
-
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
-                        <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
-                    </div>
-
-
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
+                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
 
                     <!--{{ developer.description }}-->
                     <!--{{ developer.posted }}-->
@@ -46,9 +41,9 @@
                                         <p class="description">{{ project.description }}</p>
                                         <p>{{ project.accepted_project }}</p>
 
-                                        <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></button>
-                                        <button type="button" class="btn btn-info"><a href="#"><i class="fa fa-envelope"></i> Request Info</a></button>
-                                        <br><br><span class="label label-info">posted: {{ project.created }}</span>
+                                        <a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a>
+                                        <br><span class="label label-info">posted: {{ project.created }}</span>
+                                        <span class="dates">Deadline: {{ project.deadline }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +53,7 @@
                     </div>
                         </div>
                     </div>
-                </div>
+            </div>
         </div>
     </div>
 </div>
