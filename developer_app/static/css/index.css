@@ -94,26 +94,29 @@ h1.developerName {
 .btn a { font-size: 32px; font-family: 'Raleway Dots', cursive; }
 .btn a:hover { text-decoration: none; opacity: 1; }
 
-.pageLeft { font-size: 50px; color: rgba(255,255,255,.8); padding: 15px; text-align: center;}
-.pageLeft:hover { color: color: rgba(255,255,255,.4); }
-.pageRight { font-size: 50px; color: rgba(255,255,255,.8); padding: 15px; text-align: center; }
-.pageRight:hover { color: color: rgba(255,255,255,.4); }
+.pageLeft { font-size: 30px; color: rgba(0,0,0,.6); position: relative; left: 10px; top: 32px; }
+.pageLeft:hover { color: rgba(0,0,0,.4); }
+.pageRight { font-size: 30px; color: rgba(0,0,0,.6); position: relative; right: 10px; top: 32px; }
+.pageRight:hover { color: rgba(0,0,0,.4); }
 
 /*#carousel-example { margin: 0; padding: 0; }*/
 /*.carousel-inner { margin: 0; padding: 0; }*/
 /*.carousel-example-content { margin: 0; padding: 0; z-index: -500; }*/
 /*.carousel { margin: 0; padding: 0; }*/
+
+#carousel-example { position: relative; top: 120px; }
 .projectCard row { margin: 0; padding: 0; }
-.projectCard { background: rgba(255,255,255,1); margin: 0; padding: 10px 0 20px 0; color: #3c3c3c; }
+.projectCard { background: rgba(255,255,255,1); margin: 0; padding: 10px 0 20px 0; color: #3c3c3c; min-height: 350px; max-width: 400px; }
 
-h3.projectName { font-size: 30px; padding: 30px 0; color: rgba(0,0,0,.6); font-family: 'Ubuntu Mono';  }
+h3.projectName { font-size: 30px; padding: 30px 0; color: rgba(0,0,0,.6); font-family: 'helveticaneue-light';  }
 h3.projectDate { color: #3c3c3c; }
-p.description { background: lightblue; padding: 15px 50px; margin: 0px auto 35px auto; font-size: 20px; color: rgba(0,0,0,.6); }
-.dates { color: rgba(0,0,0,.6); }
+div.description p { background: lightblue; padding: 10px; margin: 10px auto; font-size: 20px; font-family: 'helveticaneue-light'; color: rgba(0,0,0,.6); }
+.description p { max-width: 400px; }
+.dates { font-family: 'helveticaneue-light'; font-size: 20px; color: rgba(0,0,0,.6); }
 
-.imageoverlay { background: rgba(0,0,0,.7); padding: 0; color: white; }
-.imageoverlay a { color: #3c3c3c; font-size: 30px; font-family: 'Raleway Dots', cursive; }
-.imageoverlay a:hover { text-decoration: none; color: rgba(0,255,0,1); }
+/*.imageoverlay { background: rgba(0,0,0,.7); padding: 0; color: white; }*/
+/*.imageoverlay a { color: #3c3c3c; font-size: 30px; font-family: 'Raleway Dots', cursive; }*/
+/*.imageoverlay a:hover { text-decoration: none; color: rgba(0,255,0,1); }*/
 .img-container img { max-width: 100% !important; max-height: 100% !important; display: block !important; }
 img {width: 100%; overflow: hidden; }
 
