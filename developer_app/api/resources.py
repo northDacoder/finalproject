@@ -17,7 +17,7 @@ class DeveloperProjectResource(ModelResource):
     class Meta:
         queryset = DeveloperProject.objects.all()
         resource_name = "developerproject"
-        authorization = Authorization()
+        # authorization = Authorization()
 
 class DeveloperResource(ModelResource):
     projects = ToManyField(BareDeveloperProjectResource, 'developer_projects', full=True, null=True)
@@ -26,7 +26,7 @@ class DeveloperResource(ModelResource):
         queryset = Developer.objects.all()
         resource_name = "developer"
         # authentication = BasicAuthentication()
-        authorization = UserObjectsOnlyAuthorization()
+        # authorization = UserObjectsOnlyAuthorization()
 
 
 

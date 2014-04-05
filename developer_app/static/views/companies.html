@@ -1,4 +1,4 @@
-<div class="scrollable">
+<div class="scrollable container">
 
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
@@ -7,40 +7,82 @@
 
 
     <div class="scrollable-content">
-        <div ng-repeat="company in companies | filter:name" >
-            <div class="container">
-                <div class="row">
+        <div ng-repeat="company in companies | filter:name" class="row">
+                <div class="col-sm-6 companyContainer">
                     <h1 class="companyName">{{ company.name }}</h1>
-                    <div class="img-container">
-                        <img ng-src="{{ company.screenshot }}">
+                    <img ng-src="{{ company.screenshot }}" >
+
+                    <div class="imageContent">
+                        <h2 class="address"><i class="fa fa-map-marker"></i> {{ company.city }}, {{ company.state }}</h2>
+                        <button type="button" class="btn btn-success"><a href="{{ company.github }}"><i class="fa fa-github tapButtons"></i></a></button>
+                        <button type="button" class="btn btn-success"><a href="{{ company.website }}"><i class="fa fa-linkedin-square tapButtons"></i></a></button>
+                        <button type="button" class="btn btn-success"><a href="mailto:{{ company.email }}"><i class="fa fa-envelope tapButtons"></i></a></button>
+                        <button type="button" class="btn btn-success"><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone tapButtons"></i></a></button>
                     </div>
-
-                    <h2 class="address"><i class="fa fa-map-marker"></i> {{ company.city }}, {{ company.state }}</h2>
-
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.github }}"><i class="fa fa-github"></i> Github</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ company.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i> Email</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
                 </div>
 
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div id="carousel-example" class="carousel">
-                            <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
-                                <div href="" class="item active"  ng-repeat="project in company.projects">
-                                    <div class="carousel-example-content">
-                                        <div class="projectCard">
-                                            <div ng-click="carouselPrev('carousel-example')" class="pageLeft pull-left"><i class="fa fa-chevron-left"></i></div>
-                                            <div ng-click="carouselNext('carousel-example')" class="pageRight pull-right"><i class="fa fa-chevron-right"></i></div>
 
-                                            <h3 class="projectName">{{ project.project_name }}</h3>
+                <div class="col-sm-6">
+                    <div id="carousel-example" class="carousel">
+                        <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
+                            <div href="" class="item active" ng-repeat="project in company.projects">
+                                <div class="carousel-example-content">
+                                    <div class="projectCard">
+                                        <div ng-click="carouselPrev('carousel-example')" class="pageLeft pull-left"><i class="fa fa-angle-left"></i></div>
+                                        <div ng-click="carouselNext('carousel-example')" class="pageRight pull-right"><i class="fa fa-angle-right"></i></div>
 
-                                            <div class="description"><p>{{ project.description }}</p></div>
-                                            <p>{{ project.accepted_project }}</p>
+                                        <h3 class="projectName">{{ project.project_name }}</h3>
 
-                                            <a href="#" class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add to Projects</a><br><br>
-                                            <span class="dates">Date Posted: {{ project.created }}</span><br>
-                                            <span class="dates">Deadline: {{ project.deadline }}</span>
+                                        <div class="description"><p>{{ project.description }}</p></div>
+                                        <p>{{ project.accepted_project }}</p>
+
+                                        <span class="dates">Date Posted: {{ project.created }}</span><br>
+                                        <span class="dates">Deadline: {{ project.deadline }}</span><br>
+                                        <a href="#" class="label label-danger"><i class="fa fa-plus-circle"></i> Add to Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<!--<div class="scrollable-content">
+        <div ng-repeat="company in companies | filter:name">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                    <div class="well row">
+                        <h1 class="companyName">{{ company.name }}</h1>
+                        <img ng-src="{{ company.screenshot }}">
+                        <h2 class="address"><i class="fa fa-map-marker"></i> {{ company.city }}, {{ company.state }}</h2>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success"><a href="{{ company.github }}"><i class="fa fa-github"></i> Github</a></button>
+                            <button type="button" class="btn btn-success"><a href="{{ company.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a></button>
+                            <button type="button" class="btn btn-success"><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i> Email</a></button>
+                            <button type="button" class="btn btn-success"><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div id="carousel-example" class="carousel">
+                                <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
+                                    <div href="" class="item active"  ng-repeat="project in company.projects">
+                                        <div class="carousel-example-content">
+                                            <div class="projectCard">
+                                                <div ng-click="carouselPrev('carousel-example')" class="pageLeft pull-left"><i class="fa fa-angle-left"></i></div>
+                                                <div ng-click="carouselNext('carousel-example')" class="pageRight pull-right"><i class="fa fa-angle-right"></i></div>
+
+                                                <h3 class="projectName">{{ project.project_name }}</h3>
+
+                                                <div class="description"><p>{{ project.description }}</p></div>
+                                                <p>{{ project.accepted_project }}</p>
+
+                                                <span class="dates">Date Posted: {{ project.created }}</span><br>
+                                                <span class="dates">Deadline: {{ project.deadline }}</span><br>
+                                                <span class="btn btn-danger"><a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -51,12 +93,11 @@
             </div>
         </div>
     </div>
-
-</div>
-
+</div>-->
 
 
-     <!--{{ company.description }}-->
-     <!--{{ company.posted }}-->
-     <!--{{ company.language }}-->
-     <!--{{ company.completed }}-->
+
+<!--{{ company.description }}-->
+<!--{{ company.posted }}-->
+<!--{{ company.language }}-->
+<!--{{ company.completed }}-->

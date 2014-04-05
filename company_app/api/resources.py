@@ -19,7 +19,7 @@ class CompanyProjectResource(ModelResource):
     class Meta:
         queryset = CompanyProject.objects.all()
         resource_name = "companyproject"
-        authorization = Authorization()
+        # authorization = Authorization()
 
 class CompanyResource(ModelResource):
     projects = ToManyField(BareCompanyProjectResource, 'company_projects', full=True, null=True)
@@ -28,7 +28,7 @@ class CompanyResource(ModelResource):
         queryset = Company.objects.all()
         resource_name = "company"
         # authentication = BasicAuthentication()
-        authorization = UserObjectsOnlyAuthorization()
+        # authorization = UserObjectsOnlyAuthorization()
 
 
 
