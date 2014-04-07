@@ -7,12 +7,14 @@
 
 
     <div class="scrollable-content">
-        <div ng-repeat="company in companies | filter:name" class="row">
-            <div class="col-sm-6 companyContainer">
-                <h1 class="companyName">{{ company.name }}</h1>
-                <img ng-src="{{ company.screenshot }}" >
+        <div ng-repeat="company in companies | filter:name">
+            <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 companyContainer">
+                <img ng-src="{{ company.screenshot }}" class="img-responsive">
 
                 <div class="imageContent">
+                    <h1 class="companyName">{{ company.name }}</h1>
                     <h2 class="address"><i class="fa fa-map-marker"></i> {{ company.city }}, {{ company.state }}</h2>
                     <button type="button" class="btn btn-success"><a href="{{ company.github }}"><i class="fa fa-github tapButtons"></i></a></button>
                     <button type="button" class="btn btn-success"><a href="{{ company.website }}"><i class="fa fa-linkedin-square tapButtons"></i></a></button>
@@ -22,7 +24,7 @@
             </div>
 
 
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <div id="carousel-example" class="carousel">
                     <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
                         <div href="" class="item active" ng-repeat="project in company.projects">
@@ -40,19 +42,18 @@
                                     <div class="description">
                                         <h1 class="projectName">{{ project.project_name }}</h1>
                                         <p class="descriptionText">{{ project.description }}</p>
-                                        <span class="btn btn-danger addProject"><i class="fa fa-plus-circle"></i> Add to Projects</span>
-                                        <p class="acceptedProject">{{ project.accepted_project }}</p>
+                                        <span class="label label-danger">Date Posted: {{ project.created }}</span>
+                                        <span class="label label-danger">Deadline: {{ project.deadline }}</span>
+                                        <span class="btn btn-info btn-block addProject"><i class="fa fa-plus-circle"></i> Add to Projects</span>
                                     </div>
 
-
-                                    <span class="dates">Date Posted: {{ project.created }}</span><br>
-                                    <span class="dates">Deadline: {{ project.deadline }}</span><br>
-                                    <br>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-1"></div>
             </div>
         </div>
     </div>
