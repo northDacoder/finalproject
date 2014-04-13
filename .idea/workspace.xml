@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="22" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.50359714" vertical-offset="390" max-vertical-offset="900">
+            <state line="45" column="119" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-3.607595" vertical-offset="390" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="profile.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/developer_app/static/css/profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="1" selection-start="1536" selection-end="1536" vertical-scroll-proportion="-2.8363636" vertical-offset="1314" max-vertical-offset="1755">
+            <state line="110" column="72" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.6938776" vertical-offset="1344" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
@@ -1182,16 +1182,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/profile.css">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="1" selection-start="1536" selection-end="1536" vertical-scroll-proportion="-2.8363636" vertical-offset="1314" max-vertical-offset="1755">
+        <state line="45" column="119" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-3.607595" vertical-offset="390" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/profile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="22" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.50359714" vertical-offset="390" max-vertical-offset="900">
+        <state line="110" column="72" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.6938776" vertical-offset="1344" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
