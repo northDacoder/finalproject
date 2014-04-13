@@ -42,7 +42,7 @@ body
   left: 50%;
   width: 100px;
   height: 100px;
-  margin: 0 0 0 -100px;
+  margin: 0 0 0 -55px;
   border: 2px solid #FFF;
   border-radius: 50%;
 }
@@ -92,7 +92,6 @@ body
 
 .widget > ul > li:hover > a { background-color: #2CD5CA }
 .widget > ul > li:first-child > a { border-radius: 0 3px 0 0 }
-
 .widget > ul > li:last-child > a
 {
   border: none;
@@ -101,34 +100,13 @@ body
 
 
 /* ADDITIONAL STYLES */
-div#profileRow {
-  background: rgba(0,0,0,1);
+#profileContainer {}
+.profileName {
+  padding-top: 10px;
 }
 
-#profileWidget {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
-#profileNav {
-}
-
-#profileWidget.widget > .cover > img
-{
-  width: 100%;
-  height: auto;
-  min-height: 160px;
-  border-radius: 4px 4px 0 0;
-}
-
-#profileWidget.widget {
-  background: rgba(0,0,0,.0);
-}
-
-.widget > #profilePhoto {
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 0px;
-}
+#box1 { background: white; padding: 0; box-shadow: 0 1px 6px rgba(0,0,0,.5); margin: 2px auto; }
+#box1 .img-responsive { max-height: auto; width: 100%; padding: 0; }
+#box1 img { box-shadow: 0 1px 6px rgba(0,0,0,.5); }git
+#box2 { background: white; padding: 5px 20px 5px 20px; margin: 2px auto; border-bottom: rgba(0,0,0,.0); box-shadow: 0px 1px 6px rgba(0,0,0,.5); }
+#box3 { background: white; padding: 5px 20px 5px 20px; margin: 2px auto; box-shadow: 0 1px 6px rgba(0,0,0,.5); }

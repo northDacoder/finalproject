@@ -1,19 +1,50 @@
-<div class="row" id="profileRow">
+<!--<div class="row" id="profileRow">
     <div class="col-xs-12">
-        <div class="widget" id="profileWidget">
-            <div class="cover" id="profileCover">
-                <!--<img src="{{ profile.screenshot }}" id="profileScreenshot"/>-->
+        <img src="{{ profile.screenshot }}" class="img-thumbnail"/>
+        <div id="profileWidget">
+            <div class="row" id="profileInfo">
+                <h1>{{ profile.name }}</h1>
+                <h3><i class="fa fa-map-marker"></i> {{ profile.city }}, {{ profile.state }}</h3>
+                <p>{{ profile.description }}</p>
+                <ul>
+                    <li>Age: {{ profile.age }}</li>
+                    <li><i class="fa fa-envelope"></i> {{ profile.email }}</li>
+                    <li><i class="fa fa-mobile-phone"></i> {{ profile.phone }}</li>
+                    <li><i class="fa fa-github"></i> {{ profile.github }}</li>
+                    <li>Porfolio Site: {{ profile.website }}</li>
+                    <li>Member since: {{ profile.posted }}</li>
+                    <li>Projects <i class="fa fa-caret-down"></i></li>
+                    <li ng-repeat="project in profile.projects">{{ profile.projects }}</li>
+                </ul>
             </div>
-            <img src="{{ profile.screenshot }}" class="photo" id="profilePhoto"/>
-            <!--<img src="{{ profile.cover }}" class="photo">-->
-            <h1>{{ profile.name }}</h1>
-            <h3><i class="fa fa-map-marker"></i> {{ profile.city }}, {{ profile.state }}</h3>
-            <p>{{ profile.description }}</p>
-            <ul id="profileNav">
-                <li><a href="mailto:{{ profile.email }}"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="tel:+{{ profile.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
-                <li><a href="{{ profile.github }}"><i class="fa fa-github"></i></a></li>
-            </ul>
         </div>
     </div>
+</div>-->
+<div class="jumbotron">
+
 </div>
+
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3" id="profileContainer">
+        <div class="row">
+            <div class="col-md-6" id="box1">
+                <img src="{{ profile.screenshot }}" />
+            </div>
+
+            <div class="col-md-6" id="box2">
+                <h1 class="profileName">John Ryan</h1>
+                <h3><i class="fa fa-map-marker"></i> Palo Alto, CA</h3>
+                <p class="profileDescription">Creative, energetic, & passionate programmer with an eye for UX & design.</p>
+                <p>Age: 28</p>
+            </div>
+
+            <div class="col-md-12" id="box3">
+                <a href="mailto:northdacoder@gmail.com" class="btn btn-block"><i class="fa fa-envelope"></i> northdacoder@gmail.com</a>
+                <a href="tel:+16503089792" class="btn btn-block"><i class="fa fa-mobile-phone"></i> 650.308.9792</a>
+                <a href="http://www.github.com/northdacoder" class="btn btn-block"><i class="fa fa-github"></i> Github</a>
+                <a href="http://www.rocketlaunchit.com" class="btn btn-block"><i class="fa fa-rocket" ></i> Porfolio Site</a>
+                <p class="btn btn-block">Member since: November 2013</p>
+            </div>
+        </div>
+    </div>
+
