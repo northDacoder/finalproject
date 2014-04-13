@@ -1,4 +1,4 @@
-<div class="scrollable">
+<!--<div class="scrollable">
     <div class="scrollable-content">
         <div class="container">
             <div class="row">
@@ -20,6 +20,28 @@
         </div>
      </div>
   </div>
+</div>-->
+
+<!--
+
+  Take a look at this wonderful widget by José Polanco
+  http://dribbble.com/shots/1439808-Profile-Widget
+
+-->
+
+<div class="widget">
+  <div class="cover">
+    <!--<img src="http://25.media.tumblr.com/d55a509993790027240311c9f611aaf8/tumblr_n0hpzpKEfE1st5lhmo1_1280.jpg" />-->
+      <img src="{{ profile.screenshot }}" />
+  </div>
+  <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+    <!--<img src="{{ profile.cover }}" class="photo">-->
+  <h1>{{ profile.name }}</h1>
+  <h3><i class="fa fa-map-marker"></i> {{ profile.city }}, {{ profile.state }}</h3>
+  <p>{{ profile.description }}</p>
+  <ul>
+    <li><a href="mailto:{{ profile.email }}"><i class="fa fa-envelope"></i></a></li>
+    <li><a href="tel:+{{ profile.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
+    <li><a href="{{ profile.github }}"><i class="fa fa-github"></i></a></li>
+  </ul>
 </div>
-        </div>
-    </div

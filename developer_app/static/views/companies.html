@@ -1,4 +1,41 @@
-<div class="scrollable">
+<div class="container">
+    <form class="form-wrapper cf searchbox">
+        <input type="text" placeholder="Filter by..." ng-model="name" >
+        <button type="submit">Search</button>
+    </form>
+
+    <div ng-repeat="company in companies | filter:name">
+        <div class="widget">
+            <div class="cover">
+                <img src="{{ company.screenshot }}" />
+            </div>
+            <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+            <!--<img src="{{ profile.cover }}" class="photo">-->
+            <h1>{{ company.name }}</h1>
+            <h3><i class="fa fa-map-marker"></i> {{ company.city }}, {{ company.state }}</h3>
+
+            <!-- Large modal -->
+            <button class="btn btn-danger" data-toggle="modal" data-target="bs-example-modal-lg">Profile <i class="glyphicon glyphicon-new-window"></i></button>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <p>{{ company.description }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+                <li><a href="mailto:{{ company.email }}"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="tel:+{{ company.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
+                <li><a href="{{ company.github }}"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="scrollable">
 
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
@@ -6,12 +43,11 @@
     </form>
 
 
-    <div class="scrollable-content">
-        <div ng-repeat="company in companies | filter:name">
-            <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5 companyContainer">
-                <img ng-src="{{ company.screenshot }}" class="img-responsive">
+    <div class="scrollable-content container">-->
+
+            <!--<div class="row">
+            <div class="col-sm-6 companyContainer">
+                <img ng-src="{{ company.screenshot }}" height="200px" width="100%">
 
                 <div class="imageContent">
                     <h1 class="companyName">{{ company.name }}</h1>
@@ -24,40 +60,41 @@
             </div>
 
 
-            <div class="col-sm-5">
+            <div class="col-sm-6">
                 <div id="carousel-example" class="carousel">
                     <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
                         <div href="" class="item active" ng-repeat="project in company.projects">
                             <div class="carousel-example-content">
-                                <div class="row">
-                                        <div class="col-xs-6">
-                                            <div ng-click="carouselPrev('carousel-example')" class="pageLeft btn btn-danger"><i class="fa fa-arrow-circle-left"></i></div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <div ng-click="carouselNext('carousel-example')" class="pageRight btn btn-danger"><i class="fa fa-arrow-circle-right"></i></div>
-                                        </div>
-                                    </div>
+
                                 <div class="projectCard">
-
-                                    <div class="description">
-                                        <h1 class="projectName">{{ project.project_name }}</h1>
-                                        <p class="descriptionText">{{ project.description }}</p>
-                                        <span class="label label-danger">Date Posted: {{ project.created }}</span>
-                                        <span class="label label-danger">Deadline: {{ project.deadline }}</span>
-                                        <span class="btn btn-info btn-block addProject"><i class="fa fa-plus-circle"></i> Add to Projects</span>
+                                    <span class="label label-success projectname">{{ project.project_name }}</span>
+                                    <br>
+                                    <span class="posted">Date Posted: {{ project.created }}</span>
+                                    <span class="deadline">Deadline: {{ project.deadline }}</span>
+                                    <div class="descriptionContainer">
+                                        <p>{{ project.description }}</p>
                                     </div>
+                                    <span class="btn btn-danger addProject"><i class="fa fa-plus-circle"></i> Add to Projects</span>
 
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div ng-click="carouselPrev('carousel-example')" class="pageLeft"><i class="fa fa-chevron-left"></i></div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <div ng-click="carouselNext('carousel-example')" class="pageRight"><i class="fa fa-chevron-right"></i></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-1"></div>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <!--<div class="scrollable-content">
         <div ng-repeat="company in companies | filter:name">
