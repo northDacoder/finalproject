@@ -1,47 +1,19 @@
-<!--<div class="scrollable">
-    <div class="scrollable-content">
-        <div class="container">
-            <div class="row">
-                <div class="img-container"><img src="{{ profile.cover }}" /></div>
+<div class="row" id="profileRow">
+    <div class="col-xs-12">
+        <div class="widget" id="profileWidget">
+            <div class="cover" id="profileCover">
+                <!--<img src="{{ profile.screenshot }}" id="profileScreenshot"/>-->
             </div>
-            <div class="profile-details">
-                <h1>{{ profile.name }}</h1>
-                <h6>@{{ profile.name }}</h6>
-            </div>
-
-               {{ profile.description }}
-
-                <a href="{{ profile.github }}"><img src="static/images/github120.png"></a>
-
-            <h2>{{ profile.description }}</h2>
-            <h2>{{ profile.city }}, {{ profile.state }}</h2>
-            <a href="maltio:{{ profile.email }}">Contact Me!</a>
-            <div class="img-container"> <img ng-src="{{ profile.screenshot }}" class="imagewrap"></div>
+            <img src="{{ profile.screenshot }}" class="photo" id="profilePhoto"/>
+            <!--<img src="{{ profile.cover }}" class="photo">-->
+            <h1>{{ profile.name }}</h1>
+            <h3><i class="fa fa-map-marker"></i> {{ profile.city }}, {{ profile.state }}</h3>
+            <p>{{ profile.description }}</p>
+            <ul id="profileNav">
+                <li><a href="mailto:{{ profile.email }}"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="tel:+{{ profile.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
+                <li><a href="{{ profile.github }}"><i class="fa fa-github"></i></a></li>
+            </ul>
         </div>
-     </div>
-  </div>
-</div>-->
-
-<!--
-
-  Take a look at this wonderful widget by José Polanco
-  http://dribbble.com/shots/1439808-Profile-Widget
-
--->
-
-<div class="widget">
-  <div class="cover">
-    <!--<img src="http://25.media.tumblr.com/d55a509993790027240311c9f611aaf8/tumblr_n0hpzpKEfE1st5lhmo1_1280.jpg" />-->
-      <img src="{{ profile.screenshot }}" />
-  </div>
-  <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
-    <!--<img src="{{ profile.cover }}" class="photo">-->
-  <h1>{{ profile.name }}</h1>
-  <h3><i class="fa fa-map-marker"></i> {{ profile.city }}, {{ profile.state }}</h3>
-  <p>{{ profile.description }}</p>
-  <ul>
-    <li><a href="mailto:{{ profile.email }}"><i class="fa fa-envelope"></i></a></li>
-    <li><a href="tel:+{{ profile.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
-    <li><a href="{{ profile.github }}"><i class="fa fa-github"></i></a></li>
-  </ul>
+    </div>
 </div>

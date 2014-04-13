@@ -1,56 +1,36 @@
-<div class="scrollable">
 
+<div class="container">
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
         <button type="submit">Search</button>
     </form>
 
+    <div ng-repeat="developer in developers | filter:name">
+        <div class="widget">
+            <div class="cover">
+                <img src="{{ developer.screenshot }}" />
+            </div>
+            <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+            <!--<img src="{{ developer.cover }}" class="photo">-->
+            <h1>{{ developer.name }}</h1>
+            <h3><i class="fa fa-map-marker"></i> {{ developer.city }}, {{ developer.state }}</h3>
 
-    <div class="scrollable-content">
+            <!-- Large modal -->
+            <button class="btn btn-danger" data-toggle="modal" data-target="bs-example-modal-lg">Profile <i class="glyphicon glyphicon-new-window"></i></button>
 
-
-        <div ng-repeat="developer in developers | filter:name" >
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <h1 class="developerName">{{ developer.name }}</h1>
-                    <div class="img-container">
-                        <img ng-src="{{ developer.screenshot }}">
-                    </div>
-
-                    <h2 class="address"><span class="fa fa-map-marker"></span> {{ developer.city }}, {{ developer.state }}</h2>
-
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.github }}"><i class="fa fa-github"></i> Github</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="{{ developer.website }}"><i class="fa fa-linkedin-square"></i> LinkedIn</a><button
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i> Email</a></button>
-                    <button type="button" class="btn btn-success btn-lg btn-block"><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i> Call</a></button>
-
-                    <!--{{ developer.description }}-->
-                    <!--{{ developer.posted }}-->
-                    <!--{{ developer.language }}-->
-                    <!--{{ developer.completed }}-->
-                    <div id="carousel-example" class="carousel" ng-repeat="project in projects">
-                        <div class="carousel-inner" ng-swipe-left="carouselPrev('carousel-example')" ng-swipe-right="carouselNext('carousel-example')">
-
-                            <div href="" class="item active">
-                                <div class="carousel-example-content">
-                                    <div class="projectCard">
-                                        <h3 class="projectName">{{ project.project_name }}</h3>
-                                        <p class="description">{{ project.description }}</p>
-                                        <p class="description">{{ project.accepted_project }}</p>
-
-                                        <a href="#"><i class="fa fa-plus-circle"></i> Add to Projects</a>
-                                        <br><span class="label label-info">posted: {{ project.created }}</span>
-                                        <span class="dates">Deadline: {{ project.deadline }}</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <p>{{ developer.description }}</p>
                     </div>
                 </div>
             </div>
+
+            <ul>
+                <li><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
+                <li><a href="{{ developer.github }}"><i class="fa fa-github"></i></a></li>
+            </ul>
         </div>
     </div>
 </div>

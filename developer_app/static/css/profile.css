@@ -18,6 +18,7 @@ body
   box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
 }
 
+
 .widget > .cover
 {
   height: 160px;
@@ -32,17 +33,20 @@ body
   border-radius: 4px 4px 0 0;
 }
 
+
+
 .widget > .photo
 {
   position: absolute;
-  top: 85px;
+  top: 100px;
   left: 50%;
   width: 100px;
   height: 100px;
-  margin: 0 0 0 -55px;
+  margin: 0 0 0 -100px;
   border: 2px solid #FFF;
   border-radius: 50%;
 }
+
 
 .widget > h1, .widget > h2, .widget > h3
 {
@@ -93,4 +97,38 @@ body
 {
   border: none;
   border-radius: 0 0 3px 0;
+}
+
+
+/* ADDITIONAL STYLES */
+div#profileRow {
+  background: rgba(0,0,0,1);
+}
+
+#profileWidget {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#profileNav {
+}
+
+#profileWidget.widget > .cover > img
+{
+  width: 100%;
+  height: auto;
+  min-height: 160px;
+  border-radius: 4px 4px 0 0;
+}
+
+#profileWidget.widget {
+  background: rgba(0,0,0,.0);
+}
+
+.widget > #profilePhoto {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
 }

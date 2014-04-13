@@ -43,6 +43,7 @@ input#id_password { font-size: 16px; color: #3c3c3c; }
 input#id_email { color: #3c3c3c; }
 p.loginText { color: rgba(255,255,255,.6); font-size: 14px; width: 205px;  margin: 10px auto; }*/
 
+
 /*div.white-panel { background: #fff; margin-bottom: 30px; box-shadow: 0px 1px 3px rgba(0,0,0,.3); }*/
 /*div.black-panel { background: #333; margin-bottom: 30px; }*/
 /*div.lightblue-panel { background: rgba(0,159,170,1); margin-bottom: 30px;}*/
@@ -112,6 +113,9 @@ h1.projectName { width: 100%; text-align: center; font-family: 'source code pro'
 
 /*.img-container img { max-width: 100% !important; max-height: 250px !important; display: block !important; }*/
 img { width: 100%; max-height: 200px; overflow: hidden; }
+
+#signupHome.btn-success { width: 200px; }
+#githubHome.btn-info { background: #5899d0; width: 200px; }
 
 
 /*.col-xs-6 { margin: 0; padding: 0; }*/
