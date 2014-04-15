@@ -60,29 +60,6 @@ p.loginText { color: rgba(255,255,255,.6); font-size: 14px; width: 205px;  margi
 a.navbar-brand { color: white; position: relative; font-family: helveticaneue-light;}
 .icon-bar { background: white; }
 
-h1.companyName {
-    font-family: 'source code pro';
-    width: 100%;
-    padding: 10px;
-    color: rgba(255,255,255,1);
-    font-size: 24px;
-    margin: 0 auto;
-    opacity: 1;
-}
-
-
-h1.developerName {
-    font-family: helveticaneue-light;
-    width: 100%;
-    padding: 10px;
-    background: rgba(0,0,0,.8);
-    color: white;
-    position: relative;
-    top: 69px;
-    font-size: 30px;
-    margin: 5px auto;
-}
-
 .imageContent { height: 150px; background: rgba(0,0,0,.6); padding: 0 0 10px 0; width: 100%; }
 .imageContent button { width: 60px; height: 50px; border-radius: 0; box-shadow: 0px 0px 6px rgba(0,0,0,.5);}
 i.tapButtons { font-size: 35px; }

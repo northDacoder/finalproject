@@ -1,36 +1,32 @@
-
 <div class="container">
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
         <button type="submit">Search</button>
     </form>
 
-    <div ng-repeat="developer in developers | filter:name">
-        <div class="widget">
-            <div class="cover">
-                <img src="{{ developer.screenshot }}" />
-            </div>
-            <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
-            <!--<img src="{{ developer.cover }}" class="photo">-->
-            <h1>{{ developer.name }}</h1>
-            <h3><i class="fa fa-map-marker"></i> {{ developer.city }}, {{ developer.state }}</h3>
-
-            <!-- Large modal -->
-            <button class="btn btn-danger" data-toggle="modal" data-target="bs-example-modal-lg">Profile <i class="glyphicon glyphicon-new-window"></i></button>
-
-            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <p>{{ developer.description }}</p>
-                    </div>
+    <div class="row">
+        <div ng-repeat="developer in developers | filter:name" class="col-sm-4">
+            <div class="widget">
+                <div class="cover">
+                    <img src="{{ developer.screenshot }}" />
                 </div>
-            </div>
+                <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
+                <span class="btn btn-sm btn-info callProfile"><i class="fa fa-mobile-phone"></i></span>
+                <span class="btn btn-sm btn-info githubProfile"><i class="fa fa-github"></i></span>
+                <span class="btn btn-sm btn-info emailProfile"><i class="fa fa-envelope"></i></span>
+                <span class="btn btn-sm btn-info mapProfile"><i class="fa fa-map-marker"></i></span>
+                <span class="btn btn-sm btn-info saveProfile"><i class="fa fa-star-o"></i></span>
 
-            <ul>
-                <li><a href="mailto:{{ developer.email }}"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="tel:+{{ developer.phone }}"><i class="fa fa-mobile-phone"></i></a></li>
-                <li><a href="{{ developer.github }}"><i class="fa fa-github"></i></a></li>
-            </ul>
+                <h1>{{ developer.name }}</h1>
+                <h3><i class="fa fa-map-marker"></i> {{ developer.city }}, {{ developer.state }}</h3>
+            </div>
+            <div class="panel" ng-repeat="project in developer.projects">
+                <h3>{{ project.project_name }}</h3>
+                <p>{{ project.description }}</p>
+                <p>{{ project.completed }}</p>
+                <p>Deadline: {{ project.deadline }}</p>
+            </div>
         </div>
     </div>
 </div>
+
