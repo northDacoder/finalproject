@@ -6,10 +6,21 @@
 
     <div class="row">
         <div ng-repeat="company in companies | filter:name" class="col-sm-4">
-            <div class="widget">
+            <div class="widget" id="companyWidget">
                 <div class="cover">
-                    <img src="{{ company.screenshot }}" />
+                    <img src="{{ company.screenshot }}" class="companyScreenshot"/>
+                    <img src="{{ company.cover }}" class="companyLogo"/>
                 </div>
+
+                    <!--<img src="{{ company.cover }}" class="photo" />-->
+                <!--<div class="page-wrap">
+
+                    <div class="circle">
+                        <img src="{{ company.cover }}" alt="Mountain Image" />
+                    </div>
+
+                </div>-->
+
                 <span class="btn btn-sm btn-info callProfile"><i class="fa fa-mobile-phone"></i></span>
                 <span class="btn btn-sm btn-info githubProfile"><i class="fa fa-github"></i></span>
                 <span class="btn btn-sm btn-info emailProfile"><i class="fa fa-envelope"></i></span>
@@ -21,7 +32,7 @@
 
 
             </div>
-            <div class="panel" ng-repeat="project in company.projects">
+            <div class="panel" id="companyProject" ng-repeat="project in company.projects">
                 <h3>{{ project.project_name }}</h3>
                 <p>{{ project.description }}</p>
                 <p>{{ project.completed }}</p>

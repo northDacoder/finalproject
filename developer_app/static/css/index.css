@@ -18,9 +18,9 @@ body { margin: 0; padding: 0; font-family: helveticaneue-light; }
 .jumbo-logo { padding-top: 100px;  }
 .jumbotron { color: #3c3c3c; }
 .backgroundoverlay {
-    background: rgba(88, 153, 208, 1);
-    opacity: .6;
-    height: 3000px;
+    height: auto;
+    margin: 0;
+    padding: 0;
     width: 100%;
     position: absolute;
     top: 0;
@@ -93,6 +93,7 @@ img { width: 100%; max-height: 200px; overflow: hidden; }
 
 #signupHome.btn-success { width: 200px; }
 #githubHome.btn-info { background: #5899d0; width: 200px; }
+
 
 
 /*.col-xs-6 { margin: 0; padding: 0; }*/

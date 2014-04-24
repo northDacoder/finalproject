@@ -50,7 +50,7 @@ INSTALLED_APPS = (
     'tastypie_swagger',
 )
 
-ACCOUNT_ACTIVATION_DAYS = 7
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -80,13 +80,14 @@ DATABASES = {
     }
 }
 
+TASTYPIE_DEFAULT_FORMATS = ['json']
+
+TASTYPIE_DATETIME_FORMATTING = 'iso-8601'
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
-TASTYPIE_DEFAULT_FORMATS = ['json']
-TASTYPIE_DATETIME_FORMATTING = 'iso-8601'
 
 TIME_ZONE = 'UTC'
 
@@ -96,13 +97,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+ACCOUNT_ACTIVATION_DAYS = 7
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-
 STATIC_URL = '/static/'
 STATIC_MEDIA = '/media/'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = '/Users/northDacoder/Desktop/Dropbox/finalproject/media/'
 

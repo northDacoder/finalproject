@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="developersContainer">
     <form class="form-wrapper cf searchbox">
         <input type="text" placeholder="Filter by..." ng-model="name" >
         <button type="submit">Search</button>
@@ -6,21 +6,21 @@
 
     <div class="row">
         <div ng-repeat="developer in developers | filter:name" class="col-sm-4">
-            <div class="widget">
+            <div class="widget" id="developerWidget">
                 <div class="cover">
                     <img src="{{ developer.screenshot }}" />
                 </div>
-                <img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />
-                <span class="btn btn-sm btn-info callProfile"><i class="fa fa-mobile-phone"></i></span>
-                <span class="btn btn-sm btn-info githubProfile"><i class="fa fa-github"></i></span>
-                <span class="btn btn-sm btn-info emailProfile"><i class="fa fa-envelope"></i></span>
-                <span class="btn btn-sm btn-info mapProfile"><i class="fa fa-map-marker"></i></span>
-                <span class="btn btn-sm btn-info saveProfile"><i class="fa fa-star-o"></i></span>
+                <!--<img src="http://s1.cdn.ryanboylett.co.uk/generic/image_jpg_00006.jpg" class="photo" />-->
+                <span class="btn btn-sm btn-success callProfile"><i class="fa fa-mobile-phone"></i></span>
+                <span class="btn btn-sm btn-success  githubProfile"><i class="fa fa-github"></i></span>
+                <span class="btn btn-sm btn-success  emailProfile"><i class="fa fa-envelope"></i></span>
+                <span class="btn btn-sm btn-success  mapProfile"><i class="fa fa-map-marker"></i></span>
+                <span class="btn btn-sm btn-success  saveProfile"><i class="fa fa-star-o"></i></span>
 
                 <h1>{{ developer.name }}</h1>
                 <h3><i class="fa fa-map-marker"></i> {{ developer.city }}, {{ developer.state }}</h3>
             </div>
-            <div class="panel" ng-repeat="project in developer.projects">
+            <div class="panel" id="developerProject" ng-repeat="project in developer.projects">
                 <h3>{{ project.project_name }}</h3>
                 <p>{{ project.description }}</p>
                 <p>{{ project.completed }}</p>
