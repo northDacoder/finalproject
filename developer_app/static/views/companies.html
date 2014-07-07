@@ -32,11 +32,11 @@
 
 
             </div>
-            <div class="panel" id="companyProject" ng-repeat="project in company.projects">
-                <h3>{{ project.project_name }}</h3>
-                <p>{{ project.description }}</p>
-                <p>{{ project.completed }}</p>
-                <p>Deadline: {{ project.deadline }}</p>
+            <div class="widget" id="companyWidget" ng-repeat="project in company.projects" style="color: white; padding: 20px; background: #333;">
+                <h2 style="color: rgba(0,0,0,.5); background: white; padding: 10px 20px; width: 100%; ">{{ project.project_name }}</h2>
+                <p style="font-size: 12px; padding: 5px; text-align: center;">{{ project.description }}</p>
+                <!--<p>{{ project.completed }}</p>-->
+                <p><span class="label label-danger" style="font-weight: normal; font-family: 'helvetic neue'; border-radius: 0; font-size: 14px; position: absolute; bottom: 10px; right: 0; padding: 5px 10px;">Deadline: {{ project.deadline }}</span></p>
             </div>
         </div>
     </div>

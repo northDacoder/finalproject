@@ -1,6 +1,6 @@
 var app = angular.module('mvpApp', ['ngRoute', 'ngResource', 'ui.bootstrap', 'ui.bootstrap.tooltip']);
 
-app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+app.config(['$routeProvider', '$locationProvider', function($routeProvider) {
     $routeProvider
         .when('/', { templateUrl: '/static/views/index.html', controller: 'indexController' })
         .when('/developers', { templateUrl: '/static/views/developers.html', controller: 'developerController' })
@@ -8,7 +8,6 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .when('/contact', { templateUrl: '/static/views/contact.html' })
         .when('/about', { templateUrl: '/static/views/about.html' })
         .when('/user/:id', { templateUrl: '/static/views/user.html', controller: 'userController' })
-//        .when('/user/:id', { templateUrl: '/static/views/user.html', controller: 'userController' })
         .when('/login/activate', { templateUrl: '/static/views/registration/delete_developer.html', controller: 'loginController' })
         .when('/login/activation_complete', { templateUrl: '/static/views/registration/activation_complete.html', controller: 'loginController' })
         .when('/login', { templateUrl: '/static/views/registration/login.html', controller: 'loginController' })
@@ -25,23 +24,3 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .when('/registration/form', { templateUrl: '/static/views/registration/registration_closed.html', controller: 'loginController' })
 }]);
 
-app.controller('PopoverDemoCtrl', function ($scope) {
-  $scope.dynamicPopover = "Hello, World!";
-  $scope.dynamicPopoverTitle = "Title";
-});
-
-//app.controller('CarouselDemoCtrl', function ($scope) {
-//  $scope.myInterval = 5000;
-//  var slides = $scope.slides = [];
-//  $scope.addSlide = function() {
-//    var newWidth = 600 + slides.length;
-//    slides.push({
-//      image: 'http://placekitten.com/' + newWidth + '/300',
-//      text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
-//        ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
-//    });
-//  };
-//  for (var i=0; i<4; i++) {
-//    $scope.addSlide();
-//  }
-//});

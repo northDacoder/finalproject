@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Share+Tech|Ubuntu+Mono|Lato|Poiret+One|Rum+Raisin|Paytone+One|Wendy+One|Coda+Caption:800|Source+Code+Pro|Open+Sans|Raleway+Dots|Comfortaa);
-body { margin: 0; padding: 0; font-family: helveticaneue-light; }
+body { margin: 0; padding: 0; font-family: helveticaneue-light,sans-serif; }
 
 #jumbo { background: rgba(0,0,0,1); }
 #jumbo:after {
@@ -94,6 +94,7 @@ img { width: 100%; max-height: 200px; overflow: hidden; }
 #signupHome.btn-success { width: 200px; }
 #githubHome.btn-info { background: #5899d0; width: 200px; }
 
+img#computerImage {width: 100%; height: auto;}
 
 
 /*.col-xs-6 { margin: 0; padding: 0; }*/

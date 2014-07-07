@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b07acd7-30c0-4407-a1e9-34db19bad0e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/css/ng-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/css/profile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/static/views/rocketuWordpress.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/activation_email_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/admin.py" afterPath="$PROJECT_DIR$/developer_app/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/app.js" afterPath="$PROJECT_DIR$/developer_app/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/templates/base.html" afterPath="$PROJECT_DIR$/developer_app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/companies.html" afterPath="$PROJECT_DIR$/developer_app/static/views/companies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/contact.html" afterPath="$PROJECT_DIR$/developer_app/static/views/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/developers.html" afterPath="$PROJECT_DIR$/developer_app/static/views/developers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/finalproject.iml" afterPath="$PROJECT_DIR$/.idea/finalproject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/forms.py" afterPath="$PROJECT_DIR$/developer_app/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/index.css" afterPath="$PROJECT_DIR$/developer_app/static/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/index.html" afterPath="$PROJECT_DIR$/developer_app/static/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/css/profile.css" afterPath="$PROJECT_DIR$/developer_app/static/css/profile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/models.py" afterPath="$PROJECT_DIR$/developer_app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalproject/settings.py" afterPath="$PROJECT_DIR$/finalproject/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalproject/urls.py" afterPath="$PROJECT_DIR$/finalproject/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/views/user.html" afterPath="$PROJECT_DIR$/developer_app/static/views/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/static/js/controllers/userController.js" afterPath="$PROJECT_DIR$/developer_app/static/js/controllers/userController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developer_app/views.py" afterPath="$PROJECT_DIR$/developer_app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -36,91 +58,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/contact.html">
+      <file leaf-file-name="user.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="53" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="765">
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="540">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rocketuWordpress.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/rocketuWordpress.html">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="46" selection-start="11105" selection-end="11105" vertical-scroll-proportion="-6.5833335" vertical-offset="2512" max-vertical-offset="3150">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/developer_app/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5084746" vertical-offset="0" max-vertical-offset="413">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/finalproject/settings.py">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="41" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.375" vertical-offset="1089" max-vertical-offset="1830">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company_app/api/authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
+      <file leaf-file-name="authorization.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company_app/api/authorization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/js/app.js">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="91" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/templates/index.html">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="15" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/css/profile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="16" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="2565" max-vertical-offset="2745">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="computerRocket.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developer_app/static/images/computerRocket.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -137,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/developer_app/static/css/profileclean.css" />
         <option value="$PROJECT_DIR$/developer_app/static/js/profilecard.js" />
         <option value="$PROJECT_DIR$/developer_app/static/css/profilecard.css" />
         <option value="$PROJECT_DIR$/developer_app/static/css/searchbox.css" />
@@ -155,17 +202,12 @@
         <option value="$PROJECT_DIR$/developer_app/templates/index.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/login.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/logout.html" />
-        <option value="$PROJECT_DIR$/developer_app/forms.py" />
-        <option value="$PROJECT_DIR$/developer_app/views.py" />
-        <option value="$PROJECT_DIR$/finalproject/urls.py" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/signup.html" />
         <option value="$PROJECT_DIR$/developer_app/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js" />
         <option value="$PROJECT_DIR$/company_app/admin.py" />
-        <option value="$PROJECT_DIR$/developer_app/admin.py" />
         <option value="$PROJECT_DIR$/company_app/models.py" />
-        <option value="$PROJECT_DIR$/developer_app/models.py" />
         <option value="$PROJECT_DIR$/developer_app/static/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/company_app/api/resources.py" />
         <option value="$PROJECT_DIR$/developer_app/api/resources.py" />
@@ -176,25 +218,31 @@
         <option value="$PROJECT_DIR$/developer_app/static/css/ng-popup.css" />
         <option value="$PROJECT_DIR$/developer_app/static/views/developers.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/user.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/buttonsController.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
-        <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
         <option value="$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/contact.html" />
-        <option value="$PROJECT_DIR$/developer_app/static/js/app.js" />
         <option value="$PROJECT_DIR$/developer_app/static/css/profile.css" />
-        <option value="$PROJECT_DIR$/developer_app/static/views/index.html" />
         <option value="$PROJECT_DIR$/developer_app/static/views/rocketuWordpress.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/index.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/companies.html" />
+        <option value="$PROJECT_DIR$/developer_app/static/css/index.css" />
         <option value="$PROJECT_DIR$/finalproject/settings.py" />
+        <option value="$PROJECT_DIR$/local_settings.py" />
+        <option value="$PROJECT_DIR$/finalproject/urls.py" />
+        <option value="$PROJECT_DIR$/developer_app/static/js/app.js" />
+        <option value="$PROJECT_DIR$/developer_app/templates/base.html" />
+        <option value="$PROJECT_DIR$/developer_app/views.py" />
+        <option value="$PROJECT_DIR$/developer_app/static/views/user.html" />
+        <option value="$PROJECT_DIR$/developer_app/models.py" />
+        <option value="$PROJECT_DIR$/developer_app/forms.py" />
+        <option value="$PROJECT_DIR$/developer_app/admin.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
+    <option name="x" value="279" />
     <option name="y" value="22" />
-    <option name="width" value="1233" />
+    <option name="width" value="975" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -211,7 +259,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -223,48 +271,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="finalproject">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="developer_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -463,11 +469,89 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="developer_app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="developer_app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="finalproject">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="developer_app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="static">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_sass_project" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Dropbox/DJANGO/django-registration-templates-master" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -477,6 +561,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -485,11 +570,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/developer_app/templates" />
       <recent name="$PROJECT_DIR$/developer_app/static/mobile" />
       <recent name="$PROJECT_DIR$/developer_app/static/fonts" />
       <recent name="$PROJECT_DIR$/developer_app/static/js" />
       <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/developer_app/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/developer_app/static/images" />
@@ -584,7 +669,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -687,8 +772,8 @@
         <env name="DJANGO_SETTINGS_MODULE" value="finalproject.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="finalproject" />
@@ -696,7 +781,7 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -710,22 +795,8 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -756,27 +827,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="22" width="1233" height="774" extended-state="0" />
+    <frame x="279" y="22" width="975" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20283689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32624114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20341393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6609929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22014925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26952142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28085107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2751773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6609929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -803,6 +874,9 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -818,245 +892,87 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_change_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="80" selection-start="247" selection-end="247" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_change_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="283" selection-end="283" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="21" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.2916667" vertical-offset="55" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/activation_email_subject.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_closed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="337" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/password_reset_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.25" vertical-offset="30" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="264" selection-end="264" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="77" selection-start="375" selection-end="453" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/registration/registration_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="75" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="661" selection-end="661" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="25470" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company_app/api/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="56" selection-start="1059" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1080" />
+        <state vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="25470">
+          <caret line="9" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/api/resources.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1065" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1065">
+          <caret line="26" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/mobile/css/mobile-angular-ui-base.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/mobile/css/mobile-angular-ui-desktop.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/mobile/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="1243" selection-end="1243" vertical-scroll-proportion="-0.146875" vertical-offset="1099" max-vertical-offset="4995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+        <state vertical-scroll-proportion="-0.146875" vertical-offset="1099" max-vertical-offset="4995">
+          <caret line="67" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2730" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2730">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29355" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29355">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/factory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/ng-popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/css/searchbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="1" selection-start="3565" selection-end="3565" vertical-scroll-proportion="0.0" vertical-offset="1711" max-vertical-offset="2220" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1711" max-vertical-offset="2220">
+          <caret line="142" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/developers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="79" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="735">
-          <folding />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/companyController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="91" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="15" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="16" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="2197" max-vertical-offset="2745">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1065,30 +981,253 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/companies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/api/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/api/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/developer_app/static/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/contact.html">
+    <entry file="file://$PROJECT_DIR$/company_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="825">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developer_app/static/views/rocketuWordpress.html">
+    <entry file="file://$PROJECT_DIR$/finalproject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="46" selection-start="11105" selection-end="11105" vertical-scroll-proportion="-6.5833335" vertical-offset="2512" max-vertical-offset="3150">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/finalproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="41" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.375" vertical-offset="1089" max-vertical-offset="1830">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="975">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/developerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="1065" max-vertical-offset="1920">
+          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/js/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/static/views/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="540">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/api/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company_app/api/authorization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developer_app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5084746" vertical-offset="0" max-vertical-offset="413">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>

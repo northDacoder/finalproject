@@ -2,7 +2,7 @@ from django.contrib import admin
 from developer_app.models import Developer, DeveloperProject
 
 class DeveloperAdmin(admin.ModelAdmin):
-    list_display = ("name", "email", "user", "age", "city", "state", "website", "github", "phone", "posted", "screenshot")
+    list_display = ("name", "email", "user", "age", "city", "state", "github", "phone", "posted", "screenshot")
     search_fields = ("name",)
     readonly_fields = ("posted",)
 

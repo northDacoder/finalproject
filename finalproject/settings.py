@@ -29,6 +29,22 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+#SOME_SECRET_KEY = os.environ["SOME_SECRET_KEY"]
+
+
+# from django.core.exceptions import ImproperlyConfigured
+#
+# def get_env_variable(var_name):
+#     """
+#     :param var_name: Get the environment variable or return exception """
+#     try:
+#         return os.environ[var_name]
+#     except KeyError:
+#         error_mes = "Set the $s environment variable" % var_name
+#         raise ImproperlyConfigured(error_msg)
+
+
+
 ALLOWED_HOSTS = []
 
 
@@ -41,13 +57,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'registration',
     'developer_app',
     'company_app',
-    'south',
-    'bootstrap3',
+    'registration',
     'tastypie',
     'tastypie_swagger',
+    'south',
 )
 
 
@@ -71,14 +86,12 @@ WSGI_APPLICATION = 'finalproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'finalproject_database',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': ''
+        'ENGINE': 'django.db.backends.postgres_psycopg2',
+        'NAME': 'finalproject',
     }
 }
+
+
 
 TASTYPIE_DEFAULT_FORMATS = ['json']
 
@@ -114,3 +127,7 @@ TASTYPIE_SWAGGER_API_MODULE = "tastypie_tutorial.urls.v1_api"
 LOGIN_REDIRECT_URL = '/#/developers'
 
 
+try:
+    from local_settings import *
+except ImportError:
+    pass
